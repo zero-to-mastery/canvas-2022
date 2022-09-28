@@ -19,7 +19,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 ---
 
-<img src="https://media.discordapp.net/attachments/1023335668224643174/1024763608556638269/discord_1.png?width=1440&height=192" align="center" />
+[![Join the community!](https://media.discordapp.net/attachments/1023335668224643174/1024763608556638269/discord_1.png)](https://zerotomastery.io/community/developer-community-discord)
 
 ---
 
