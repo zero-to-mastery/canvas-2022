@@ -1,6 +1,6 @@
 <img src="https://media.discordapp.net/attachments/779713479976157214/891357800809250896/unknown.png?width=350&height=350" align="right" />
 
-# [![Canvaz](https://img.shields.io/badge/CREATIVE%20CSS%20PROJECT-Canvaz-4E3188?style=for-the-badge&logo=CSS3)](https://github.com/zero-to-mastery/Canvaz)
+# [![Canvaz](https://img.shields.io/badge/CREATIVE%20CSS%20PROJECT-Canvas-4E3188?style=for-the-badge&logo=CSS3)](https://github.com/zero-to-mastery/canvas-2022)
 
 Your favourite annual creative challenge for Hacktoberfest is here! We will once again be showcasing the creative talents of our ZTM students using the HTML `<canvas>` element.
 
