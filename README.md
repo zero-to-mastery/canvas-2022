@@ -38,6 +38,8 @@ For more information about Canvas, you can read its [documentation](https://deve
 
 ## ❇️ How to contribute
 
+0. Start chatting with other ZTM students in the #hacktoberfest-2022 channel on our Discord to get help, work together, and share your contributions!
+
 1. First up you need to fork (make a copy) of this repo to your Github account.
 
 2. Clone (download) your fork to your computer
