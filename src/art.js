@@ -132,6 +132,13 @@
     "art_icon": "./art/yellowbeard/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "Sunset Scene",
+    "page_link": "./art/yellowbeard_1/index.html",
+    "art_icon": "./art/yellowbeard_1/icon.png",
+    "author_name": "Mayank Goel",
+    "author_github_url": "https://github.com/yellowberard/"
   }
 ]
 
