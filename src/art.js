@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "HacktoberFox",
+    "page_link": "./art/christinarepou/index.html",
+    "art_icon": "./art/christinarepou/icon.png",
+    "author_name": "ChristinaRepou",
+    "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
     "name": "HacktoberFox!",
     "page_link": "./art/mattcsmith/index.html",
     "art_icon": "./art/mattcsmith/icon.png",
