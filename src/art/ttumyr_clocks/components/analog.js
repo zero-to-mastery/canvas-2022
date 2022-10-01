@@ -31,6 +31,9 @@ class clock {
     this.radius = radius;
   }
   setBgColor(color) {
+    this.bgColor = color;
+  }
+  setBgCss(color) {
     this.container = document.getElementById(color);
   }
   setTime(time) {
@@ -42,7 +45,7 @@ class clock {
     this.setRadius(this.canvas.height / 2);
     this.ctx.translate(this.radius, this.radius);
     this.setRadius(this.radius * 0.9);
-    this.setBgColor(window.getComputedStyle(this.container).getPropertyValue('background-color'));
+    this.setBgCss(window.getComputedStyle(this.container).getPropertyValue('background-color'));
   }
   drawClock() {
     this.drawFace(this.ctx, this.radius);

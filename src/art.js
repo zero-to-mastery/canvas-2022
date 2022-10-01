@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "mickey mouse",
+    "page_link": "./art/christinarepou2/index.html",
+    "art_icon": "./art/christinarepou2/icon.png",
+    "author_name": "Christina Repou",
+    "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
     "name": "Warning Sign",
     "page_link": "./art/godnondsilva/index.html",
     "art_icon": "./art/godnondsilva/icon.png",
@@ -76,6 +83,13 @@
     "art_icon": "./art/mattcsmith/icon.png",
     "author_name": "Matt",
     "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
+    "name": "Image-Particle",
+    "page_link": "./art/nikhil_mishra/index.html",
+    "art_icon": "./art/nikhil_mishra/icon.png",
+    "author_name": "Nikhil Mishra",
+    "author_github_url": "https://github.com/codewizard26"
   },
   {
     "name": "HacktoberBot",
@@ -106,6 +120,20 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Bubble Particles Animation",
+    "page_link": "./art/tarunmankar/index.html",
+    "art_icon": "./art/tarunmankar/icon.png",
+    "author_name": "Tarun Mankar",
+    "author_github_url": "https://github.com/tarunmankar"
+  },
+  {
+    "name": "Emojifield",
+    "page_link": "./art/tayiorrobinson/index.html",
+    "art_icon": "./art/tayiorrobinson/icon.png",
+    "author_name": "TayIorRobinson",
+    "author_github_url": "https://github.com/tayiorrobinson/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
@@ -123,6 +151,13 @@
     "name": "Russian Flag",
     "page_link": "./art/yellowbeard/index.html",
     "art_icon": "./art/yellowbeard/icon.png",
+    "author_name": "Mayank Goel",
+    "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "Sunset Scene",
+    "page_link": "./art/yellowbeard_1/index.html",
+    "art_icon": "./art/yellowbeard_1/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
   }
