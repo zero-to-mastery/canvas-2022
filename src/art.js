@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "mickey mouse",
+    "page_link": "./art/christinarepou2/index.html",
+    "art_icon": "./art/christinarepou2/icon.png",
+    "author_name": "Christina Repou",
+    "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
     "name": "Warning Sign",
     "page_link": "./art/godnondsilva/index.html",
     "art_icon": "./art/godnondsilva/icon.png",
