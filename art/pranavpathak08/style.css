@@ -1,0 +1,9 @@
+canvas{
+    border: 1px solid black;
+    background-color: rgb(90, 12, 90);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
