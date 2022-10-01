@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Image-Particle",
+    "page_link": "./art/nikhil_mishra/index.html",
+    "art_icon": "./art/nikhil_mishra/icon.png",
+    "author_name": "Nikhil Mishra",
+    "author_github_url": "https://github.com/codewizard26"
+  },
+  {
     "name": "HacktoberBot",
     "page_link": "./art/pranavpathak08/index.html",
     "art_icon": "./art/pranavpathak08/icon.png",
