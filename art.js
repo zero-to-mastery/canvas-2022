@@ -71,6 +71,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "HacktoberBot",
+    "page_link": "./art/pranavpathak08/index.html",
+    "art_icon": "./art/pranavpathak08/icon.png",
+    "author_name": "Pranav",
+    "author_github_url": "https://github.com/pranavpathak08/"
+  },
+  {
     "name": "Thailand Flag",
     "page_link": "./art/pungrumpy/index.html",
     "art_icon": "./art/pungrumpy/icon.png",

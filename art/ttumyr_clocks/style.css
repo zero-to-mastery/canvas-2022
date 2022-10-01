@@ -1,0 +1,8 @@
+body {
+  font: 'Combo';
+}
+#mainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
