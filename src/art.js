@@ -15,11 +15,25 @@
     "author_github_url": "https://github.com/K-Wiczling"
   },
   {
+    "name": "Snowfall",
+    "page_link": "./art/Ukesh-dev/index.html",
+    "art_icon": "./art/Ukesh-dev/icon.png",
+    "author_name": "Ukesh",
+    "author_github_url": "https://github.com/Ukesh-dev/"
+  },
+  {
     "name": "HacktoberFox",
     "page_link": "./art/christinarepou/index.html",
     "art_icon": "./art/christinarepou/icon.png",
     "author_name": "ChristinaRepou",
     "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
+    "name": "Warning Sign",
+    "page_link": "./art/godnondsilva/index.html",
+    "art_icon": "./art/godnondsilva/icon.png",
+    "author_name": "Godnon",
+    "author_github_url": "https://github.com/godnondsilva/"
   },
   {
     "name": "ZTM MASCOT",
