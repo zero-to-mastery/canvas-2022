@@ -1,0 +1,19 @@
+body {
+    background-color: #28282B;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    border: 10px dotted black;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    background: #28282B;
+    flex-direction: column;
+}
+
+.name {
+    color: white;
+    text-decoration: underline;
+}
