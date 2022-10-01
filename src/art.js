@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Thailand Flag",
+    "page_link": "./art/pungrumpy/index.html",
+    "art_icon": "./art/pungrumpy/icon.png",
+    "author_name": "PunGrumpy",
+    "author_github_url": "https://github.com/PunGrumpy/"
+  },
+  {
     "name": "Hanging moon",
     "page_link": "./art/rachelktyjohnson/index.html",
     "art_icon": "./art/rachelktyjohnson/icon.png",
