@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/K-Wiczling"
   },
   {
+    "name": "Image-Particle",
+    "page_link": "./art/Neha/index.html",
+    "art_icon": "./art/Neha/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045"
+  },
+  {
     "name": "Snowfall",
     "page_link": "./art/Ukesh-dev/index.html",
     "art_icon": "./art/Ukesh-dev/icon.png",
