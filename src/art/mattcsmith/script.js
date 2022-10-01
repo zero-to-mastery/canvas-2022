@@ -91,3 +91,4 @@ img.onload = function() {
     ctx.drawImage(img, 250, 171, 100, 100);
 
   };
+  
