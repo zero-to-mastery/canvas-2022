@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "HacktoberSnake",
+    "page_link": "./art/KWiczling_Snake/index.html",
+    "art_icon": "./art/KWiczling_Snake/icon.png",
+    "author_name": "K-Wiczling",
+    "author_github_url": "https://github.com/K-Wiczling"
+  },
+  {
     "name": "HacktoberFox",
     "page_link": "./art/christinarepou/index.html",
     "art_icon": "./art/christinarepou/icon.png",
