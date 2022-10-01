@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/godnondsilva/"
   },
   {
+    "name": "HTML5 Logo",
+    "page_link": "./art/godnondsilva2/index.html",
+    "art_icon": "./art/godnondsilva2/icon.png",
+    "author_name": "Godnon",
+    "author_github_url": "https://github.com/godnondsilva/"
+  },
+  {
     "name": "ZTM MASCOT",
     "page_link": "./art/haider-ali/index.html",
     "art_icon": "./art/haider-ali/icon.png",
@@ -90,6 +97,13 @@
     "art_icon": "./art/rachelktyjohnson/icon.png",
     "author_name": "Rachel",
     "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
+    "name": "HacktoberClocks",
+    "page_link": "./art/ttumyr_clocks/index.html",
+    "art_icon": "./art/ttumyr_clocks/icon.png",
+    "author_name": "TTumyr",
+    "author_github_url": "https://github.com/TTumyr/"
   },
   {
     "name": "Generative Art",
