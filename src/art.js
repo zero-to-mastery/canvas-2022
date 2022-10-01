@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/K-Wiczling"
   },
   {
+    "name": "Indian Flag",
+    "page_link": "./art/Mohamed_Bilal/index.html",
+    "art_icon": "./art/Mohamed_Bilal/icon.png",
+    "author_name": "Mohamed_Bilal",
+    "author_github_url": "https://github.com/dmdbilal/"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/Neha/index.html",
     "art_icon": "./art/Neha/icon.png",
