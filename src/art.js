@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Smileylock",
+    "page_link": "./art/ArihantPal/index.html",
+    "art_icon": "./art/ArihantPal/icon.png",
+    "author_name": "Arihant Pal",
+    "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
     "name": "Philippine Flag",
     "page_link": "./art/Insidiae/index.html",
     "art_icon": "./art/Insidiae/icon.png",
@@ -55,6 +62,13 @@
     "art_icon": "./art/rachelktyjohnson/icon.png",
     "author_name": "Rachel",
     "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
+    "name": "Generative Art",
+    "page_link": "./art/yashraj2003e/index.html",
+    "art_icon": "./art/yashraj2003e/icon.png",
+    "author_name": "Yashraj",
+    "author_github_url": "https://github.com/yashraj2003e/"
   },
   {
     "name": "Russian Flag",
