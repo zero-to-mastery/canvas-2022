@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Philippine Flag",
+    "page_link": "./art/Insidiae/index.html",
+    "art_icon": "./art/Insidiae/icon.png",
+    "author_name": "Insidiae",
+    "author_github_url": "https://github.com/Insidiae/"
+  },
+  {
     "name": "HacktoberFox",
     "page_link": "./art/christinarepou/index.html",
     "art_icon": "./art/christinarepou/icon.png",
