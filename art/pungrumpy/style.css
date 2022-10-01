@@ -1,0 +1,15 @@
+html {
+    background-color: #d8d8d8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12em;
+}
+
+canvas {
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
