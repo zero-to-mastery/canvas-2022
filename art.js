@@ -92,6 +92,13 @@
     "author_github_url": "https://github.com/PunGrumpy/"
   },
   {
+    "name": "HacktoberLadder",
+    "page_link": "./art/qashifpeer/index.html",
+    "art_icon": "./art/qashifpeer/icon.png",
+    "author_name": "Qashif",
+    "author_github_url": "https://github.com/qashifpeer/"
+  },
+  {
     "name": "Hanging moon",
     "page_link": "./art/rachelktyjohnson/index.html",
     "art_icon": "./art/rachelktyjohnson/icon.png",
