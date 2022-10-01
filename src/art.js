@@ -29,6 +29,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Hanging moon",
+    "page_link": "./art/rachelktyjohnson/index.html",
+    "art_icon": "./art/rachelktyjohnson/icon.png",
+    "author_name": "Rachel",
+    "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
     "name": "Russian Flag",
     "page_link": "./art/yellowbeard/index.html",
     "art_icon": "./art/yellowbeard/icon.png",
