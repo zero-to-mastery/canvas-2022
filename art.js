@@ -20,6 +20,13 @@
     "art_icon": "./art/mattcsmith/icon.png",
     "author_name": "Matt",
     "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
+    "name": "Russian Flag",
+    "page_link": "./art/yellowbeard/index.html",
+    "art_icon": "./art/yellowbeard/icon.png",
+    "author_name": "Mayank Goel",
+    "author_github_url": "https://github.com/yellowberard/"
   }
 ]
 
