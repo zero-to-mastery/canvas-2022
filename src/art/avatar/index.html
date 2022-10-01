@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Scoped CSS Variables and JS</title>
+    </head>
+    <body>
+        <h3>
+            <span class="hl"
+                ><u><b>PULP</b></u></span
+            >
+
+            <p>/pʌlp/</p>
+            <i>n.</i> 1. A soft, wet, shapeless mass of material.<br />2. A
+            magazine or book containing lurid subject matter and being
+            characteristically printed on rough, unfinished paper.
+        </h3>
+
+        <div class="controls">
+            <label for="spacing">Spacing:</label>
+            <input
+                id="spacing"
+                type="range"
+                name="spacing"
+                min="10"
+                max="100"
+                value="10"
+                data-sizing="px"
+            />
+
+            <label for="blur">Blur:</label>
+            <input
+                id="blur"
+                type="range"
+                name="blur"
+                min="0"
+                max="25"
+                value="0"
+                data-sizing="px"
+            />
+
+            <label for="base">Base Color</label>
+            <input id="base" type="color" name="base" value="#ff5e00" />
+        </div>
+
+        <img src="pulp.jpg" />
+
+        <style>
+            :root {
+                --base: #ff5e00;
+                --spacing: 10px;
+                --blur: 0px;
+            }
+
+            img {
+                padding: var(--spacing);
+                background: var(--base);
+                filter: blur(var(--blur));
+            }
+
+            .hl {
+                font-family: "Times New Roman", Times, serif;
+                font-size: 45px;
+                color: var(--base);
+            }
+
+            /*
+      misc styles, nothing to do with CSS variables
+    */
+
+            body {
+                text-align: center;
+                background: #193549;
+                color: white;
+                font-family: "helvetica neue", sans-serif;
+                font-weight: 95;
+                font-size: 20px;
+            }
+
+            .controls {
+                margin-bottom: 50px;
+            }
+
+            input {
+                width: 100px;
+            }
+        </style>
+
+         <script src="./script.js"></script>
+    </body>
+</html>
