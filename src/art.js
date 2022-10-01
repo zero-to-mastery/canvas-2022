@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "ZTM MASCOT",
+    "page_link": "./art/haider-ali/index.html",
+    "art_icon": "./art/haider-ali/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev"
+  },
+  {
     "name": "HacktoberFox!",
     "page_link": "./art/mattcsmith/index.html",
     "art_icon": "./art/mattcsmith/icon.png",
