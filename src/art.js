@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/tarunmankar"
   },
   {
+    "name": "Emojifield",
+    "page_link": "./art/tayiorrobinson/index.html",
+    "art_icon": "./art/tayiorrobinson/icon.png",
+    "author_name": "TayIorRobinson",
+    "author_github_url": "https://github.com/tayiorrobinson/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
