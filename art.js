@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "HackitOn2022",
+    "page_link": "./art/Adwaith_Rajesh/index.html",
+    "art_icon": "./art/Adwaith_Rajesh/icon.png",
+    "author_name": "coder@hacktoberfest",
+    "author_github_url": "https://github.com/Adwaith123/"
+  },
+  {
     "name": "Smileylock",
     "page_link": "./art/ArihantPal/index.html",
     "art_icon": "./art/ArihantPal/icon.png",
