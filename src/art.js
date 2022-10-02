@@ -190,6 +190,13 @@
     "author_github_url": "https://github.com/sophiabrandt"
   },
   {
+    "name": "Germany Flag",
+    "page_link": "./art/sophiabrandt2/index.html",
+    "art_icon": "./art/sophiabrandt2/icon.png",
+    "author_name": "Sophia Brandt",
+    "author_github_url": "https://github.com/sophiabrandt"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
