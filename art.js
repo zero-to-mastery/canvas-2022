@@ -260,6 +260,13 @@
     "author_github_url": "https://github.com/tayiorrobinson/"
   },
   {
+    "name": "Indian Flag",
+    "page_link": "./art/techtuner/index.html",
+    "art_icon": "./art/techtuner/icon.png",
+    "author_name": "Santhosh Pai",
+    "author_github_url": "https://github.com/techtuner/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
