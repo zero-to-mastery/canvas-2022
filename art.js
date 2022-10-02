@@ -190,6 +190,13 @@
     "author_github_url": "https://github.com/TTumyr/"
   },
   {
+    "name": "Indian flag",
+    "page_link": "./art/vishalpatil20/index.html",
+    "art_icon": "./art/vishalpatil20/icon.png",
+    "author_name": "vishalpatil20",
+    "author_github_url": "https://github.com/vishalpatil20/"
+  },
+  {
     "name": "Generative Art",
     "page_link": "./art/yashraj2003e/index.html",
     "art_icon": "./art/yashraj2003e/icon.png",
