@@ -281,6 +281,13 @@
     "author_github_url": "https://github.com/vishalpatil20/"
   },
   {
+    "name": "WForWendemsky",
+    "page_link": "./art/wendemsky/index.html",
+    "art_icon": "./art/wendemsky/icon.png",
+    "author_name": "wendemsky",
+    "author_github_url": "https://github.com/wendemsky/"
+  },
+  {
     "name": "Generative Art",
     "page_link": "./art/yashraj2003e/index.html",
     "art_icon": "./art/yashraj2003e/icon.png",
