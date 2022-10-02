@@ -155,6 +155,13 @@
     "author_github_url": "https://github.com/mrkc2303/"
   },
   {
+    "name": "React Logo",
+    "page_link": "./art/mrkc_3/index.html",
+    "art_icon": "./art/mrkc_3/icon.png",
+    "author_name": "Kanishk Chhabra",
+    "author_github_url": "https://github.com/mrkc2303/"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/nikhil_mishra/index.html",
     "art_icon": "./art/nikhil_mishra/icon.png",
