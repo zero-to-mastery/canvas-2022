@@ -223,6 +223,13 @@
     "art_icon": "./art/yellowbeard_1/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "Chess Board",
+    "page_link": "./art/DhanushNehru/index.html",
+    "art_icon": "./art/DhanushNehru/icon.png",
+    "author_name": "Dhanush Nehru",
+    "author_github_url": "https://github.com/DhanushNehru/"
   }
 ]
 
