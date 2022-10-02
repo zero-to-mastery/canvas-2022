@@ -43,6 +43,13 @@
     "author_github_url": "https://github.com/Neha045"
   },
   {
+    "name": "Bowl_of_water",
+    "page_link": "./art/Oluwatomilola/index.html",
+    "art_icon": "./art/Oluwatomilola/icon.png",
+    "author_name": "Oluwatomilola",
+    "author_github_url": "https://github.com/DevTomilola-OS"
+  },
+  {
     "name": "Snowfall",
     "page_link": "./art/Ukesh-dev/index.html",
     "art_icon": "./art/Ukesh-dev/icon.png",
