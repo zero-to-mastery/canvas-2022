@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "HackitOn2022",
+    "page_link": "./art/Adwaith_Rajesh/index.html",
+    "art_icon": "./art/Adwaith_Rajesh/icon.png",
+    "author_name": "coder@hacktoberfest",
+    "author_github_url": "https://github.com/Adwaith123/"
+  },
+  {
     "name": "Smileylock",
     "page_link": "./art/ArihantPal/index.html",
     "art_icon": "./art/ArihantPal/icon.png",
@@ -50,6 +57,13 @@
     "author_github_url": "https://github.com/Neha045"
   },
   {
+    "name": "Particle Rain",
+    "page_link": "./art/Neha2/index.html",
+    "art_icon": "./art/Neha2/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045"
+  },
+  {
     "name": "Bowl_of_water",
     "page_link": "./art/Oluwatomilola/index.html",
     "art_icon": "./art/Oluwatomilola/icon.png",
@@ -64,11 +78,25 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "crazy-colours",
+    "page_link": "./art/anudeep/index.html",
+    "art_icon": "./art/anudeep/icon.png",
+    "author_name": "Anudeep-313",
+    "author_github_url": "https://github.com/Anudeep-313"
+  },
+  {
     "name": "3D Model viewer",
     "page_link": "./art/auxfuse/index.html",
     "art_icon": "./art/auxfuse/icon.png",
     "author_name": "Anthony (Auxfuse)",
     "author_github_url": "https://github.com/auxfuse/"
+  },
+  {
+    "name": "Rainbow rain",
+    "page_link": "./art/avatar/index.html",
+    "art_icon": "./art/avatar/icon.png",
+    "author_name": "avatar-10000",
+    "author_github_url": "https://github.com/avatar-10000/"
   },
   {
     "name": "Raining",
@@ -144,6 +172,13 @@
     "name": "Netflix Logo",
     "page_link": "./art/mrkc_2/index.html",
     "art_icon": "./art/mrkc_2/icon.png",
+    "author_name": "Kanishk Chhabra",
+    "author_github_url": "https://github.com/mrkc2303/"
+  },
+  {
+    "name": "React Logo",
+    "page_link": "./art/mrkc_3/index.html",
+    "art_icon": "./art/mrkc_3/icon.png",
     "author_name": "Kanishk Chhabra",
     "author_github_url": "https://github.com/mrkc2303/"
   },
@@ -225,6 +260,20 @@
     "author_github_url": "https://github.com/tayiorrobinson/"
   },
   {
+    "name": "Indian Flag",
+    "page_link": "./art/techtuner/index.html",
+    "art_icon": "./art/techtuner/icon.png",
+    "author_name": "Santhosh Pai",
+    "author_github_url": "https://github.com/techtuner/"
+  },
+  {
+    "name": "Flag of Japan",
+    "page_link": "./art/techtuner2/index.html",
+    "art_icon": "./art/techtuner2/icon.png",
+    "author_name": "Santhosh Pai",
+    "author_github_url": "https://github.com/techtuner/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
@@ -237,6 +286,13 @@
     "art_icon": "./art/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20/"
+  },
+  {
+    "name": "WForWendemsky",
+    "page_link": "./art/wendemsky/index.html",
+    "art_icon": "./art/wendemsky/icon.png",
+    "author_name": "wendemsky",
+    "author_github_url": "https://github.com/wendemsky/"
   },
   {
     "name": "Generative Art",
