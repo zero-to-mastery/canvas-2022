@@ -15,6 +15,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Jack",
+    "page_link": "./art/Jack/index.html",
+    "art_icon": "./art/Jack/icon.png",
+    "author_name": "Jack",
+    "author_github_url": "https://github.com/jackwebdev"
+  },
+  {
     "name": "HacktoberSnake",
     "page_link": "./art/KWiczling_Snake/index.html",
     "art_icon": "./art/KWiczling_Snake/icon.png",
