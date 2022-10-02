@@ -176,6 +176,13 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Ireland Flag",
+    "page_link": "./art/sophiabrandt/index.html",
+    "art_icon": "./art/sophiabrandt/icon.png",
+    "author_name": "Sophia Brandt",
+    "author_github_url": "https://github.com/sophiabrandt"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
