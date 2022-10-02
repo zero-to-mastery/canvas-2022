@@ -183,6 +183,13 @@
     "author_github_url": "https://github.com/sophiabrandt"
   },
   {
+    "name": "France Flag",
+    "page_link": "./art/sophiabrandt1/index.html",
+    "art_icon": "./art/sophiabrandt1/icon.png",
+    "author_name": "Sophia Brandt",
+    "author_github_url": "https://github.com/sophiabrandt"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
