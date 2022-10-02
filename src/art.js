@@ -15,6 +15,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Jack",
+    "page_link": "./art/Jack/index.html",
+    "art_icon": "./art/Jack/icon.png",
+    "author_name": "Jack",
+    "author_github_url": "https://github.com/jackwebdev"
+  },
+  {
     "name": "HacktoberSnake",
     "page_link": "./art/KWiczling_Snake/index.html",
     "art_icon": "./art/KWiczling_Snake/icon.png",
@@ -36,11 +43,25 @@
     "author_github_url": "https://github.com/Neha045"
   },
   {
+    "name": "Bowl_of_water",
+    "page_link": "./art/Oluwatomilola/index.html",
+    "art_icon": "./art/Oluwatomilola/icon.png",
+    "author_name": "Oluwatomilola",
+    "author_github_url": "https://github.com/DevTomilola-OS"
+  },
+  {
     "name": "Snowfall",
     "page_link": "./art/Ukesh-dev/index.html",
     "art_icon": "./art/Ukesh-dev/icon.png",
     "author_name": "Ukesh",
     "author_github_url": "https://github.com/Ukesh-dev/"
+  },
+  {
+    "name": "Raining",
+    "page_link": "./art/billlunger/index.html",
+    "art_icon": "./art/billlunger/icon.png",
+    "author_name": "Bill Lunger",
+    "author_github_url": "https://github.com/billlunger"
   },
   {
     "name": "HacktoberFox",
@@ -83,6 +104,20 @@
     "art_icon": "./art/mattcsmith/icon.png",
     "author_name": "Matt",
     "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
+    "name": "Tanjiro Patterns",
+    "page_link": "./art/mrkc/index.html",
+    "art_icon": "./art/mrkc/icon.png",
+    "author_name": "Kanishk Chhabra",
+    "author_github_url": "https://github.com/mrkc2303/"
+  },
+  {
+    "name": "Netflix Logo",
+    "page_link": "./art/mrkc_2/index.html",
+    "art_icon": "./art/mrkc_2/icon.png",
+    "author_name": "Kanishk Chhabra",
+    "author_github_url": "https://github.com/mrkc2303/"
   },
   {
     "name": "Image-Particle",
