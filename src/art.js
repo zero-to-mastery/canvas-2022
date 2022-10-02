@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Raining",
+    "page_link": "./art/billlunger/index.html",
+    "art_icon": "./art/billlunger/icon.png",
+    "author_name": "Bill Lunger",
+    "author_github_url": "https://github.com/billlunger"
+  },
+  {
     "name": "HacktoberFox",
     "page_link": "./art/christinarepou/index.html",
     "art_icon": "./art/christinarepou/icon.png",
