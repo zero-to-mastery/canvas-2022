@@ -267,6 +267,13 @@
     "author_github_url": "https://github.com/techtuner/"
   },
   {
+    "name": "Flag of Japan",
+    "page_link": "./art/techtuner2/index.html",
+    "art_icon": "./art/techtuner2/icon.png",
+    "author_name": "Santhosh Pai",
+    "author_github_url": "https://github.com/techtuner/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
@@ -279,6 +286,13 @@
     "art_icon": "./art/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20/"
+  },
+  {
+    "name": "WForWendemsky",
+    "page_link": "./art/wendemsky/index.html",
+    "art_icon": "./art/wendemsky/icon.png",
+    "author_name": "wendemsky",
+    "author_github_url": "https://github.com/wendemsky/"
   },
   {
     "name": "Generative Art",
