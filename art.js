@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/auxfuse/"
   },
   {
+    "name": "Rainbow rain",
+    "page_link": "./art/avatar/index.html",
+    "art_icon": "./art/avatar/icon.png",
+    "author_name": "avatar-10000",
+    "author_github_url": "https://github.com/avatar-10000/"
+  },
+  {
     "name": "Raining",
     "page_link": "./art/billlunger/index.html",
     "art_icon": "./art/billlunger/icon.png",
