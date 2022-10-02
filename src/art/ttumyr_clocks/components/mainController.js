@@ -3,39 +3,60 @@ import clockController from './clockController.js';
 class mainController {
   constructor(mainContainer = null) {
     this.mainContainer = mainContainer;
-    this.clockContainerProps = {
-      id: 'clockContainer',
+    this.analogController;
+    this.analogContainerProps = {
+      id: 'analogContainer',
       class: 'container',
       bgColor: '#fff',
     };
-    this.clockCanvasProps = {
-      id: 'clockCanvas',
+    this.analogCanvasProps = {
+      id: 'analogCanvas',
       width: 400,
       height: 400,
     };
-    this.clockController;
-    this.createHtmlElements();
+    this.digitalController;
+    this.digitalContainerProps = {
+      id: 'digitalContainer',
+      class: 'container',
+      bgColor: '#000',
+    };
+    this.digitalCanvasProps = {
+      id: 'digitalCanvas',
+      width: 400,
+      height: 100,
+    };
+
+    this.createHtmlElements(this.analogContainerProps, this.analogCanvasProps);
+    this.createHtmlElements(this.digitalContainerProps, this.digitalCanvasProps);
     this.setClockProperties();
   }
-  createHtmlElements() {
+  createHtmlElements(clockContainerProps, clockCanvasProps) {
     const mainContainer = document.getElementById(this.mainContainer);
     const clockContainer = document.createElement('div');
     const clockCanvas = document.createElement('canvas');
-    clockContainer.setAttribute('id', this.clockContainerProps.id);
-    clockContainer.setAttribute('class', this.clockContainerProps.class);
-    clockContainer.style.backgroundColor = this.clockContainerProps.bgColor;
-    clockCanvas.setAttribute('id', this.clockCanvasProps.id);
-    clockCanvas.setAttribute('width', this.clockCanvasProps.width);
-    clockCanvas.setAttribute('height', this.clockCanvasProps.height);
+    clockContainer.setAttribute('id', clockContainerProps.id);
+    clockContainer.setAttribute('class', clockContainerProps.class);
+    clockContainer.style.backgroundColor = clockContainerProps.bgColor;
+    clockCanvas.setAttribute('id', clockCanvasProps.id);
+    clockCanvas.setAttribute('width', clockCanvasProps.width);
+    clockCanvas.setAttribute('height', clockCanvasProps.height);
     mainContainer.appendChild(clockContainer);
     clockContainer.appendChild(clockCanvas);
   }
   setClockProperties() {
-    this.clockController = new clockController(
+    this.analogController = new clockController(
       new Date(),
-      this.clockContainerProps.id,
-      this.clockCanvasProps.id,
-      this.clockContainerProps.bgColor
+      'analog',
+      this.analogContainerProps.id,
+      this.analogCanvasProps.id,
+      this.analogContainerProps.bgColor
+    );
+    this.digitalController = new clockController(
+      new Date(),
+      'digital',
+      this.digitalContainerProps.id,
+      this.digitalCanvasProps.id,
+      this.digitalContainerProps.bgColor
     );
   }
 }
