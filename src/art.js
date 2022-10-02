@@ -267,6 +267,13 @@
     "author_github_url": "https://github.com/techtuner/"
   },
   {
+    "name": "Flag of Japan",
+    "page_link": "./art/techtuner2/index.html",
+    "art_icon": "./art/techtuner2/icon.png",
+    "author_name": "Santhosh Pai",
+    "author_github_url": "https://github.com/techtuner/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
