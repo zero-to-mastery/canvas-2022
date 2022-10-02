@@ -29,6 +29,13 @@
     "author_github_url": "https://github.com/K-Wiczling"
   },
   {
+    "name": "France Flag",
+    "page_link": "./art/Kushagra/index.html",
+    "art_icon": "./art/Kushagra/icon.png",
+    "author_name": "Kushagra Jaon",
+    "author_github_url": "https://github.com/KushagraJain58-cmd"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/Mohamed_Bilal/index.html",
     "art_icon": "./art/Mohamed_Bilal/icon.png",
