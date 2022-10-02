@@ -106,6 +106,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev"
   },
   {
+    "name": "Sunrise on Pyramids",
+    "page_link": "./art/hinedy/index.html",
+    "art_icon": "./art/hinedy/icon.png",
+    "author_name": "Ahmed Hinedy",
+    "author_github_url": "https://github.com/hinedy"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/karan919/index.html",
     "art_icon": "./art/karan919/icon.png",
