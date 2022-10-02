@@ -99,6 +99,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev"
   },
   {
+    "name": "Indian Flag",
+    "page_link": "./art/karan919/index.html",
+    "art_icon": "./art/karan919/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
     "name": "HacktoberFox!",
     "page_link": "./art/mattcsmith/index.html",
     "art_icon": "./art/mattcsmith/icon.png",
