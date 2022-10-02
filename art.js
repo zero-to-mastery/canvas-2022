@@ -71,6 +71,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "crazy-colours",
+    "page_link": "./art/anudeep/index.html",
+    "art_icon": "./art/anudeep/icon.png",
+    "author_name": "Anudeep-313",
+    "author_github_url": "https://github.com/Anudeep-313"
+  },
+  {
     "name": "3D Model viewer",
     "page_link": "./art/auxfuse/index.html",
     "art_icon": "./art/auxfuse/icon.png",
