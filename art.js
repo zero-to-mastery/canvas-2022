@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Tanjiro Patterns",
+    "page_link": "./art/mrkc/index.html",
+    "art_icon": "./art/mrkc/icon.png",
+    "author_name": "Kanishk Chhabra",
+    "author_github_url": "https://github.com/mrkc2303/"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/nikhil_mishra/index.html",
     "art_icon": "./art/nikhil_mishra/icon.png",
