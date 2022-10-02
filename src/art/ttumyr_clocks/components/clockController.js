@@ -1,15 +1,21 @@
-import clock from './analog.js';
+import { default as analog } from './analog.js';
+import { default as digital } from './digital.js';
 
 class clockController {
-  constructor(time = new Date(), containerId, canvasId, contBgColor) {
-    this.clock = new clock();
+  constructor(time = new Date(), type = 'analog', containerId, canvasId, contBgColor) {
+    this.clock;
     this.time = time;
     this.containerId = containerId;
     this.canvasId = canvasId;
     this.contBgColor = contBgColor;
+    this.setClockType(type);
     this.setClockEnv();
     this.runClock();
     this.startInterval();
+  }
+  setClockType(type) {
+    if (type == 'digital') this.clock = new digital();
+    else this.clock = new analog();
   }
   setClockEnv() {
     this.clock.setCanvas(this.canvasId);
