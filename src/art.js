@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/Neha045"
   },
   {
+    "name": "Particle Rain",
+    "page_link": "./art/Neha2/index.html",
+    "art_icon": "./art/Neha2/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045"
+  },
+  {
     "name": "Bowl_of_water",
     "page_link": "./art/Oluwatomilola/index.html",
     "art_icon": "./art/Oluwatomilola/icon.png",
