@@ -23,7 +23,7 @@ class mainController {
     this.digitalCanvasProps = {
       id: 'digitalCanvas',
       width: 400,
-      height: 100,
+      height: 200,
     };
 
     this.createHtmlElements(this.analogContainerProps, this.analogCanvasProps);

@@ -57,23 +57,40 @@ class clock {
     const hour = this.returnTime(this.time.getHours());
     const minutes = this.returnTime(this.time.getMinutes());
     const seconds = this.returnTime(this.time.getSeconds());
+    const separator = [4, 6, 8, 8, 20];
     const digits = [
       [hour[0], 0 + this.leftMargin, this.topMargin],
       [hour[1], this.digitWidth + this.leftMargin, this.topMargin],
+      [separator, this.digitWidth * 2 + this.leftMargin, this.topMargin + this.digitHeight / 2],
       [minutes[0], this.digitWidth + this.digitSeparator + this.leftMargin, this.topMargin],
       [minutes[1], this.digitWidth * 2 + this.digitSeparator + this.leftMargin, this.topMargin],
+      [separator, this.digitWidth * 3 + this.digitSeparator + this.leftMargin, this.topMargin + this.digitHeight / 2],
       [seconds[0], this.digitWidth * 2 + this.digitSeparator * 2 + this.leftMargin, this.topMargin],
       [seconds[1], this.digitWidth * 3 + this.digitSeparator * 2 + this.leftMargin, this.topMargin],
     ];
     for (let i = 0; i < digits.length; i++) {
-      this.clearDigit(
-        digits[i][1],
-        digits[i][2],
-        digits[i][1] + this.digitWidth,
-        digits[i][1] + this.digitHeight,
-        this.bgColor
-      );
-      this.drawDigit(digits[i][0], digits[i][1], digits[i][2]);
+      if (digits[i][0] === separator) {
+        for (let j = 0; j < 2; j++) {
+          this.clearDigit(
+            digits[i][1] + separator[0],
+            (j * this.digitHeight) / 2 + digits[i][2] + separator[1],
+            separator[2],
+            separator[3],
+            this.numOnColor
+          );
+        }
+      } else {
+        this.clearDigit(
+          digits[i][1],
+          digits[i][2],
+          digits[i][1] + this.digitWidth,
+          digits[i][1] + this.digitHeight,
+          this.bgColor
+        );
+        if (digits[i][0] === separator) {
+        }
+        this.drawDigit(digits[i][0], digits[i][1], digits[i][2]);
+      }
     }
   }
   returnTime(time = 11) {
