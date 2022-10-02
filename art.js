@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "3D Model viewer",
+    "page_link": "./art/auxfuse/index.html",
+    "art_icon": "./art/auxfuse/icon.png",
+    "author_name": "Anthony (Auxfuse)",
+    "author_github_url": "https://github.com/auxfuse/"
+  },
+  {
     "name": "Raining",
     "page_link": "./art/billlunger/index.html",
     "art_icon": "./art/billlunger/icon.png",
