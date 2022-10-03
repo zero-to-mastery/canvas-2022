@@ -155,6 +155,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "Berserk curse mark",
+    "page_link": "./art/karan919_2/index.html",
+    "art_icon": "./art/karan919_2/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
     "name": "HacktoberFox!",
     "page_link": "./art/mattcsmith/index.html",
     "art_icon": "./art/mattcsmith/icon.png",
