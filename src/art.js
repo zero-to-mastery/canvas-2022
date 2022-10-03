@@ -127,6 +127,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Argentinian Flag",
+    "page_link": "./art/danicc/index.html",
+    "art_icon": "./art/danicc/icon.png",
+    "author_name": "Daniel Esquinazi",
+    "author_github_url": "https://github.com/danicc"
+  },
+  {
     "name": "Flag_of_India",
     "page_link": "./art/divs-14/index.html",
     "art_icon": "./art/divs-14/icon.png",
