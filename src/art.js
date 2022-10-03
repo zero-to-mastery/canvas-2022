@@ -225,6 +225,13 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Dominos Logo",
+    "page_link": "./art/saif/index.html",
+    "art_icon": "./art/saif/icon.png",
+    "author_name": "Mohd Saif",
+    "author_github_url": "https://github.com/MOHDSAIFGIT/"
+  },
+  {
     "name": "Ireland Flag",
     "page_link": "./art/sophiabrandt/index.html",
     "art_icon": "./art/sophiabrandt/icon.png",
