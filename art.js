@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Flag_of_India",
+    "page_link": "./art/divs-14/index.html",
+    "art_icon": "./art/divs-14/icon.png",
+    "author_name": "Divyanshu Gupta",
+    "author_github_url": "https://github.com/divs14"
+  },
+  {
     "name": "Warning Sign",
     "page_link": "./art/godnondsilva/index.html",
     "art_icon": "./art/godnondsilva/icon.png",
