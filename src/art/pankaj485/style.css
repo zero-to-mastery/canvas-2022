@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Vollkorn:wght@700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Vollkorn", serif;
+	background-color: whitesmoke;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 8rem;
+}
+
+.canvasContainer {
+	position: relative;
+}
+
+canvas {
+	outline: 3px solid blue;
+	background-color: rgb(234, 234, 234);
+	margin: 40px;
+}
+
+#chandra {
+	position: absolute;
+	top: calc(50% - 6rem);
+	left: calc(50% - 8rem);
+}
+
+#surya {
+	position: absolute;
+	top: calc(50% + 3rem);
+	left: calc(50% - 8rem);
+}
+
+#chandra,
+#surya {
+	width: 80px;
+	height: auto;
+}
+
+.textContainer {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+#heartIcon {
+	height: 5rem;
+}
+
+/* making mobile responsive */
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 4rem;
+	}
+	#heartIcon {
+		height: 4rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	canvas {
+		margin: 20px;
+	}
+	#chandra {
+		left: calc(25%);
+	}
+	#surya {
+		left: calc(25%);
+	}
+}
+
+@media screen and (max-width: 450px) {
+	canvas {
+		margin: 10px;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	#heartIcon {
+		height: 3rem;
+	}
+}
