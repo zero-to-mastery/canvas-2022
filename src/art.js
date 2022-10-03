@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Flag_of_India",
+    "page_link": "./art/divs-14/index.html",
+    "art_icon": "./art/divs-14/icon.png",
+    "author_name": "Divyanshu Gupta",
+    "author_github_url": "https://github.com/divs14"
+  },
+  {
     "name": "Warning Sign",
     "page_link": "./art/godnondsilva/index.html",
     "art_icon": "./art/godnondsilva/icon.png",
@@ -151,6 +158,13 @@
     "name": "Indian Flag",
     "page_link": "./art/karan919/index.html",
     "art_icon": "./art/karan919/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
+    "name": "Berserk curse mark",
+    "page_link": "./art/karan919_2/index.html",
+    "art_icon": "./art/karan919_2/icon.png",
     "author_name": "Karan",
     "author_github_url": "https://github.com/karan919/"
   },
@@ -216,6 +230,13 @@
     "art_icon": "./art/rachelktyjohnson/icon.png",
     "author_name": "Rachel",
     "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
+    "name": "Dominos Logo",
+    "page_link": "./art/saif/index.html",
+    "art_icon": "./art/saif/icon.png",
+    "author_name": "Mohd Saif",
+    "author_github_url": "https://github.com/MOHDSAIFGIT/"
   },
   {
     "name": "Ireland Flag",
