@@ -3,14 +3,13 @@
 }
 
 canvas {
-    border: 2px solid black;
     background-color: bisque;
   
 }
 
 
 .canvas-div {
-    background-color: black;
+    background-color: teal;
     width: 100vw;
     height: 100vh;
     display: flex;
