@@ -218,6 +218,13 @@
     "author_github_url": "https://github.com/codewizard26"
   },
   {
+    "name": "I Love Nepal",
+    "page_link": "./art/pankaj485/index.html",
+    "art_icon": "./art/pankaj485/icon.png",
+    "author_name": "Pankaj Thapaliya",
+    "author_github_url": "https://github.com/pankaj485/"
+  },
+  {
     "name": "HacktoberBot",
     "page_link": "./art/pranavpathak08/index.html",
     "art_icon": "./art/pranavpathak08/icon.png",
