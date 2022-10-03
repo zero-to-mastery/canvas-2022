@@ -99,6 +99,13 @@
     "author_github_url": "https://github.com/avatar-10000/"
   },
   {
+    "name": "Canadian Flag",
+    "page_link": "./art/bhuvan-tech/index.html",
+    "art_icon": "./art/bhuvan-tech/icon.png",
+    "author_name": "Bhuvan Y E",
+    "author_github_url": "https://github.com/bhuvan-tech/"
+  },
+  {
     "name": "Raining",
     "page_link": "./art/billlunger/index.html",
     "art_icon": "./art/billlunger/icon.png",
