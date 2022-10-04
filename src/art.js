@@ -197,6 +197,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Hactoberworks",
+    "page_link": "./art/meetkavathiya/index.html",
+    "art_icon": "./art/meetkavathiya/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
     "name": "Tanjiro Patterns",
     "page_link": "./art/mrkc/index.html",
     "art_icon": "./art/mrkc/icon.png",
