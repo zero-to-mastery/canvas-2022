@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/DevTomilola-OS"
   },
   {
+    "name": "Microsoft logo",
+    "page_link": "./art/Soumi/index.html",
+    "art_icon": "./art/Soumi/icon.png",
+    "author_name": "Soumi Das",
+    "author_github_url": "https://github.com/Soumi150"
+  },
+  {
     "name": "Snowfall",
     "page_link": "./art/Ukesh-dev/index.html",
     "art_icon": "./art/Ukesh-dev/icon.png",
@@ -197,6 +204,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Hactoberworks",
+    "page_link": "./art/meetkavathiya/index.html",
+    "art_icon": "./art/meetkavathiya/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
     "name": "Tanjiro Patterns",
     "page_link": "./art/mrkc/index.html",
     "art_icon": "./art/mrkc/icon.png",
@@ -216,6 +230,13 @@
     "art_icon": "./art/mrkc_3/icon.png",
     "author_name": "Kanishk Chhabra",
     "author_github_url": "https://github.com/mrkc2303/"
+  },
+  {
+    "name": "Heart",
+    "page_link": "./art/nancykwantify/index.html",
+    "art_icon": "./art/nancykwantify/icon.png",
+    "author_name": "Nancy",
+    "author_github_url": "https://github.com/nancykwantify/"
   },
   {
     "name": "Image-Particle",
