@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/Neha045"
   },
   {
+    "name": "Creeper",
+    "page_link": "./art/Nuha/index.html",
+    "art_icon": "./art/Nuha/icon.png",
+    "author_name": "Nuha",
+    "author_github_url": "https://github.com/nuhacodes/"
+  },
+  {
     "name": "Bowl_of_water",
     "page_link": "./art/Oluwatomilola/index.html",
     "art_icon": "./art/Oluwatomilola/icon.png",
