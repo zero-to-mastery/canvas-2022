@@ -218,6 +218,13 @@
     "author_github_url": "https://github.com/mrkc2303/"
   },
   {
+    "name": "Heart",
+    "page_link": "./art/nancykwantify/index.html",
+    "art_icon": "./art/nancykwantify/icon.png",
+    "author_name": "Nancy",
+    "author_github_url": "https://github.com/nancykwantify/"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/nikhil_mishra/index.html",
     "art_icon": "./art/nikhil_mishra/icon.png",
