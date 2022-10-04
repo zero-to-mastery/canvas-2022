@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/Neha045"
   },
   {
+    "name": "Creeper",
+    "page_link": "./art/Nuha/index.html",
+    "art_icon": "./art/Nuha/icon.png",
+    "author_name": "Nuha",
+    "author_github_url": "https://github.com/nuhacodes/"
+  },
+  {
     "name": "Bowl_of_water",
     "page_link": "./art/Oluwatomilola/index.html",
     "art_icon": "./art/Oluwatomilola/icon.png",
@@ -125,6 +132,13 @@
     "art_icon": "./art/christinarepou2/icon.png",
     "author_name": "Christina Repou",
     "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
+    "name": "Argentinian Flag",
+    "page_link": "./art/danicc/index.html",
+    "art_icon": "./art/danicc/icon.png",
+    "author_name": "Daniel Esquinazi",
+    "author_github_url": "https://github.com/danicc"
   },
   {
     "name": "Flag_of_India",
@@ -209,6 +223,13 @@
     "art_icon": "./art/nikhil_mishra/icon.png",
     "author_name": "Nikhil Mishra",
     "author_github_url": "https://github.com/codewizard26"
+  },
+  {
+    "name": "I Love Nepal",
+    "page_link": "./art/pankaj485/index.html",
+    "art_icon": "./art/pankaj485/icon.png",
+    "author_name": "Pankaj Thapaliya",
+    "author_github_url": "https://github.com/pankaj485/"
   },
   {
     "name": "HacktoberBot",
