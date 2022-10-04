@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/DevTomilola-OS"
   },
   {
+    "name": "Microsoft logo",
+    "page_link": "./art/Soumi/index.html",
+    "art_icon": "./art/Soumi/icon.png",
+    "author_name": "Soumi Das",
+    "author_github_url": "https://github.com/Soumi150"
+  },
+  {
     "name": "Snowfall",
     "page_link": "./art/Ukesh-dev/index.html",
     "art_icon": "./art/Ukesh-dev/icon.png",
