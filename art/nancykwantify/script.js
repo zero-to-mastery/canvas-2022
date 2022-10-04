@@ -1,0 +1,10 @@
+const canvas = document.getElementById("canvas");
+ctx = canvas.getContext("2d");
+ctx.lineWidth = 1;
+ctx.strokeStyle = "#333";
+ctx.beginPath();
+ctx.moveTo(256, 111);
+ctx.bezierCurveTo(358, 26, 446, 201, 273, 335);
+ctx.moveTo(256, 111);
+ctx.bezierCurveTo(137, 38, 99, 258, 273, 333);
+ctx.stroke();
