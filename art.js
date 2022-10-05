@@ -309,6 +309,13 @@
     "author_github_url": "https://github.com/MOHDSAIFGIT/"
   },
   {
+    "name": "Simple Shooter",
+    "page_link": "./art/sammneto/index.html",
+    "art_icon": "./art/sammneto/icon.png",
+    "author_name": "Samm Neto",
+    "author_github_url": "https://github.com/sammkodes96"
+  },
+  {
     "name": "Ireland Flag",
     "page_link": "./art/sophiabrandt/index.html",
     "art_icon": "./art/sophiabrandt/icon.png",
