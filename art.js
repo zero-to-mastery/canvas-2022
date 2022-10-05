@@ -134,6 +134,13 @@
     "author_github_url": "https://github.com/avatar-10000/"
   },
   {
+    "name": "HacktoberGreenShell",
+    "page_link": "./art/betiniakarandut/index.html",
+    "art_icon": "./art/betiniakarandut/icon.png",
+    "author_name": "Betini",
+    "author_github_url": "https://github.com/betiniakarandut/"
+  },
+  {
     "name": "Canadian Flag",
     "page_link": "./art/bhuvan-tech/index.html",
     "art_icon": "./art/bhuvan-tech/icon.png",
