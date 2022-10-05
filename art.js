@@ -106,6 +106,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Unity Logo",
+    "page_link": "./art/aal2015/index.html",
+    "art_icon": "./art/aal2015/icon.png",
+    "author_name": "aal2015",
+    "author_github_url": "https://github.com/aal2015"
+  },
+  {
     "name": "crazy-colours",
     "page_link": "./art/anudeep/index.html",
     "art_icon": "./art/anudeep/icon.png",
