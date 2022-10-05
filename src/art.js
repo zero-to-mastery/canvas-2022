@@ -15,6 +15,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "ChessBoard",
+    "page_link": "./art/DhanushNehru/index.html",
+    "art_icon": "./art/DhanushNehru/icon.png",
+    "author_name": "Dhanush Nehru",
+    "author_github_url": "https://github.com/DhanushNehru"
+  },
+  {
     "name": "Philippine Flag",
     "page_link": "./art/Insidiae/index.html",
     "art_icon": "./art/Insidiae/icon.png",
