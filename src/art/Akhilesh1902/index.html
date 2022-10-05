@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ThreeJS Demo</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        overflow: hidden;
+      }
+      canvas {
+        background-color: rgb(53, 53, 53);
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"
+      integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+  </head>
+  <body>
+    <canvas class="threeJS-canvas"></canvas>
+
+    <script type="module">
+      window.addEventListener('resize', () => {
+        // Update camera
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        // Update renderer
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      });
+
+      const canvas = document.querySelector('.threeJS-canvas');
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(
+        70,
+        window.innerWidth / window.innerHeight,
+        0.1,
+        100
+      );
+      camera.position.z = 4;
+      camera.position.y = 3.5;
+      camera.lookAt(new THREE.Vector3());
+
+      const ambientLight = new THREE.AmbientLight('#ffffff', 0.3);
+      const directionalLight = new THREE.DirectionalLight('#ffffff', 1.2);
+
+      scene.add(ambientLight, directionalLight);
+
+      directionalLight.position.x = 1;
+      directionalLight.position.z = 1;
+      directionalLight.position.y = 1;
+
+      // laoding model
+      const loader = new THREE.GLTFLoader();
+
+      let mixer;
+
+      loader.load('./smoker.glb', (gltf) => {
+        console.log(gltf);
+        scene.add(gltf.scene);
+        gltf.scene.position.set(0, -1, 0);
+        gltf.scene.scale.set(2, 2, 2);
+        mixer = new THREE.AnimationMixer(gltf.scene);
+        mixer.clipAction(gltf.animations[0]).play();
+      });
+
+      const renderer = new THREE.WebGLRenderer({
+        canvas: canvas,
+        antialias: true,
+        alpha: true,
+      });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      const clock = new THREE.Clock();
+      const tick = () => {
+        let delta = clock.getDelta();
+
+        if (mixer) mixer.update(delta);
+        renderer.render(scene, camera);
+        window.requestAnimationFrame(tick);
+      };
+      tick();
+    </script>
+  </body>
+</html>
