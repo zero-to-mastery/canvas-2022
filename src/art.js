@@ -106,6 +106,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "My House",
+    "page_link": "./art/Sonny Burniston/index.html",
+    "art_icon": "./art/Sonny Burniston/icon.png",
+    "author_name": "Sonny",
+    "author_github_url": "https://github.com/Sonnyburni/"
+  },
+  {
     "name": "Microsoft logo",
     "page_link": "./art/Soumi/index.html",
     "art_icon": "./art/Soumi/icon.png",
