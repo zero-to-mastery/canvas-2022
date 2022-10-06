@@ -295,6 +295,13 @@
     "author_github_url": "https://github.com/mrkc2303/"
   },
   {
+    "name": "Zenitsu Patterns",
+    "page_link": "./art/myshawne/index.html",
+    "art_icon": "./art/myshawne/icon.png",
+    "author_name": "Mysta3",
+    "author_github_url": "https://github.com/Mysta3"
+  },
+  {
     "name": "Heart",
     "page_link": "./art/nancykwantify/index.html",
     "art_icon": "./art/nancykwantify/icon.png",
