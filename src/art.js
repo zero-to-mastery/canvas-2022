@@ -538,6 +538,13 @@
     "art_icon": "./art/yellowbeard_1/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "Checkboard Design",
+    "page_link": "./art/yellowbeard_2/index.html",
+    "art_icon": "./art/yellowbeard_2/icon.png",
+    "author_name": "Mayank Goel",
+    "author_github_url": "https://github.com/yellowberard/"
   }
 ]
 
