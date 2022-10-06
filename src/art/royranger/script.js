@@ -58,15 +58,13 @@ const wheelRadius = scaled(150);
 const singleSliceAngle = 2 * Math.PI / slices.length;
 const topPosition = - Math.PI / 2;
 resizeCanvas();
+setCanvasTransform();
 
 function resizeCanvas() {
 	const canvasStyleWidth = $canvas.clientWidth;
 	const canvasStyleHeight = $canvas.clientHeight;
-	if ($canvas.width !== canvasStyleWidth || $canvas.height !== canvasStyleHeight) {
-		$canvas.width = canvasStyleWidth * pixelRatio;
-		$canvas.height = canvasStyleHeight * pixelRatio;
-		setCanvasTransform();
-	}
+	$canvas.width = canvasStyleWidth * pixelRatio;
+	$canvas.height = canvasStyleHeight * pixelRatio;
 }
 
 function setCanvasTransform() {
