@@ -288,6 +288,13 @@
     "author_github_url": "https://github.com/mk-8"
   },
   {
+    "name": "Gradofest",
+    "page_link": "./art/mk/index.html",
+    "art_icon": "./art/mk/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
     "name": "Tanjiro Patterns",
     "page_link": "./art/mrkc/index.html",
     "art_icon": "./art/mrkc/icon.png",
