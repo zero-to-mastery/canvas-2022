@@ -385,6 +385,13 @@
     "author_github_url": "https://github.com/codewizard26"
   },
   {
+    "name": "Blue Shell",
+    "page_link": "./art/nikkikal/index.html",
+    "art_icon": "./art/nikkikal/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
     "name": "I Love Nepal",
     "page_link": "./art/pankaj485/index.html",
     "art_icon": "./art/pankaj485/icon.png",
