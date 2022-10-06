@@ -92,6 +92,13 @@
     "author_github_url": "https://github.com/DevTomilola-OS"
   },
   {
+    "name": "Castle",
+    "page_link": "./art/Ritika-Agrawal811/index.html",
+    "art_icon": "./art/Ritika-Agrawal811/icon.png",
+    "author_name": "Ritika Agrawal",
+    "author_github_url": "https://github.com/Ritika-Agrawal811"
+  },
+  {
     "name": "Microsoft logo",
     "page_link": "./art/Soumi/index.html",
     "art_icon": "./art/Soumi/icon.png",
