@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+  }
+  .center-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    box-shadow: 0px 0px 90px 5px #989;
+  }
+  
+  #left1,
+  #right1,
+  #middle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 400px;
+  }
+  
+  #middle {
+    z-index: 10;
+  }
