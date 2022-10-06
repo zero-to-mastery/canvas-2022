@@ -274,6 +274,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "UAE_Flag",
+    "page_link": "./art/mariko971/index.html",
+    "art_icon": "./art/mariko971/icon.png",
+    "author_name": "Mark",
+    "author_github_url": "https://github.com/mariko971/"
+  },
+  {
     "name": "HacktoberFox!",
     "page_link": "./art/mattcsmith/index.html",
     "art_icon": "./art/mattcsmith/icon.png",
