@@ -232,6 +232,13 @@
     "author_github_url": "https://github.com/hinedy"
   },
   {
+    "name": "Cool Shower",
+    "page_link": "./art/incognion/index.html",
+    "art_icon": "./art/incognion/icon.png",
+    "author_name": "Ashutosh Kumar",
+    "author_github_url": "https://github.com/incognion/"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/karan919/index.html",
     "art_icon": "./art/karan919/icon.png",
