@@ -232,6 +232,13 @@
     "author_github_url": "https://github.com/godnondsilva/"
   },
   {
+    "name": "Hackient",
+    "page_link": "./art/grad/index.html",
+    "art_icon": "./art/grad/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
     "name": "ZTM MASCOT",
     "page_link": "./art/haider-ali/index.html",
     "art_icon": "./art/haider-ali/icon.png",
