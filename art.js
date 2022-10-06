@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Netflix Logo",
+    "page_link": "./art/Abhishek Mallick/index.html",
+    "art_icon": "./art/Abhishek Mallick/icon.png",
+    "author_name": "Abhishek Mallick",
+    "author_github_url": "https://github.com/Abhishek-Mallick"
+  },
+  {
     "name": "HackitOn2022",
     "page_link": "./art/Adwaith_Rajesh/index.html",
     "art_icon": "./art/Adwaith_Rajesh/icon.png",
