@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/Sunainacode"
   },
   {
+    "name": "Matrix",
+    "page_link": "./art/Teona/index.html",
+    "art_icon": "./art/Teona/icon.png",
+    "author_name": "Teona",
+    "author_github_url": "https://github.com/highflyer910/"
+  },
+  {
     "name": "Snowfall",
     "page_link": "./art/Ukesh-dev/index.html",
     "art_icon": "./art/Ukesh-dev/icon.png",
