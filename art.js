@@ -211,6 +211,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev"
   },
   {
+    "name": "Learn Chinese",
+    "page_link": "./art/henrykhosasih/index.html",
+    "art_icon": "./art/henrykhosasih/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
     "name": "Sunrise on Pyramids",
     "page_link": "./art/hinedy/index.html",
     "art_icon": "./art/hinedy/icon.png",
