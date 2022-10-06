@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Interactive Bubbles",
+    "page_link": "./art/aa-phyllis/index.html",
+    "art_icon": "./art/aa-phyllis/icon.png",
+    "author_name": "Phyllis",
+    "author_github_url": "https://github.com/phylliswong"
+  },
+  {
     "name": "Unity Logo",
     "page_link": "./art/aal2015/index.html",
     "art_icon": "./art/aal2015/icon.png",
