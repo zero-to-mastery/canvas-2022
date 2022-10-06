@@ -141,6 +141,13 @@
     "author_github_url": "https://github.com/aal2015"
   },
   {
+    "name": "HacktoberRotation!",
+    "page_link": "./art/ani-art/index.html",
+    "art_icon": "./art/ani-art/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
+  },
+  {
     "name": "crazy-colours",
     "page_link": "./art/anudeep/index.html",
     "art_icon": "./art/anudeep/icon.png",
