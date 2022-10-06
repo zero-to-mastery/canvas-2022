@@ -372,6 +372,13 @@
     "author_github_url": "https://github.com/sophiabrandt"
   },
   {
+    "name": "Switzerland Flag",
+    "page_link": "./art/soumi2/index.html",
+    "art_icon": "./art/soumi2/icon.png",
+    "author_name": "Soumi Das",
+    "author_github_url": "https://github.com/Soumi150"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
