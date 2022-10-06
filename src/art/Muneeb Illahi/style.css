@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(97deg, rgb(207, 134, 233), rgb(91, 83, 198));
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+
+}
+
+.dark-mode{
+    background: linear-gradient(97deg, rgb(17, 8, 77), rgb(20, 10, 158));
+}
+
+button {
+    width: 4rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+canvas {
+    /* border: 3px solid black; */
+    border-radius: 100%;
+    align-self: center;
+    justify-self: center;
+    background-color: skyblue;
+    filter: drop-shadow(3px 5px 4px purple);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+canvas:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(6px 5px 4px purple);
+}
