@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/dmdbilal/"
   },
   {
+    "name": "Mountains",
+    "page_link": "./art/Muneeb Illahi/index.html",
+    "art_icon": "./art/Muneeb Illahi/icon.png",
+    "author_name": "Muneeb Illahi",
+    "author_github_url": "https://github.com/muneeb-i-khan"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/Neha/index.html",
     "art_icon": "./art/Neha/icon.png",
