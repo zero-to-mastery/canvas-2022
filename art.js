@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/KushagraJain58-cmd"
   },
   {
+    "name": "Egyptian Flag",
+    "page_link": "./art/MohamadElhadidy/index.html",
+    "art_icon": "./art/MohamadElhadidy/icon.png",
+    "author_name": "Mohamad Elhadidy",
+    "author_github_url": "https://github.com/MohamadElhadidy"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/Mohamed_Bilal/index.html",
     "art_icon": "./art/Mohamed_Bilal/icon.png",
