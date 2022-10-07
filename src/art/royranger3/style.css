@@ -41,6 +41,8 @@ body {
 	top: -4px;
 	left: 50%;
 	border: 2px solid #2d3030;
+	border-bottom: none;
+	border-right: none;
 	width: 56px;
 	height: 56px;
 	transform: translate(-50%, -50%) rotate(45deg);
