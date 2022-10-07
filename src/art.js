@@ -364,6 +364,13 @@
     "author_github_url": "https://github.com/mrkc2303/"
   },
   {
+    "name": "Audi Logo",
+    "page_link": "./art/mrkc_4/index.html",
+    "art_icon": "./art/mrkc_4/icon.png",
+    "author_name": "Kanishk Chhabra",
+    "author_github_url": "https://github.com/mrkc2303/"
+  },
+  {
     "name": "Zenitsu Patterns",
     "page_link": "./art/myshawne/index.html",
     "art_icon": "./art/myshawne/icon.png",
