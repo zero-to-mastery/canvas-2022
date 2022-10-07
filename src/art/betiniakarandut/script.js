@@ -33,7 +33,6 @@ function myHactoberfestFlower(){
 function animate(){
 	myHactoberfestFlower();
 	if(num > 350) return;
-
 	requestAnimationFrame(animate);
 }
 
