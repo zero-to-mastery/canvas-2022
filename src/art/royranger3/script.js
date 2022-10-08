@@ -57,7 +57,7 @@ const pattern = [
 	'xxxxxxxxxfxxfxxxxxxxxxxxxxxxxxxxfxxfxxxxxxxxx',
 	'xxxxxxxxxfxxfxxxxxxxxxxxxxxxxxxxfxxfxxxxxxxxx',
 	'xxxxxxxxxfxxfxxxxxxxxxxxxxxxxxxxfxxfxxxxxxxxx',
-	'xxxxxxxxxxfxxfxxxxxxxxxxxxxxxxxxxfxxfxxxxxxxx'
+	'xxxxxxxxxxfxxfxxxxxxxxxxxxxxxxxfxxfxxxxxxxxxx'
 ];
 
 const weaveLength = 49;
