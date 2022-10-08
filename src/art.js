@@ -15,6 +15,13 @@
     "author_github_url": "https://github.com/Adwaith123/"
   },
   {
+    "name": "Dancing Smoker",
+    "page_link": "./art/Akhilesh1902/index.html",
+    "art_icon": "./art/Akhilesh1902/icon.png",
+    "author_name": "Akhilesh",
+    "author_github_url": "https://github.com/Akhilesh1902"
+  },
+  {
     "name": "Smileylock",
     "page_link": "./art/ArihantPal/index.html",
     "art_icon": "./art/ArihantPal/icon.png",
