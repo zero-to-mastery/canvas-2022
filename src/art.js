@@ -579,7 +579,14 @@
     "art_icon": "./art/yellowbeard_2/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
-  }
+  },
+  {
+    "name": "Rectanglar Rect",
+    "page_link": "./art/canvactober/index.html",
+    "art_icon": "./art/canvactober/icon.png",
+    "author_name": "OMEIZA IBRAHIM",
+    "author_github_url": "https://github.com/ibrahimomeiza99/"
+  },
 ]
 
     
