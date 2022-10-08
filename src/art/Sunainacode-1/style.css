@@ -1,0 +1,13 @@
+body {
+    background-color: violet;
+}
+
+canvas.myCanvas {
+    height: 400px;
+    width: 500px;
+    border: 10px double rebeccapurple;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: silver;
+    border-radius: 100px;
+}
