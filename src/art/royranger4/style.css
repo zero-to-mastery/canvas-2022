@@ -12,10 +12,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #0d0d0d;
 }
 
 .canvas {
 	width: 600px;
 	height: 600px;
 	background: antiquewhite;
+	border: 10px solid dimgrey;
 }

@@ -23,6 +23,14 @@ const ballRadius = backFrameWidth / numBalls / 2;
 const ballMiddleY = 380;
 const frontFrameSingleSegment = frontFrameWidth / (numBalls + 1);
 const backFrameSingleSegment = backFrameWidth / (numBalls + 1);
+let rotationA = 0;
+let backRotationA = 0;
+let rotationB = 0;
+let backRotationB = 0;
+let swingTurn;
+let rotationACounter = 0;
+let rotationBCounter = 0;
+
 
 function drawPlatform() {
 	// front edge
@@ -81,43 +89,103 @@ function drawBalls() {
 	const firstBallMiddleX = middleX - (ballRadius * (numBalls - 1));
 	const frontFrameFirstLineX = middleX - Math.floor(numBalls / 2) * frontFrameSingleSegment;
 	const backFrameFirstLineX = middleX - Math.floor(numBalls / 2) * backFrameSingleSegment;
-	for (let i = 0; i < 5; i++) {
+	const frontFrameAnchorY = frontFrameBottomY - frontFrameHeight;
+	const backFrameAnchorY =  backFrameBottomY - backFrameHeight;
+
+	for (let i = 0; i < numBalls; i++) {
+		const frontFrameAnchorX = frontFrameFirstLineX + i * frontFrameSingleSegment;
+		const backFrameAnchorX = backFrameFirstLineX + i * backFrameSingleSegment;
+		const x = firstBallMiddleX + i * 2 * ballRadius;
+		const y  = ballMiddleY;
+		const isFirstBall = i === 0;
+		const isLastBall = i === numBalls - 1;
+
+		// line from back frame
+		context.save();
+		if (isFirstBall || isLastBall) {
+			context.translate(backFrameAnchorX, backFrameAnchorY);
+			context.rotate(isFirstBall ? backRotationA : backRotationB);
+			context.translate(-backFrameAnchorX, -backFrameAnchorY);
+		}
+		context.beginPath();
+		context.moveTo(x, ballMiddleY + 10);
+		context.lineTo(backFrameAnchorX, backFrameAnchorY);
+		context.stroke();
+		context.restore();
+
 		// ball
 		context.save();
-		context.translate(firstBallMiddleX, ballMiddleY);
-		const x = i * 2 * ballRadius;
-		const y  = 0;
+		if (isFirstBall || isLastBall) {
+			context.translate(frontFrameAnchorX, frontFrameAnchorY);
+			context.rotate(isFirstBall ? rotationA : rotationB);
+			context.translate(-frontFrameAnchorX, -frontFrameAnchorY);
+		}
 		context.beginPath();
 		context.arc(x, y, ballRadius, 0, 2 * Math.PI);
 		const gradient = context.createRadialGradient(x, y, 4, x, y, ballRadius);
-		gradient.addColorStop(0, 'white');
+		gradient.addColorStop(0, '#FFF');
 		gradient.addColorStop(1, '#121414');
 		context.fillStyle = gradient;
 		context.fill();
-		context.restore();
 
 		// line from front frame
-		context.save();
 		context.translate(0, 0);
 		context.beginPath();
-		context.moveTo(x + firstBallMiddleX, ballMiddleY - ballRadius);
-		context.lineTo(frontFrameFirstLineX + i * frontFrameSingleSegment, frontFrameBottomY - frontFrameHeight);
+		context.moveTo(x, ballMiddleY - ballRadius);
+		context.lineTo(frontFrameAnchorX, frontFrameAnchorY);
 		context.strokeStyle = '#4e4e4e';
 		context.lineWidth = 2;
 		context.stroke();
-
-		// line from back frame
-		context.beginPath();
-		context.moveTo(x + firstBallMiddleX, ballMiddleY - ballRadius);
-		context.lineTo(backFrameFirstLineX + i * backFrameSingleSegment, backFrameBottomY - backFrameHeight);
-		context.stroke();
 		context.restore();
-
 	}
 	context.restore();
 }
 
-drawPlatform();
-drawBackFrame();
-drawBalls();
-drawFrontFrame();
+function tick() {
+	if (swingTurn === 1) {
+		rotationACounter += 0.1;
+		if (rotationACounter > Math.PI) {
+			alternate();
+		}
+		rotationA = Math.abs(Math.sin(rotationACounter) * Math.PI / 4);
+		backRotationA = Math.abs(Math.sin(rotationACounter) * Math.PI / 3.5);
+	} else {
+		rotationA = 0;
+		backRotationA = 0; 
+	}
+	
+	if (swingTurn === 2) {
+		rotationBCounter += 0.1;
+		if (rotationBCounter > Math.PI) {
+			alternate();
+		}
+		rotationB = - Math.abs(Math.sin(rotationBCounter) * Math.PI / 4);
+		backRotationB = - Math.abs(Math.sin(rotationBCounter) * Math.PI / 3.5);
+	} else {
+		rotationB = 0;
+		backRotationB = 0;
+	}
+
+	context.clearRect(0, 0, $canvas.width, $canvas.height);
+	drawPlatform();
+	drawBackFrame();
+	drawBalls();
+	drawFrontFrame();
+	requestAnimationFrame(tick);
+}
+
+function alternate() {
+	if (!swingTurn) {
+		swingTurn = 1;
+		rotationACounter = 0;
+	} else if (swingTurn === 1) {
+		swingTurn = 2;
+		rotationBCounter = 0;
+	} else if (swingTurn === 2) {
+		swingTurn = 1;
+		rotationACounter = 0;
+	}
+}
+
+alternate();
+tick();
