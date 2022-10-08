@@ -476,6 +476,13 @@
     "author_github_url": "https://github.com/sammkodes96"
   },
   {
+    "name": "Shapes Art",
+    "page_link": "./art/small-ac/index.html",
+    "art_icon": "./art/small-ac/icon.png",
+    "author_name": "A. Small",
+    "author_github_url": "https://github.com/small-ac"
+  },
+  {
     "name": "Ireland Flag",
     "page_link": "./art/sophiabrandt/index.html",
     "art_icon": "./art/sophiabrandt/icon.png",
