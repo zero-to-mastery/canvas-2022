@@ -225,6 +225,13 @@
     "author_github_url": "https://github.com/anirban-s/"
   },
   {
+    "name": "DotPattern",
+    "page_link": "./art/ankeshp03/index.html",
+    "art_icon": "./art/ankeshp03/icon.png",
+    "author_name": "Ankesh Paramanik",
+    "author_github_url": "https://github.com/ankeshp03/"
+  },
+  {
     "name": "crazy-colours",
     "page_link": "./art/anudeep/index.html",
     "art_icon": "./art/anudeep/icon.png",
