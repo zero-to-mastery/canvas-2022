@@ -211,6 +211,13 @@
     "author_github_url": "https://github.com/aal2015"
   },
   {
+    "name": "sky_full_of_colors",
+    "page_link": "./art/addyk16/index.html",
+    "art_icon": "./art/addyk16/icon.png",
+    "author_name": "Addyk16",
+    "author_github_url": "https://github.com/Addyk16/"
+  },
+  {
     "name": "HacktoberRotation!",
     "page_link": "./art/ani-art/index.html",
     "art_icon": "./art/ani-art/icon.png",
