@@ -29,6 +29,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Window",
+    "page_link": "./art/Arjun_Choudhury/index.html",
+    "art_icon": "./art/Arjun_Choudhury/icon.png",
+    "author_name": "Arjun",
+    "author_github_url": "https://github.com/arjunchoudhury07/"
+  },
+  {
     "name": "ChessBoard",
     "page_link": "./art/DhanushNehru/index.html",
     "art_icon": "./art/DhanushNehru/icon.png",
