@@ -176,6 +176,13 @@
     "author_github_url": "https://github.com/Sunainacode"
   },
   {
+    "name": "Instagram Logo",
+    "page_link": "./art/Sunainacode-2/index.html",
+    "art_icon": "./art/Sunainacode-2/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
+  },
+  {
     "name": "Matrix",
     "page_link": "./art/Teona/index.html",
     "art_icon": "./art/Teona/icon.png",
