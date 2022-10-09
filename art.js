@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/dmdbilal/"
   },
   {
+    "name": "Mouse-Trial",
+    "page_link": "./art/Mouse Trial/index.html",
+    "art_icon": "./art/Mouse Trial/icon.png",
+    "author_name": "Prabhakar Kumar",
+    "author_github_url": "https://github.com/PRABHAKAR9107"
+  },
+  {
     "name": "Mountains",
     "page_link": "./art/Muneeb Illahi/index.html",
     "art_icon": "./art/Muneeb Illahi/icon.png",
@@ -113,11 +120,25 @@
     "author_github_url": "https://github.com/DevTomilola-OS"
   },
   {
+    "name": "Hacktoberfest lamp",
+    "page_link": "./art/Pearl/index.html",
+    "art_icon": "./art/Pearl/icon.png",
+    "author_name": "Forcha Pearl",
+    "author_github_url": "https://github.com/Forchapeatl/"
+  },
+  {
     "name": "Castle",
     "page_link": "./art/Ritika-Agrawal811/index.html",
     "art_icon": "./art/Ritika-Agrawal811/icon.png",
     "author_name": "Ritika Agrawal",
     "author_github_url": "https://github.com/Ritika-Agrawal811"
+  },
+  {
+    "name": "Simlish",
+    "page_link": "./art/SamanthaCrespo/index.html",
+    "art_icon": "./art/SamanthaCrespo/icon.png",
+    "author_name": "Samantha Crespo",
+    "author_github_url": "https://github.com/samkcrespo"
   },
   {
     "name": "My House",
@@ -137,6 +158,13 @@
     "name": "YouTube",
     "page_link": "./art/Sunainacode/index.html",
     "art_icon": "./art/Sunainacode/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
+  },
+  {
+    "name": "Character",
+    "page_link": "./art/Sunainacode-1/index.html",
+    "art_icon": "./art/Sunainacode-1/icon.png",
     "author_name": "Sunaina Agarwal",
     "author_github_url": "https://github.com/Sunainacode"
   },
@@ -204,6 +232,13 @@
     "author_github_url": "https://github.com/betiniakarandut/"
   },
   {
+    "name": "myHacktoberfestFlower",
+    "page_link": "./art/betiniakarandut01/index.html",
+    "art_icon": "./art/betiniakarandut01/icon.png",
+    "author_name": "Betini",
+    "author_github_url": "https://github.com/betiniakarandut/"
+  },
+  {
     "name": "Canadian Flag",
     "page_link": "./art/bhuvan-tech/index.html",
     "art_icon": "./art/bhuvan-tech/icon.png",
@@ -218,8 +253,21 @@
     "author_github_url": "https://github.com/billlunger"
   },
   {
+    "name": "Jack-o",
+    "page_link": "./art/brainlessdad/index.html",
+    "art_icon": "./art/brainlessdad/icon.png",
+    "author_name": "brain",
+    "author_github_url": "https://github.com/MarcBarlett"
+  },
+  {
     "page_link": "./art/carmen170796/index.html",
     "art_icon": "./art/carmen170796/icon.png",
+    "author_name": "Carmen Mendoza",
+    "author_github_url": "https://github.com/carmen170796"
+  },
+  {
+    "page_link": "./art/carmen170796-2/index.html",
+    "art_icon": "./art/carmen170796-2/icon.png",
     "author_name": "Carmen Mendoza",
     "author_github_url": "https://github.com/carmen170796"
   },
@@ -406,6 +454,13 @@
     "author_github_url": "https://github.com/NikkiKal/"
   },
   {
+    "name": "Snowflake",
+    "page_link": "./art/nikkikal2/index.html",
+    "art_icon": "./art/nikkikal2/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
     "name": "I Love Nepal",
     "page_link": "./art/pankaj485/index.html",
     "art_icon": "./art/pankaj485/icon.png",
@@ -451,6 +506,13 @@
     "name": "Double-Decker Bus",
     "page_link": "./art/royranger2/index.html",
     "art_icon": "./art/royranger2/icon.png",
+    "author_name": "Joy",
+    "author_github_url": "https://github.com/royranger"
+  },
+  {
+    "name": "Lovebirds Cross Stitch",
+    "page_link": "./art/royranger3/index.html",
+    "art_icon": "./art/royranger3/icon.png",
     "author_name": "Joy",
     "author_github_url": "https://github.com/royranger"
   },
@@ -549,6 +611,13 @@
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
+    "author_name": "TTumyr",
+    "author_github_url": "https://github.com/TTumyr/"
+  },
+  {
+    "name": "Moving Box",
+    "page_link": "./art/ttumyr_movingbox/index.html",
+    "art_icon": "./art/ttumyr_movingbox/icon.png",
     "author_name": "TTumyr",
     "author_github_url": "https://github.com/TTumyr/"
   },

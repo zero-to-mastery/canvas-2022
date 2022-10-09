@@ -78,8 +78,8 @@ function scaled(val) {
 }
 
 function createWeave() {
-	for (let row = 0; row < 49; row++) {
-		for (let col = 0; col < 49; col++) {
+	for (let row = 0; row < weaveLength; row++) {
+		for (let col = 0; col < weaveLength; col++) {
 			context.save();
 			context.translate(col * stitchLength, row * stitchLength);
 			context.beginPath();
