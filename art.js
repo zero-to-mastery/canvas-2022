@@ -370,6 +370,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "Afghanistan Flag",
+    "page_link": "./art/khudadadkhawari/index.html",
+    "art_icon": "./art/khudadadkhawari/icon.png",
+    "author_name": "Khudadad Khawari",
+    "author_github_url": "https://github.com/KhudadadKhawari/"
+  },
+  {
     "name": "UAE_Flag",
     "page_link": "./art/mariko971/index.html",
     "art_icon": "./art/mariko971/icon.png",
