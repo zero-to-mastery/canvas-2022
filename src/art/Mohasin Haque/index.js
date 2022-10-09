@@ -1,4 +1,4 @@
-let canvas = document.getElementById("franceFlagCanvas");
+let canvas = document.getElementById("belgiumFlagCanvas");
 let ctx = canvas.getContext("2d");
 
 ctx.fillStyle = "#000000";
