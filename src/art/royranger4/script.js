@@ -27,7 +27,7 @@ let rotationA = 0;
 let backRotationA = 0;
 let rotationB = 0;
 let backRotationB = 0;
-let swingTurn;
+let swingTurn = 1;
 let rotationACounter = 0;
 let rotationBCounter = 0;
 
@@ -85,7 +85,6 @@ function drawFrontFrame() {
 }
 
 function drawBalls() {
-	context.save();
 	const firstBallMiddleX = middleX - (ballRadius * (numBalls - 1));
 	const frontFrameFirstLineX = middleX - Math.floor(numBalls / 2) * frontFrameSingleSegment;
 	const backFrameFirstLineX = middleX - Math.floor(numBalls / 2) * backFrameSingleSegment;
@@ -138,33 +137,26 @@ function drawBalls() {
 		context.stroke();
 		context.restore();
 	}
-	context.restore();
 }
 
 function tick() {
 	if (swingTurn === 1) {
-		rotationACounter += 0.1;
-		if (rotationACounter > Math.PI) {
+		rotationACounter = Math.min(rotationACounter + 0.1, Math.PI);
+		if (rotationACounter >= Math.PI) {
 			alternate();
 		}
-		rotationA = Math.abs(Math.sin(rotationACounter) * Math.PI / 4);
-		backRotationA = Math.abs(Math.sin(rotationACounter) * Math.PI / 3.5);
-	} else {
-		rotationA = 0;
-		backRotationA = 0; 
+		rotationA = Math.sin(rotationACounter) * Math.PI / 4;
+		backRotationA = Math.sin(rotationACounter) * Math.PI / 3.5;
 	}
 	
 	if (swingTurn === 2) {
-		rotationBCounter += 0.1;
-		if (rotationBCounter > Math.PI) {
+		rotationBCounter = Math.min(rotationBCounter += 0.1, Math.PI);
+		if (rotationBCounter >= Math.PI) {
 			alternate();
 		}
-		rotationB = - Math.abs(Math.sin(rotationBCounter) * Math.PI / 4);
-		backRotationB = - Math.abs(Math.sin(rotationBCounter) * Math.PI / 3.5);
-	} else {
-		rotationB = 0;
-		backRotationB = 0;
-	}
+		rotationB = - Math.sin(rotationBCounter) * Math.PI / 4;
+		backRotationB = - Math.sin(rotationBCounter) * Math.PI / 3.5;
+	} 
 
 	context.clearRect(0, 0, $canvas.width, $canvas.height);
 	drawPlatform();
@@ -175,10 +167,7 @@ function tick() {
 }
 
 function alternate() {
-	if (!swingTurn) {
-		swingTurn = 1;
-		rotationACounter = 0;
-	} else if (swingTurn === 1) {
+	if (swingTurn === 1) {
 		swingTurn = 2;
 		rotationBCounter = 0;
 	} else if (swingTurn === 2) {
@@ -187,5 +176,4 @@ function alternate() {
 	}
 }
 
-alternate();
 tick();
