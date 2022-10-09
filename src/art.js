@@ -517,6 +517,13 @@
     "author_github_url": "https://github.com/royranger"
   },
   {
+    "name": "Newton's Cradle",
+    "page_link": "./art/royranger4/index.html",
+    "art_icon": "./art/royranger4/icon.png",
+    "author_name": "Joy",
+    "author_github_url": "https://github.com/royranger"
+  },
+  {
     "name": "Dominos Logo",
     "page_link": "./art/saif/index.html",
     "art_icon": "./art/saif/icon.png",
