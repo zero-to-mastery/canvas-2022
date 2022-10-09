@@ -142,20 +142,20 @@ function drawBalls() {
 function tick() {
 	if (swingTurn === 1) {
 		rotationACounter = Math.min(rotationACounter + 0.1, Math.PI);
+		rotationA = Math.sin(rotationACounter) * Math.PI / 4;
+		backRotationA = Math.sin(rotationACounter) * Math.PI / 3.5;
 		if (rotationACounter >= Math.PI) {
 			alternate();
 		}
-		rotationA = Math.sin(rotationACounter) * Math.PI / 4;
-		backRotationA = Math.sin(rotationACounter) * Math.PI / 3.5;
 	}
 	
 	if (swingTurn === 2) {
 		rotationBCounter = Math.min(rotationBCounter += 0.1, Math.PI);
+		rotationB = - Math.sin(rotationBCounter) * Math.PI / 4;
+		backRotationB = - Math.sin(rotationBCounter) * Math.PI / 3.5;
 		if (rotationBCounter >= Math.PI) {
 			alternate();
 		}
-		rotationB = - Math.sin(rotationBCounter) * Math.PI / 4;
-		backRotationB = - Math.sin(rotationBCounter) * Math.PI / 3.5;
 	} 
 
 	context.clearRect(0, 0, $canvas.width, $canvas.height);
