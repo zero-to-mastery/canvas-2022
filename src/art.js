@@ -43,6 +43,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Atom Visualization",
+    "page_link": "./art/HarshChauhan/index.html",
+    "art_icon": "./art/HarshChauhan/icon.png",
+    "author_name": "Harsh Chauhan",
+    "author_github_url": "https://github.com/yes-im-harsh/"
+  },
+  {
     "name": "Philippine Flag",
     "page_link": "./art/Insidiae/index.html",
     "art_icon": "./art/Insidiae/icon.png",
