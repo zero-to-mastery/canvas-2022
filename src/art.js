@@ -80,7 +80,7 @@
   {
     "name": "Egyptian Flag",
     "page_link": "./art/MohamadElhadidy/index.html",
-    "art_icon": "./art/MohamadElhadidy/icon.gif",
+    "art_icon": "./art/MohamadElhadidy/icon.png",
     "author_name": "Mohamad Elhadidy",
     "author_github_url": "https://github.com/MohamadElhadidy"
   },
