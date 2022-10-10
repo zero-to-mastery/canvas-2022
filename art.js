@@ -43,6 +43,12 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Poland Flag",
+    "page_link": "./art/FelixB/index.html",
+    "art_icon": "./art/FelixB/icon.png",
+    "author_name": "Felix"
+  },
+  {
     "name": "Atom Visualization",
     "page_link": "./art/HarshChauhan/index.html",
     "art_icon": "./art/HarshChauhan/icon.png",
