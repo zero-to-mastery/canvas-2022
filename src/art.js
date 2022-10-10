@@ -629,6 +629,13 @@
     "author_github_url": "https://github.com/Soumi150"
   },
   {
+    "name": "Spread love",
+    "page_link": "./art/t-moennich/index.html",
+    "art_icon": "./art/t-moennich/icon.png",
+    "author_name": "Tommy Mönnich",
+    "author_github_url": "https://github.com/t-moennich"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
