@@ -36,6 +36,13 @@
     "author_github_url": "https://github.com/arjunchoudhury07/"
   },
   {
+    "name": "Astronaut",
+    "page_link": "./art/AyanKhan0508/index.html",
+    "art_icon": "./art/AyanKhan0508/icon.png",
+    "author_name": "Ayan",
+    "author_github_url": "https://github.com/AyanDgr8/"
+  },
+  {
     "name": "ChessBoard",
     "page_link": "./art/DhanushNehru/index.html",
     "art_icon": "./art/DhanushNehru/icon.png",
