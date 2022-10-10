@@ -1,0 +1,19 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+#canvas {
+  background: #dbd16d;
+  padding: 30px;
+  border: 5px solid #000000b2;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  transform: translate(50%, 50%);
+}
