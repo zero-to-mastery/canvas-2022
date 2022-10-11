@@ -14,6 +14,7 @@ let cards = [
     author_github_url: "https://github.com/Adwaith123/",
   },
   {
+<<<<<<< HEAD
     name: "Smileylock",
     page_link: "./art/ArihantPal/index.html",
     art_icon: "./art/ArihantPal/icon.png",
@@ -33,6 +34,61 @@ let cards = [
     art_icon: "./art/Insidiae/icon.png",
     author_name: "Insidiae",
     author_github_url: "https://github.com/Insidiae/",
+=======
+    "name": "Dancing Smoker",
+    "page_link": "./art/Akhilesh1902/index.html",
+    "art_icon": "./art/Akhilesh1902/icon.png",
+    "author_name": "Akhilesh",
+    "author_github_url": "https://github.com/Akhilesh1902"
+  },
+  {
+    "name": "Smileylock",
+    "page_link": "./art/ArihantPal/index.html",
+    "art_icon": "./art/ArihantPal/icon.png",
+    "author_name": "Arihant Pal",
+    "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
+    "name": "Window",
+    "page_link": "./art/Arjun_Choudhury/index.html",
+    "art_icon": "./art/Arjun_Choudhury/icon.png",
+    "author_name": "Arjun",
+    "author_github_url": "https://github.com/arjunchoudhury07/"
+  },
+  {
+    "name": "Astronaut",
+    "page_link": "./art/AyanKhan0508/index.html",
+    "art_icon": "./art/AyanKhan0508/icon.png",
+    "author_name": "Ayan",
+    "author_github_url": "https://github.com/AyanDgr8/"
+  },
+  {
+    "name": "ChessBoard",
+    "page_link": "./art/DhanushNehru/index.html",
+    "art_icon": "./art/DhanushNehru/icon.png",
+    "author_name": "Dhanush Nehru",
+    "author_github_url": "https://github.com/DhanushNehru"
+  },
+  {
+    "name": "Poland Flag",
+    "page_link": "./art/FelixB/index.html",
+    "art_icon": "./art/FelixB/icon.png",
+    "author_name": "Felix"
+  },
+  {
+    "name": "Atom Visualization",
+    "page_link": "./art/HarshChauhan/index.html",
+    "art_icon": "./art/HarshChauhan/icon.png",
+    "author_name": "Harsh Chauhan",
+    "author_github_url": "https://github.com/yes-im-harsh/"
+  },
+  {
+    "name": "Philippine Flag",
+    "page_link": "./art/Insidiae/index.html",
+    "art_icon": "./art/Insidiae/icon.png",
+    "author_name": "Insidiae",
+    "author_github_url": "https://github.com/Insidiae/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Jack",
@@ -70,11 +126,26 @@ let cards = [
     author_github_url: "https://github.com/dmdbilal/",
   },
   {
+<<<<<<< HEAD
     name: "Mountains",
     page_link: "./art/Muneeb Illahi/index.html",
     art_icon: "./art/Muneeb Illahi/icon.png",
     author_name: "Muneeb Illahi",
     author_github_url: "https://github.com/muneeb-i-khan",
+=======
+    "name": "Mouse-Trial",
+    "page_link": "./art/Mouse Trial/index.html",
+    "art_icon": "./art/Mouse Trial/icon.png",
+    "author_name": "Prabhakar Kumar",
+    "author_github_url": "https://github.com/PRABHAKAR9107"
+  },
+  {
+    "name": "Mountains",
+    "page_link": "./art/Muneeb Illahi/index.html",
+    "art_icon": "./art/Muneeb Illahi/icon.png",
+    "author_name": "Muneeb Illahi",
+    "author_github_url": "https://github.com/muneeb-i-khan"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Image-Particle",
@@ -105,6 +176,7 @@ let cards = [
     author_github_url: "https://github.com/DevTomilola-OS",
   },
   {
+<<<<<<< HEAD
     name: "Castle",
     page_link: "./art/Ritika-Agrawal811/index.html",
     art_icon: "./art/Ritika-Agrawal811/icon.png",
@@ -117,6 +189,41 @@ let cards = [
     art_icon: "./art/Sonny Burniston/icon.png",
     author_name: "Sonny",
     author_github_url: "https://github.com/Sonnyburni/",
+=======
+    "name": "Hacktoberfest lamp",
+    "page_link": "./art/Pearl/index.html",
+    "art_icon": "./art/Pearl/icon.png",
+    "author_name": "Forcha Pearl",
+    "author_github_url": "https://github.com/Forchapeatl/"
+  },
+  {
+    "name": "Castle",
+    "page_link": "./art/Ritika-Agrawal811/index.html",
+    "art_icon": "./art/Ritika-Agrawal811/icon.png",
+    "author_name": "Ritika Agrawal",
+    "author_github_url": "https://github.com/Ritika-Agrawal811"
+  },
+  {
+    "name": "Simlish",
+    "page_link": "./art/SamanthaCrespo/index.html",
+    "art_icon": "./art/SamanthaCrespo/icon.png",
+    "author_name": "Samantha Crespo",
+    "author_github_url": "https://github.com/samkcrespo"
+  },
+  {
+    "name": "Game Character",
+    "page_link": "./art/Shariq/index.html",
+    "art_icon": "./art/Shariq/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
+    "name": "My House",
+    "page_link": "./art/Sonny Burniston/index.html",
+    "art_icon": "./art/Sonny Burniston/icon.png",
+    "author_name": "Sonny",
+    "author_github_url": "https://github.com/Sonnyburni/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Microsoft logo",
@@ -133,11 +240,33 @@ let cards = [
     author_github_url: "https://github.com/Sunainacode",
   },
   {
+<<<<<<< HEAD
     name: "Matrix",
     page_link: "./art/Teona/index.html",
     art_icon: "./art/Teona/icon.png",
     author_name: "Teona",
     author_github_url: "https://github.com/highflyer910/",
+=======
+    "name": "Character",
+    "page_link": "./art/Sunainacode-1/index.html",
+    "art_icon": "./art/Sunainacode-1/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
+  },
+  {
+    "name": "Instagram Logo",
+    "page_link": "./art/Sunainacode-2/index.html",
+    "art_icon": "./art/Sunainacode-2/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
+  },
+  {
+    "name": "Matrix",
+    "page_link": "./art/Teona/index.html",
+    "art_icon": "./art/Teona/icon.png",
+    "author_name": "Teona",
+    "author_github_url": "https://github.com/highflyer910/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Snowfall",
@@ -161,6 +290,7 @@ let cards = [
     author_github_url: "https://github.com/aal2015",
   },
   {
+<<<<<<< HEAD
     name: "HacktoberRotation!",
     page_link: "./art/ani-art/index.html",
     art_icon: "./art/ani-art/icon.png",
@@ -173,6 +303,41 @@ let cards = [
     art_icon: "./art/anudeep/icon.png",
     author_name: "Anudeep-313",
     author_github_url: "https://github.com/Anudeep-313",
+=======
+    "name": "sky_full_of_colors",
+    "page_link": "./art/addyk16/index.html",
+    "art_icon": "./art/addyk16/icon.png",
+    "author_name": "Addyk16",
+    "author_github_url": "https://github.com/Addyk16/"
+  },
+  {
+    "name": "HacktoberRotation!",
+    "page_link": "./art/ani-art/index.html",
+    "art_icon": "./art/ani-art/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
+  },
+  {
+    "name": "Purple Star",
+    "page_link": "./art/ani-art1/index.html",
+    "art_icon": "./art/ani-art1/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
+  },
+  {
+    "name": "DotPattern",
+    "page_link": "./art/ankeshp03/index.html",
+    "art_icon": "./art/ankeshp03/icon.png",
+    "author_name": "Ankesh Paramanik",
+    "author_github_url": "https://github.com/ankeshp03/"
+  },
+  {
+    "name": "crazy-colours",
+    "page_link": "./art/anudeep/index.html",
+    "art_icon": "./art/anudeep/icon.png",
+    "author_name": "Anudeep-313",
+    "author_github_url": "https://github.com/Anudeep-313"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "3D Model viewer",
@@ -196,11 +361,26 @@ let cards = [
     author_github_url: "https://github.com/betiniakarandut/",
   },
   {
+<<<<<<< HEAD
     name: "Canadian Flag",
     page_link: "./art/bhuvan-tech/index.html",
     art_icon: "./art/bhuvan-tech/icon.png",
     author_name: "Bhuvan Y E",
     author_github_url: "https://github.com/bhuvan-tech/",
+=======
+    "name": "myHacktoberfestFlower",
+    "page_link": "./art/betiniakarandut01/index.html",
+    "art_icon": "./art/betiniakarandut01/icon.png",
+    "author_name": "Betini",
+    "author_github_url": "https://github.com/betiniakarandut/"
+  },
+  {
+    "name": "Canadian Flag",
+    "page_link": "./art/bhuvan-tech/index.html",
+    "art_icon": "./art/bhuvan-tech/icon.png",
+    "author_name": "Bhuvan Y E",
+    "author_github_url": "https://github.com/bhuvan-tech/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Raining",
@@ -210,6 +390,7 @@ let cards = [
     author_github_url: "https://github.com/billlunger",
   },
   {
+<<<<<<< HEAD
     page_link: "./art/carmen170796/index.html",
     art_icon: "./art/carmen170796/icon.png",
     author_name: "Carmen Mendoza",
@@ -221,6 +402,32 @@ let cards = [
     art_icon: "./art/christinarepou/icon.png",
     author_name: "ChristinaRepou",
     author_github_url: "https://github.com/ChrRepou/",
+=======
+    "name": "Jack-o",
+    "page_link": "./art/brainlessdad/index.html",
+    "art_icon": "./art/brainlessdad/icon.png",
+    "author_name": "brain",
+    "author_github_url": "https://github.com/MarcBarlett"
+  },
+  {
+    "page_link": "./art/carmen170796/index.html",
+    "art_icon": "./art/carmen170796/icon.png",
+    "author_name": "Carmen Mendoza",
+    "author_github_url": "https://github.com/carmen170796"
+  },
+  {
+    "page_link": "./art/carmen170796-2/index.html",
+    "art_icon": "./art/carmen170796-2/icon.png",
+    "author_name": "Carmen Mendoza",
+    "author_github_url": "https://github.com/carmen170796"
+  },
+  {
+    "name": "HacktoberFox",
+    "page_link": "./art/christinarepou/index.html",
+    "art_icon": "./art/christinarepou/icon.png",
+    "author_name": "ChristinaRepou",
+    "author_github_url": "https://github.com/ChrRepou/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "mickey mouse",
@@ -314,11 +521,26 @@ let cards = [
     author_github_url: "https://github.com/karan919/",
   },
   {
+<<<<<<< HEAD
     name: "UAE_Flag",
     page_link: "./art/mariko971/index.html",
     art_icon: "./art/mariko971/icon.png",
     author_name: "Mark",
     author_github_url: "https://github.com/mariko971/",
+=======
+    "name": "Afghanistan Flag",
+    "page_link": "./art/khudadadkhawari/index.html",
+    "art_icon": "./art/khudadadkhawari/icon.png",
+    "author_name": "Khudadad Khawari",
+    "author_github_url": "https://github.com/KhudadadKhawari/"
+  },
+  {
+    "name": "UAE_Flag",
+    "page_link": "./art/mariko971/index.html",
+    "art_icon": "./art/mariko971/icon.png",
+    "author_name": "Mark",
+    "author_github_url": "https://github.com/mariko971/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "HacktoberFox!",
@@ -398,11 +620,26 @@ let cards = [
     author_github_url: "https://github.com/NikkiKal/",
   },
   {
+<<<<<<< HEAD
     name: "I Love Nepal",
     page_link: "./art/pankaj485/index.html",
     art_icon: "./art/pankaj485/icon.png",
     author_name: "Pankaj Thapaliya",
     author_github_url: "https://github.com/pankaj485/",
+=======
+    "name": "Snowflake",
+    "page_link": "./art/nikkikal2/index.html",
+    "art_icon": "./art/nikkikal2/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
+    "name": "I Love Nepal",
+    "page_link": "./art/pankaj485/index.html",
+    "art_icon": "./art/pankaj485/icon.png",
+    "author_name": "Pankaj Thapaliya",
+    "author_github_url": "https://github.com/pankaj485/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "HacktoberBot",
@@ -447,11 +684,33 @@ let cards = [
     author_github_url: "https://github.com/royranger",
   },
   {
+<<<<<<< HEAD
     name: "Dominos Logo",
     page_link: "./art/saif/index.html",
     art_icon: "./art/saif/icon.png",
     author_name: "Mohd Saif",
     author_github_url: "https://github.com/MOHDSAIFGIT/",
+=======
+    "name": "Lovebirds Cross Stitch",
+    "page_link": "./art/royranger3/index.html",
+    "art_icon": "./art/royranger3/icon.png",
+    "author_name": "Joy",
+    "author_github_url": "https://github.com/royranger"
+  },
+  {
+    "name": "Newton's Cradle",
+    "page_link": "./art/royranger4/index.html",
+    "art_icon": "./art/royranger4/icon.png",
+    "author_name": "Joy",
+    "author_github_url": "https://github.com/royranger"
+  },
+  {
+    "name": "Dominos Logo",
+    "page_link": "./art/saif/index.html",
+    "art_icon": "./art/saif/icon.png",
+    "author_name": "Mohd Saif",
+    "author_github_url": "https://github.com/MOHDSAIFGIT/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Microsoft Logo",
@@ -468,11 +727,26 @@ let cards = [
     author_github_url: "https://github.com/sammkodes96",
   },
   {
+<<<<<<< HEAD
     name: "Ireland Flag",
     page_link: "./art/sophiabrandt/index.html",
     art_icon: "./art/sophiabrandt/icon.png",
     author_name: "Sophia Brandt",
     author_github_url: "https://github.com/sophiabrandt",
+=======
+    "name": "Shapes Art",
+    "page_link": "./art/small-ac/index.html",
+    "art_icon": "./art/small-ac/icon.png",
+    "author_name": "A. Small",
+    "author_github_url": "https://github.com/small-ac"
+  },
+  {
+    "name": "Ireland Flag",
+    "page_link": "./art/sophiabrandt/index.html",
+    "art_icon": "./art/sophiabrandt/icon.png",
+    "author_name": "Sophia Brandt",
+    "author_github_url": "https://github.com/sophiabrandt"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "France Flag",
@@ -503,11 +777,26 @@ let cards = [
     author_github_url: "https://github.com/Soumi150",
   },
   {
+<<<<<<< HEAD
     name: "Bubble Particles Animation",
     page_link: "./art/tarunmankar/index.html",
     art_icon: "./art/tarunmankar/icon.png",
     author_name: "Tarun Mankar",
     author_github_url: "https://github.com/tarunmankar",
+=======
+    "name": "Spread love",
+    "page_link": "./art/t-moennich/index.html",
+    "art_icon": "./art/t-moennich/icon.png",
+    "author_name": "Tommy Mönnich",
+    "author_github_url": "https://github.com/t-moennich"
+  },
+  {
+    "name": "Bubble Particles Animation",
+    "page_link": "./art/tarunmankar/index.html",
+    "art_icon": "./art/tarunmankar/icon.png",
+    "author_name": "Tarun Mankar",
+    "author_github_url": "https://github.com/tarunmankar"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "Emojifield",
@@ -538,11 +827,26 @@ let cards = [
     author_github_url: "https://github.com/TTumyr/",
   },
   {
+<<<<<<< HEAD
     name: "Indian flag",
     page_link: "./art/vishalpatil20/index.html",
     art_icon: "./art/vishalpatil20/icon.png",
     author_name: "vishalpatil20",
     author_github_url: "https://github.com/vishalpatil20/",
+=======
+    "name": "Moving Box",
+    "page_link": "./art/ttumyr_movingbox/index.html",
+    "art_icon": "./art/ttumyr_movingbox/icon.png",
+    "author_name": "TTumyr",
+    "author_github_url": "https://github.com/TTumyr/"
+  },
+  {
+    "name": "Indian flag",
+    "page_link": "./art/vishalpatil20/index.html",
+    "art_icon": "./art/vishalpatil20/icon.png",
+    "author_name": "vishalpatil20",
+    "author_github_url": "https://github.com/vishalpatil20/"
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
   },
   {
     name: "WForWendemsky",
@@ -573,6 +877,7 @@ let cards = [
     author_github_url: "https://github.com/yellowberard/",
   },
   {
+<<<<<<< HEAD
     name: "Checkboard Design",
     page_link: "./art/yellowbeard_2/index.html",
     art_icon: "./art/yellowbeard_2/icon.png",
@@ -605,6 +910,22 @@ Shuffle(cards).forEach((c) => {
 });
 
 document.getElementById("cards").innerHTML = contents.join("");
+=======
+    "name": "Checkboard Design",
+    "page_link": "./art/yellowbeard_2/index.html",
+    "art_icon": "./art/yellowbeard_2/icon.png",
+    "author_name": "Mayank Goel",
+    "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "Waving Penguin",
+    "page_link": "./art/yellowbeard_3/index.html",
+    "art_icon": "./art/yellowbeard_3/icon.png",
+    "author_name": "Mayank Goel",
+    "author_github_url": "https://github.com/yellowberard/"
+  }
+]
+>>>>>>> 2e3d60ce702c75fc1080f414a0dd846559f3d4e6
 
 function Shuffle(o) {
   for (

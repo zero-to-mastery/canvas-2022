@@ -1,0 +1,9 @@
+body {
+	justify-content: center;
+}
+
+canvas {
+ 	border: solid;
+	background-color:grey;
+
+}
