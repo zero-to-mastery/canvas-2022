@@ -168,6 +168,13 @@
     "author_github_url": "https://github.com/samkcrespo"
   },
   {
+    "name": "Game Character",
+    "page_link": "./art/Shariq/index.html",
+    "art_icon": "./art/Shariq/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
     "name": "My House",
     "page_link": "./art/Sonny Burniston/index.html",
     "art_icon": "./art/Sonny Burniston/icon.png",
