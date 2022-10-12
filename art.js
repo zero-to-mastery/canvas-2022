@@ -259,6 +259,13 @@
     "author_github_url": "https://github.com/anirban-s/"
   },
   {
+    "name": "Bubbles",
+    "page_link": "./art/ani-art2/index.html",
+    "art_icon": "./art/ani-art2/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
+  },
+  {
     "name": "DotPattern",
     "page_link": "./art/ankeshp03/index.html",
     "art_icon": "./art/ankeshp03/icon.png",
