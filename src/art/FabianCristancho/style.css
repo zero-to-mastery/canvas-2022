@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  background-color: black;
+  background-color: #485460;
   padding: 0;
   margin: 0;
 }
@@ -13,14 +13,14 @@ html {
     height: 100%;
 }
 
-.workspace {
+/* .workspace {
     width: 50%;
     background-color: white;
     padding: 7px;
     box-shadow: 3px 5px 20px white;
-}
+} */
 
-.mark {
+/* .mark {
     background-color: black;
     width: 100%;
-}
+} */
