@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/Akhilesh1902"
   },
   {
+    "name": "Find the ball game",
+    "page_link": "./art/Anushree/index.html",
+    "art_icon": "./art/Anushree/icon.png",
+    "author_name": "Anushree Pal",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Smileylock",
     "page_link": "./art/ArihantPal/index.html",
     "art_icon": "./art/ArihantPal/icon.png",
