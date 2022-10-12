@@ -15,7 +15,6 @@ function drawCircle() {
     ctx.beginPath();
     ctx.arc(circle.x, circle.y, circle.size, 0, Math.PI * 2);
     ctx.fillStyle = 'red';
-    // ctx.fillStyle = '#'+Math.floor(Math.random()*16777215).toString(16);
     ctx.fill();
 }
 
@@ -29,12 +28,12 @@ function update() {
     circle.y += circle.dy;
 
     // Detect Side walls
-    if(circle.x + circle.size > canvas.width || circle.x - circle.size < 0) {
+    if (circle.x + circle.size > canvas.width || circle.x - circle.size < 0) {
         circle.dx *= -1;
     }
 
     // Detect top & bottom
-    if(circle.y + circle.size > canvas.height || circle.y - circle.size < 0) {
+    if (circle.y + circle.size > canvas.height || circle.y - circle.size < 0) {
         circle.dy *= -1;
     }
 
