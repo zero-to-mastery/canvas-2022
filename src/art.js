@@ -369,6 +369,13 @@
     "author_github_url": "https://github.com/danicc"
   },
   {
+    "name": "Golden HacktoberClock",
+    "page_link": "./art/danteSadeghi/index.html",
+    "art_icon": "./art/danteSadeghi/icon.png",
+    "author_name": "Dante Sadeghi",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
     "name": "Flag_of_India",
     "page_link": "./art/divs-14/index.html",
     "art_icon": "./art/divs-14/icon.png",
