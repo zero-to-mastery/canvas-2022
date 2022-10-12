@@ -33,7 +33,7 @@ myFont.load().then(function (font) {
 	context.fillText("Bauhaus Minimalist", 80, canvas.height - 100);
 
 	context.font = "2vw 'Audiowide'";
-	context.fillText("12 - 08 -21", width - 240, canvas.height - 100);
+	context.fillText("12 - 08 -21", width - 280, canvas.height - 100);
 
 	context.font = "2vw 'Audiowide'";
 	context.fillText("Made by BrianWhelanDublin", 80, canvas.height - 60);
