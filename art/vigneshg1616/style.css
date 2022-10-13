@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+   
+    gap:5px;
+    flex-direction: row;
+}
+.canavas-1-div{
+    position: relative;
+    width: 170px;
+}
+
+#canvas-eyebrow-1{
+    position: absolute;
+    top:80px;
+    left:725px
+  
+  
+}
+#canvas-eyebrow-2{
+    position: absolute;
+    top:80px;
+   
+   
+  
+}
+
