@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/Akhilesh1902"
   },
   {
+    "name": "Starry Night",
+    "page_link": "./art/Amelia Dutta/index.html",
+    "art_icon": "./art/Amelia Dutta/icon.png",
+    "author_name": "Amelia",
+    "author_github_url": "https://github.com/amelia2802/"
+  },
+  {
     "name": "MousyBubble",
     "page_link": "./art/AnayatCanvas/index.html",
     "art_icon": "./art/AnayatCanvas/icon.png",
