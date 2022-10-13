@@ -397,6 +397,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Bouncing Ball",
+    "page_link": "./art/cosmicqbit/index.html",
+    "art_icon": "./art/cosmicqbit/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
     "name": "Argentinian Flag",
     "page_link": "./art/danicc/index.html",
     "art_icon": "./art/danicc/icon.png",
