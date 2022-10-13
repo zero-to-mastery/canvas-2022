@@ -1,20 +1,12 @@
 var canvas = document.getElementById('jack');
 var context = canvas.getContext('2d');
-// context.fillStyle = '#6666ff';
-// context.fillRect(10, 10, 50, 50);
-// context.fillStyle = 'rgba(255, 255, 0, 0.7)';
-// context.fillRect(35, 35, 50, 50);
-
-
 
 context.beginPath();
 context.fillStyle = '#e3dac9';
 
-// context.fillStyle = '#e3dac9';
 context.beginPath();
 context.fillRect(265, 200, 33, 60);
 context.fill();
-
 
 context.ellipse(280, 110, 97, 90, Math.PI/2, 0, 2 * Math.PI);
 context.fill();
@@ -31,18 +23,15 @@ context.ellipse(270, 130, 5, 10, Math.PI/6, 0, 2*Math.PI);
 context.ellipse(290, 130, 5, 10, Math.PI/-6, 0, 2*Math.PI);
 context.fill();
 
-// Smoking
 context.fillStyle = '#000';
 context.beginPath();
 context.ellipse(280, 320, 90, 90, Math.PI, 0, 2*Math.PI);
 context.fill();
 
-// T-shirt
 context.fillStyle = '#fff';
 context.beginPath();
 context.ellipse(280, 300, 50, 70, Math.PI, 0, 2*Math.PI);
 context.fill();
-
 
 context.fillStyle = '#171716';
 context.beginPath();
@@ -78,7 +67,6 @@ drawLine(320, 160, 325, 180);
 drawLine(335, 148, 338, 167);
 drawLine(348, 130, 352, 147);
 drawLine(357, 120, 363, 135);
-
 
 drawLine(215, 170, 216, 178);
 drawLine(230, 185, 232, 193);
