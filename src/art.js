@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Jack Skellington",
+    "page_link": "./art/FabianCristancho/index.html",
+    "art_icon": "./art/FabianCristancho/icon.png",
+    "author_name": "Fabian Cristancho",
+    "author_github_url": "https://github.com/FabianCristancho/"
+  },
+  {
     "name": "Poland Flag",
     "page_link": "./art/FelixB/index.html",
     "art_icon": "./art/FelixB/icon.png",
