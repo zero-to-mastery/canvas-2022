@@ -796,6 +796,13 @@
     "author_github_url": "https://github.com/TTumyr/"
   },
   {
+    "name": "Owl Smiley",
+    "page_link": "./art/vigneshg1616/index.html",
+    "art_icon": "./art/vigneshg1616/icon.png",
+    "author_name": "VigneshG1616",
+    "author_github_url": "https://github.com/VigneshG1616"
+  },
+  {
     "name": "Indian flag",
     "page_link": "./art/vishalpatil20/index.html",
     "art_icon": "./art/vishalpatil20/icon.png",
