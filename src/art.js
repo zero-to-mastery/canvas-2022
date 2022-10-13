@@ -357,6 +357,13 @@
     "author_github_url": "https://github.com/BrianWhelanDublin"
   },
   {
+    "name": "HacktoberFox",
+    "page_link": "./art/canvactober/index.html",
+    "art_icon": "./art/canvactober/icon.png",
+    "author_name": "Ibrahim",
+    "author_github_url": "https://github.com/Ibrahimomeiza99/"
+  },
+  {
     "page_link": "./art/carmen170796/index.html",
     "art_icon": "./art/carmen170796/icon.png",
     "author_name": "Carmen Mendoza",
