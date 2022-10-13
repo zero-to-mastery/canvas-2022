@@ -29,6 +29,13 @@
     "author_github_url": "https://github.com/HubGitShree"
   },
   {
+    "name": "cute bubbles",
+    "page_link": "./art/Anushree2/index.html",
+    "art_icon": "./art/Anushree2/icon.png",
+    "author_name": "Anushree Pal",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Smileylock",
     "page_link": "./art/ArihantPal/index.html",
     "art_icon": "./art/ArihantPal/icon.png",
