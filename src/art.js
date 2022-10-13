@@ -336,6 +336,13 @@
     "author_github_url": "https://github.com/MarcBarlett"
   },
   {
+    "name": "Bauhaus Minamilist",
+    "page_link": "./art/brianwhelandublin/index.html",
+    "art_icon": "./art/brianwhelandublin/icon.png",
+    "author_name": "Brian Whelan",
+    "author_github_url": "https://github.com/BrianWhelanDublin"
+  },
+  {
     "page_link": "./art/carmen170796/index.html",
     "art_icon": "./art/carmen170796/icon.png",
     "author_name": "Carmen Mendoza",
