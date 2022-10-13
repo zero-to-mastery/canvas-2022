@@ -1,0 +1,25 @@
+let canvas = document.getElementById("my-canvas");
+let ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "#FFF";
+ctx.fillRect(0, 75, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(25, 50, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(50, 25, 25, 250);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(25, 200, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(75, 150, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(100, 125, 50, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(150, 0, 25, 250);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(175, 175, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(200, 150, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(125, 25, 25, 25);
+ctx.fillStyle = "#FFF";
+ctx.fillRect(100, 50, 25, 25);
