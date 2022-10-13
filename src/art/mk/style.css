@@ -1,0 +1,17 @@
+body {
+    align-items: center;
+    display: flex;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+
+canvas {
+    margin: 20% 40%;
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}

@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+canvas#myCanvas {
+    width: 370px;
+    height: 200px;
+    border: 1px solid #000000;
+    background-color: red;
+    margin-left: 40%;
+    border-radius: 10px;
+}
