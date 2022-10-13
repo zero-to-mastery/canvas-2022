@@ -481,6 +481,13 @@
     "author_github_url": "https://github.com/mk-8"
   },
   {
+    "name": "Squaretoberfest",
+    "page_link": "./art/mherzog4/index.html",
+    "art_icon": "./art/mherzog4/icon.png",
+    "author_name": "Matt Herzog",
+    "author_github_url": "https://github.com/mherzog4/"
+  },
+  {
     "name": "Gradofest",
     "page_link": "./art/mk/index.html",
     "art_icon": "./art/mk/icon.png",
