@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+   
+    gap:5px;
+    flex-direction: row;
+}
+.canavas-1-div{
+    position: relative;
+    width: 170px;
+}
