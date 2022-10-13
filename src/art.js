@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/Akhilesh1902"
   },
   {
+    "name": "MousyBubble",
+    "page_link": "./art/AnayatCanvas/index.html",
+    "art_icon": "./art/AnayatCanvas/icon.png",
+    "author_name": "Anayat",
+    "author_github_url": "https://github.com/anayatkhan1"
+  },
+  {
     "name": "Find the ball game",
     "page_link": "./art/Anushree/index.html",
     "art_icon": "./art/Anushree/icon.png",
