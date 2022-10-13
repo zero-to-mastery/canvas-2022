@@ -1,4 +1,4 @@
-
+// Owl Eyebrows
 
 var c = document.getElementById("canvas-eyebrow-1");
 var ctx = c.getContext("2d");
@@ -10,6 +10,46 @@ ctx.stroke();
 var c = document.getElementById("canvas-eyebrow-2");
 var ctx = c.getContext("2d");
 ctx.moveTo(50, 50);
-ctx.lineTo(950, 0);
+ctx.lineTo(450, 0);
 ctx.lineWidth = 10;
 ctx.stroke();
+
+// Owl Eyes
+var d = document.getElementById("canvas-1");
+var ctx = d.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75,50,15,90,40,50);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+var e = document.getElementById("canvas-2");
+var ctx = e.getContext("2d");
+ctx.beginPath();
+ctx.arc(96,50,95,0,2*Math.PI);
+ctx.lineWidth = 3;
+ctx.stroke();
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(13,7,150,85);
+
+
+var f = document.getElementById("canvas-3");
+var ctx = f.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75,50,15,90,40,50);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+var g = document.getElementById("canvas-4");
+var ctx = g.getContext("2d");
+ctx.beginPath();
+ctx.arc(96,50,95,0,2*Math.PI);
+ctx.lineWidth = 3;
+ctx.stroke();
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(13,7,150,85);
