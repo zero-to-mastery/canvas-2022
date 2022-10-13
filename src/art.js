@@ -656,6 +656,13 @@
     "author_github_url": "https://github.com/sammkodes96"
   },
   {
+    "name": "Hacktoberfest Logo",
+    "page_link": "./art/sanjithpk/index.html",
+    "art_icon": "./art/sanjithpk/icon.png",
+    "author_name": "Sanjith PK",
+    "author_github_url": "https://github.com/sanjithpk"
+  },
+  {
     "name": "Shapes Art",
     "page_link": "./art/small-ac/index.html",
     "art_icon": "./art/small-ac/icon.png",
