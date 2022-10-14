@@ -663,6 +663,13 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Hacktober Art",
+    "page_link": "./art/riccardodicurti/index.html",
+    "art_icon": "./art/riccardodicurti/icon.png",
+    "author_name": "riccardodicurti",
+    "author_github_url": "https://github.com/riccardodicurti/"
+  },
+  {
     "name": "Wheel of Fortune",
     "page_link": "./art/royranger/index.html",
     "art_icon": "./art/royranger/icon.png",
