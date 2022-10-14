@@ -147,6 +147,13 @@
     "author_github_url": "https://github.com/dmdbilal/"
   },
   {
+    "name": "Belgium Flag",
+    "page_link": "./art/Mohasin Haque/index.html",
+    "art_icon": "./art/Mohasin Haque/icon.png",
+    "author_name": "Mohasin Haque",
+    "author_github_url": "https://github.com/Mohasin-Haque"
+  },
+  {
     "name": "Mouse-Trial",
     "page_link": "./art/Mouse Trial/index.html",
     "art_icon": "./art/Mouse Trial/icon.png",
