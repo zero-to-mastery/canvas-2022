@@ -2,7 +2,6 @@ function clock() {
   var now = new Date();
   var ctx = document.getElementById('canvas').getContext('2d');
   ctx.save();
-  //ctx.clearRect(200, 200, 150, 150);
   ctx.translate(250, 200);
   ctx.scale(0.4, 0.4);
   ctx.rotate(-Math.PI / 2);
