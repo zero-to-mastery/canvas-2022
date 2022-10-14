@@ -22,9 +22,30 @@
     "author_github_url": "https://github.com/Akhilesh1902"
   },
   {
+    "name": "Starry Night",
+    "page_link": "./art/Amelia Dutta/index.html",
+    "art_icon": "./art/Amelia Dutta/icon.png",
+    "author_name": "Amelia",
+    "author_github_url": "https://github.com/amelia2802/"
+  },
+  {
+    "name": "MousyBubble",
+    "page_link": "./art/AnayatCanvas/index.html",
+    "art_icon": "./art/AnayatCanvas/icon.png",
+    "author_name": "Anayat",
+    "author_github_url": "https://github.com/anayatkhan1"
+  },
+  {
     "name": "Find the ball game",
     "page_link": "./art/Anushree/index.html",
     "art_icon": "./art/Anushree/icon.png",
+    "author_name": "Anushree Pal",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
+    "name": "cute bubbles",
+    "page_link": "./art/Anushree2/index.html",
+    "art_icon": "./art/Anushree2/icon.png",
     "author_name": "Anushree Pal",
     "author_github_url": "https://github.com/HubGitShree"
   },
@@ -57,6 +78,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Jack Skellington",
+    "page_link": "./art/FabianCristancho/index.html",
+    "art_icon": "./art/FabianCristancho/icon.png",
+    "author_name": "Fabian Cristancho",
+    "author_github_url": "https://github.com/FabianCristancho/"
+  },
+  {
     "name": "Poland Flag",
     "page_link": "./art/FelixB/index.html",
     "art_icon": "./art/FelixB/icon.png",
@@ -75,6 +103,13 @@
     "art_icon": "./art/Insidiae/icon.png",
     "author_name": "Insidiae",
     "author_github_url": "https://github.com/Insidiae/"
+  },
+  {
+    "name": "My name",
+    "page_link": "./art/Ishan Gupta/index.html",
+    "art_icon": "./art/Ishan Gupta/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
   },
   {
     "name": "Jack",
@@ -110,6 +145,13 @@
     "art_icon": "./art/Mohamed_Bilal/icon.png",
     "author_name": "Mohamed_Bilal",
     "author_github_url": "https://github.com/dmdbilal/"
+  },
+  {
+    "name": "Belgium Flag",
+    "page_link": "./art/Mohasin Haque/index.html",
+    "art_icon": "./art/Mohasin Haque/icon.png",
+    "author_name": "Mohasin Haque",
+    "author_github_url": "https://github.com/Mohasin-Haque"
   },
   {
     "name": "Mouse-Trial",
@@ -336,6 +378,20 @@
     "author_github_url": "https://github.com/MarcBarlett"
   },
   {
+    "name": "Bauhaus Minamilist",
+    "page_link": "./art/brianwhelandublin/index.html",
+    "art_icon": "./art/brianwhelandublin/icon.png",
+    "author_name": "Brian Whelan",
+    "author_github_url": "https://github.com/BrianWhelanDublin"
+  },
+  {
+    "name": "HacktoberFox",
+    "page_link": "./art/canvactober/index.html",
+    "art_icon": "./art/canvactober/icon.png",
+    "author_name": "Ibrahim",
+    "author_github_url": "https://github.com/Ibrahimomeiza99/"
+  },
+  {
     "page_link": "./art/carmen170796/index.html",
     "art_icon": "./art/carmen170796/icon.png",
     "author_name": "Carmen Mendoza",
@@ -362,11 +418,25 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Bouncing Ball",
+    "page_link": "./art/cosmicqbit/index.html",
+    "art_icon": "./art/cosmicqbit/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
     "name": "Argentinian Flag",
     "page_link": "./art/danicc/index.html",
     "art_icon": "./art/danicc/icon.png",
     "author_name": "Daniel Esquinazi",
     "author_github_url": "https://github.com/danicc"
+  },
+  {
+    "name": "Golden HacktoberClock",
+    "page_link": "./art/danteSadeghi/index.html",
+    "art_icon": "./art/danteSadeghi/icon.png",
+    "author_name": "Dante Sadeghi",
+    "author_github_url": "https://github.com/dantesadeghi"
   },
   {
     "name": "Flag_of_India",
@@ -381,6 +451,13 @@
     "art_icon": "./art/dsnoeijer/icon.png",
     "author_name": "W.D. Snoeijer",
     "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "The smiley warning logo",
+    "page_link": "./art/galsreshef/index.html",
+    "art_icon": "./art/galsreshef/icon.png",
+    "author_name": "galsreshef",
+    "author_github_url": "https://github.com/galsreshef/"
   },
   {
     "name": "Warning Sign",
@@ -472,6 +549,13 @@
     "art_icon": "./art/meetkavathiya/icon.png",
     "author_name": "MeetKavathiya",
     "author_github_url": "https://github.com/mk-8"
+  },
+  {
+    "name": "Squaretoberfest",
+    "page_link": "./art/mherzog4/index.html",
+    "art_icon": "./art/mherzog4/icon.png",
+    "author_name": "Matt Herzog",
+    "author_github_url": "https://github.com/mherzog4/"
   },
   {
     "name": "Gradofest",
@@ -628,6 +712,13 @@
     "author_github_url": "https://github.com/sammkodes96"
   },
   {
+    "name": "Hacktoberfest Logo",
+    "page_link": "./art/sanjithpk/index.html",
+    "art_icon": "./art/sanjithpk/icon.png",
+    "author_name": "Sanjith PK",
+    "author_github_url": "https://github.com/sanjithpk"
+  },
+  {
     "name": "Shapes Art",
     "page_link": "./art/small-ac/index.html",
     "art_icon": "./art/small-ac/icon.png",
@@ -719,6 +810,13 @@
     "author_github_url": "https://github.com/TTumyr/"
   },
   {
+    "name": "Owl Smiley",
+    "page_link": "./art/vigneshg1616/index.html",
+    "art_icon": "./art/vigneshg1616/icon.png",
+    "author_name": "VigneshG1616",
+    "author_github_url": "https://github.com/VigneshG1616"
+  },
+  {
     "name": "Indian flag",
     "page_link": "./art/vishalpatil20/index.html",
     "art_icon": "./art/vishalpatil20/icon.png",
@@ -731,6 +829,13 @@
     "art_icon": "./art/wendemsky/icon.png",
     "author_name": "wendemsky",
     "author_github_url": "https://github.com/wendemsky/"
+  },
+  {
+    "name": "Game Character",
+    "page_link": "./art/wired/index.html",
+    "art_icon": "./art/wired/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
   },
   {
     "name": "Generative Art",

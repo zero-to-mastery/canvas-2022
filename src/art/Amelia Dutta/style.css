@@ -1,0 +1,33 @@
+html, body {
+    margin: auto;
+}
+
+#sky{
+    background: linear-gradient(123deg, #053455, #381366);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+}
+.star {
+    width: 3px;
+    height:3px;
+    background-color:rgb(255, 255, 227);
+    border-radius:50%; 
+    position: absolute;
+    animation: twinkle 2s infinite;
+    z-index: 7;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes twinkle {
+  50% {transform: rotate(180deg);}
+}
