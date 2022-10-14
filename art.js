@@ -831,6 +831,13 @@
     "author_github_url": "https://github.com/wendemsky/"
   },
   {
+    "name": "Game Character",
+    "page_link": "./art/wired/index.html",
+    "art_icon": "./art/wired/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
     "name": "Generative Art",
     "page_link": "./art/yashraj2003e/index.html",
     "art_icon": "./art/yashraj2003e/icon.png",

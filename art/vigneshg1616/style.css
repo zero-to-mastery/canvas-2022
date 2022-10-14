@@ -11,17 +11,20 @@ body{
     align-items: center;
    
     gap:5px;
-    flex-direction: row;
+    
 }
 .canavas-1-div{
     position: relative;
     width: 170px;
 }
+.canvas-eyebrow-div{
+ display: flex;
+}
 
 #canvas-eyebrow-1{
     position: absolute;
     top:80px;
-    left:725px
+    left:408px;
   
   
 }
@@ -33,3 +36,7 @@ body{
   
 }
 
+
+#canvas-5{
+margin-left: 80px;
+}
