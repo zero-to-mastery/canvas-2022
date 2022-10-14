@@ -453,6 +453,13 @@
     "author_github_url": "https://github.com/dsnoeijer/"
   },
   {
+    "name": "The smiley warning logo",
+    "page_link": "./art/galsreshef/index.html",
+    "art_icon": "./art/galsreshef/icon.png",
+    "author_name": "galsreshef",
+    "author_github_url": "https://github.com/galsreshef/"
+  },
+  {
     "name": "Warning Sign",
     "page_link": "./art/godnondsilva/index.html",
     "art_icon": "./art/godnondsilva/icon.png",
