@@ -53,3 +53,23 @@ ctx.stroke();
 // Fill with gradient
 ctx.fillStyle = grd;
 ctx.fillRect(13,7,150,85);
+
+var h = document.getElementById("canvas-5");
+const context = h.getContext("2d");
+
+context.beginPath()
+context.moveTo(0, 50)
+context.lineTo(50, 0)
+context.lineTo(100, 50)
+context.lineTo(0, 50)
+context.lineWidth = 3;
+context.stroke()
+context.closePath()
+
+
+var i = document.getElementById("canvas-6");
+var ctx = i.getContext("2d");
+ctx.beginPath();
+ctx.arc(98, 0, 96, 0, 2 * Math.PI);
+ctx.lineWidth = 3;
+ctx.stroke();
