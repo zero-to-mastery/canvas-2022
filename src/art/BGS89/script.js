@@ -3,15 +3,54 @@ function draw() {
     if (canvas.getContext) {
         const ctx = canvas.getContext("2d");
 
-        // ctx.fillStyle = "rgb(200, 0, 0)";
-        // ctx.fillRect(10, 10, 50, 50);
+        // ctx.fillStyle = 'rgb(255, 0, 0)';
+        // ctx.fillRect(123, 0, 4, 150);
 
-        // ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-        // ctx.fillRect(30, 30, 50, 50);
+        // ctx.fillStyle = 'rgb(255, 0, 0)';
+        // ctx.fillRect(0, 73, 250, 4);
 
-        ctx.fillStyle = 'rgb(255, 0, 0)';
-        ctx.fillRect(123, 0, 4, 150);
+        // ctx.beginPath();
+        // ctx.moveTo(125, 75);
+        // ctx.lineTo(100, 75);
+        // ctx.lineTo(112, 85);
+        // ctx.fill();
 
+
+        //FACE
+        ctx.beginPath();
+        ctx.arc(250, 150, 100, 0, Math.PI * 2, true);
+        ctx.fillStyle = 'rgb(255, 189, 0)';
+        ctx.fill();
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = 'black';
+        ctx.stroke();
+        
+        //LEFT EYE
+        ctx.beginPath();
+        ctx.arc(225, 140, 10, 0, Math.PI * 2, true);
+        ctx.fillStyle = 'rgb(255, 189, 0)';
+        ctx.fill();
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = 'black';
+        ctx.stroke();
+
+        //RIGHT EYE
+        ctx.beginPath();
+        ctx.arc(275, 140, 10, 0, Math.PI * 2, true);
+        ctx.fillStyle = 'rgb(255, 189, 0)';
+        ctx.fill();
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = 'black';
+        ctx.stroke();
+        
+        //MOUTH
+        ctx.beginPath();
+        ctx.arc(250, 210, 10, 0, Math.PI);
+        ctx.fillStyle = 'rgb(255, 189, 0)';
+        ctx.fill();
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = 'black';
+        ctx.stroke();
 
 
     }
