@@ -530,6 +530,13 @@
     "author_github_url": "https://github.com/KhudadadKhawari/"
   },
   {
+    "name": "Flag of Brazil",
+    "page_link": "./art/manuelachamoso/index.html",
+    "art_icon": "./art/manuelachamoso/icon.png",
+    "author_name": "Manuela Chamoso",
+    "author_github_url": "https://github.com/manuelachamoso"
+  },
+  {
     "name": "UAE_Flag",
     "page_link": "./art/mariko971/index.html",
     "art_icon": "./art/mariko971/icon.png",
