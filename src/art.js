@@ -322,6 +322,13 @@
     "author_github_url": "https://github.com/anirban-s/"
   },
   {
+    "name": "Drawing Circle",
+    "page_link": "./art/ani-art3/index.html",
+    "art_icon": "./art/ani-art3/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
+  },
+  {
     "name": "DotPattern",
     "page_link": "./art/ankeshp03/index.html",
     "art_icon": "./art/ankeshp03/icon.png",
@@ -397,6 +404,13 @@
     "art_icon": "./art/canvactober/icon.png",
     "author_name": "Ibrahim",
     "author_github_url": "https://github.com/Ibrahimomeiza99/"
+  },
+  {
+    "name": "HacktoberRotation!",
+    "page_link": "./art/canvas-art/index.html",
+    "art_icon": "./art/canvas-art/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
   },
   {
     "page_link": "./art/carmen170796/index.html",
