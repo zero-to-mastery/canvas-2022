@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "TargetPractice",
+    "page_link": "./art/Aashi Goel/index.html",
+    "art_icon": "./art/Aashi Goel/icon.png",
+    "author_name": "Aashi Goel",
+    "author_github_url": "https://github.com/AashiGoel/"
+  },
+  {
     "name": "Netflix Logo",
     "page_link": "./art/Abhishek Mallick/index.html",
     "art_icon": "./art/Abhishek Mallick/icon.png",
