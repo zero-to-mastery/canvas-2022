@@ -1,0 +1,17 @@
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "#fe5603";
+ctx.fillRect(125,30,50,50);
+ctx.fillStyle = "#000000";
+ctx.moveTo(150,30);
+ctx.lineTo(150,80);
+ctx.stroke();
+ctx.moveTo(125,55);
+ctx.lineTo(175,55);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(150, 55, 15, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(150, 55, 5, 0, 2 * Math.PI);
+ctx.stroke();
