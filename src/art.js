@@ -259,6 +259,13 @@
     "author_github_url": "https://github.com/Sunainacode"
   },
   {
+    "name": "Pakistan Flag",
+    "page_link": "./art/TalhaQuddoos/index.html",
+    "art_icon": "./art/TalhaQuddoos/icon.png",
+    "author_name": "Talha Quddoos",
+    "author_github_url": "https://github.com/TalhaQuddoos"
+  },
+  {
     "name": "Matrix",
     "page_link": "./art/Teona/index.html",
     "art_icon": "./art/Teona/icon.png",
@@ -311,6 +318,13 @@
     "name": "Bubbles",
     "page_link": "./art/ani-art2/index.html",
     "art_icon": "./art/ani-art2/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
+  },
+  {
+    "name": "Drawing Circle",
+    "page_link": "./art/ani-art3/index.html",
+    "art_icon": "./art/ani-art3/icon.png",
     "author_name": "Anirban",
     "author_github_url": "https://github.com/anirban-s/"
   },
@@ -390,6 +404,13 @@
     "art_icon": "./art/canvactober/icon.png",
     "author_name": "Ibrahim",
     "author_github_url": "https://github.com/Ibrahimomeiza99/"
+  },
+  {
+    "name": "HacktoberRotation!",
+    "page_link": "./art/canvas-art/index.html",
+    "art_icon": "./art/canvas-art/icon.png",
+    "author_name": "Anirban",
+    "author_github_url": "https://github.com/anirban-s/"
   },
   {
     "page_link": "./art/carmen170796/index.html",
@@ -488,6 +509,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev"
   },
   {
+    "name": "Multiple Shapes Art",
+    "page_link": "./art/haider-ali2/index.html",
+    "art_icon": "./art/haider-ali2/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev"
+  },
+  {
     "name": "Learn Chinese",
     "page_link": "./art/henrykhosasih/index.html",
     "art_icon": "./art/henrykhosasih/icon.png",
@@ -528,6 +556,13 @@
     "art_icon": "./art/khudadadkhawari/icon.png",
     "author_name": "Khudadad Khawari",
     "author_github_url": "https://github.com/KhudadadKhawari/"
+  },
+  {
+    "name": "Flag of Brazil",
+    "page_link": "./art/manuelachamoso/index.html",
+    "art_icon": "./art/manuelachamoso/icon.png",
+    "author_name": "Manuela Chamoso",
+    "author_github_url": "https://github.com/manuelachamoso"
   },
   {
     "name": "UAE_Flag",

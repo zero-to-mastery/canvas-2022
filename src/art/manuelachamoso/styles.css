@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.flag {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 170px;
+    position: absolute;
+    top: 25.5%;
+    left: 50%;
+    transform: translate(-50%);
+}
