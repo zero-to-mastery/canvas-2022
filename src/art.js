@@ -495,6 +495,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev"
   },
   {
+    "name": "Multiple Shapes Art",
+    "page_link": "./art/haider-ali2/index.html",
+    "art_icon": "./art/haider-ali2/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev"
+  },
+  {
     "name": "Learn Chinese",
     "page_link": "./art/henrykhosasih/index.html",
     "art_icon": "./art/henrykhosasih/icon.png",
