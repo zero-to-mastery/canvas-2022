@@ -259,6 +259,13 @@
     "author_github_url": "https://github.com/Sunainacode"
   },
   {
+    "name": "Pakistan Flag",
+    "page_link": "./art/TalhaQuddoos/index.html",
+    "art_icon": "./art/TalhaQuddoos/icon.png",
+    "author_name": "Talha Quddoos",
+    "author_github_url": "https://github.com/TalhaQuddoos"
+  },
+  {
     "name": "Matrix",
     "page_link": "./art/Teona/index.html",
     "art_icon": "./art/Teona/icon.png",
