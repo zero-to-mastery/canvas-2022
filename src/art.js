@@ -287,9 +287,16 @@
     "author_github_url": "https://github.com/TalhaQuddoos"
   },
   {
-    "name": "Canvas art using lines and circles",
+    "name": "Isometric Circle Art Using HTML Canvas",
     "page_link": "./art/TalhaQuddoos3/index.html",
     "art_icon": "./art/TalhaQuddoos3/icon.png",
+    "author_name": "Talha Quddoos",
+    "author_github_url": "https://github.com/TalhaQuddoos"
+  },
+  {
+    "name": "Isometric Circle Art Using HTML Canvas",
+    "page_link": "./art/TalhaQuddoos4/index.html",
+    "art_icon": "./art/TalhaQuddoos4/icon.png",
     "author_name": "Talha Quddoos",
     "author_github_url": "https://github.com/TalhaQuddoos"
   },
