@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "TargetPractice",
+    "page_link": "./art/Aashi Goel/index.html",
+    "art_icon": "./art/Aashi Goel/icon.png",
+    "author_name": "Aashi Goel",
+    "author_github_url": "https://github.com/AashiGoel/"
+  },
+  {
     "name": "Netflix Logo",
     "page_link": "./art/Abhishek Mallick/index.html",
     "art_icon": "./art/Abhishek Mallick/icon.png",
@@ -69,6 +76,13 @@
     "art_icon": "./art/AyanKhan0508/icon.png",
     "author_name": "Ayan",
     "author_github_url": "https://github.com/AyanDgr8/"
+  },
+  {
+    "name": "EverythingWillBeOk",
+    "page_link": "./art/BGS89/index.html",
+    "art_icon": "./art/BGS89/icon.png",
+    "author_name": "Ben",
+    "author_github_url": "https://github.com/BGS89"
   },
   {
     "name": "ChessBoard",
@@ -269,6 +283,13 @@
     "name": "Circle Art using Math and Canvas",
     "page_link": "./art/TalhaQuddoos2/index.html",
     "art_icon": "./art/TalhaQuddoos2/icon.png",
+    "author_name": "Talha Quddoos",
+    "author_github_url": "https://github.com/TalhaQuddoos"
+  },
+  {
+    "name": "Canvas art using lines and circles",
+    "page_link": "./art/TalhaQuddoos3/index.html",
+    "art_icon": "./art/TalhaQuddoos3/icon.png",
     "author_name": "Talha Quddoos",
     "author_github_url": "https://github.com/TalhaQuddoos"
   },
