@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/AyanDgr8/"
   },
   {
+    "name": "EverythingWillBeOk",
+    "page_link": "./art/BGS89/index.html",
+    "art_icon": "./art/BGS89/icon.png",
+    "author_name": "Ben",
+    "author_github_url": "https://github.com/BGS89"
+  },
+  {
     "name": "ChessBoard",
     "page_link": "./art/DhanushNehru/index.html",
     "art_icon": "./art/DhanushNehru/icon.png",
