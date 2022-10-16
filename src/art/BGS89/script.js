@@ -3,19 +3,6 @@ function draw() {
     if (canvas.getContext) {
         const ctx = canvas.getContext("2d");
 
-        // ctx.fillStyle = 'rgb(255, 0, 0)';
-        // ctx.fillRect(123, 0, 4, 150);
-
-        // ctx.fillStyle = 'rgb(255, 0, 0)';
-        // ctx.fillRect(0, 73, 250, 4);
-
-        // ctx.beginPath();
-        // ctx.moveTo(125, 75);
-        // ctx.lineTo(100, 75);
-        // ctx.lineTo(112, 85);
-        // ctx.fill();
-
-
         //FACE
         ctx.beginPath();
         ctx.arc(250, 150, 100, 0, Math.PI * 2, true);
@@ -51,10 +38,7 @@ function draw() {
         ctx.lineWidth = 5;
         ctx.strokeStyle = 'black';
         ctx.stroke();
-
-
     }
- 
 }
 
 draw();

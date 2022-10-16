@@ -1,0 +1,9 @@
+/* style the canvas */
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  height: 700px;
+  /* background: black; */
+}
