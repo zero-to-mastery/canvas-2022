@@ -10,8 +10,6 @@ function chooseColor () {
   return colors[Math.floor(Math.random() * colors.length)];
 }
 
-
-
 function draw() {
   const width = window.innerWidth;
   const height = window.innerHeight;
@@ -24,14 +22,12 @@ function draw() {
     const y2 = y1 + Math.floor(Math.random() * 50) +50;
     const y3 = y2 + Math.floor(Math.random() * 50) + 50;
 
-    
     ctx.beginPath();
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
     ctx.lineTo(x3, y3);
     ctx.fillStyle = chooseColor();
     ctx.fill();
-    
   }
 }
 
