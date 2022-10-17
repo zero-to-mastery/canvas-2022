@@ -420,6 +420,13 @@
     "author_github_url": "https://github.com/billlunger"
   },
   {
+    "name": "ZTM Logo",
+    "page_link": "./art/bk987/index.html",
+    "art_icon": "./art/bk987/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
     "name": "Jack-o",
     "page_link": "./art/brainlessdad/index.html",
     "art_icon": "./art/brainlessdad/icon.png",
