@@ -126,6 +126,13 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Youtube Logo",
+    "page_link": "./art/IshanGupta/index.html",
+    "art_icon": "./art/IshanGupta/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
+  },
+  {
     "name": "Jack",
     "page_link": "./art/Jack/index.html",
     "art_icon": "./art/Jack/icon.png",
