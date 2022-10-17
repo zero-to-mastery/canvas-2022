@@ -579,6 +579,13 @@
     "author_github_url": "https://github.com/incognion/"
   },
   {
+    "name": "Flag of Thailand",
+    "page_link": "./art/ishan-gupt/index.html",
+    "art_icon": "./art/ishan-gupt/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/karan919/index.html",
     "art_icon": "./art/karan919/icon.png",
