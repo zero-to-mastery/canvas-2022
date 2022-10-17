@@ -126,6 +126,20 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Youtube Logo",
+    "page_link": "./art/IshanGupta/index.html",
+    "art_icon": "./art/IshanGupta/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
+  },
+  {
+    "name": "Flag of Czechia ",
+    "page_link": "./art/IshanGupta1/index.html",
+    "art_icon": "./art/IshanGupta1/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
+  },
+  {
     "name": "Jack",
     "page_link": "./art/Jack/index.html",
     "art_icon": "./art/Jack/icon.png",
@@ -180,6 +194,13 @@
     "art_icon": "./art/Muneeb Illahi/icon.png",
     "author_name": "Muneeb Illahi",
     "author_github_url": "https://github.com/muneeb-i-khan"
+  },
+  {
+    "name": "Interconnectivity",
+    "page_link": "./art/Ndimofor Aretas/index.html",
+    "art_icon": "./art/Ndimofor Aretas/icon.png",
+    "author_name": "Ndimofor Aretas",
+    "author_github_url": "https://github.com/ndimoforaretas/"
   },
   {
     "name": "Image-Particle",
@@ -420,6 +441,13 @@
     "author_github_url": "https://github.com/billlunger"
   },
   {
+    "name": "ZTM Logo",
+    "page_link": "./art/bk987/index.html",
+    "art_icon": "./art/bk987/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
     "name": "Jack-o",
     "page_link": "./art/brainlessdad/index.html",
     "art_icon": "./art/brainlessdad/icon.png",
@@ -570,6 +598,13 @@
     "art_icon": "./art/incognion/icon.png",
     "author_name": "Ashutosh Kumar",
     "author_github_url": "https://github.com/incognion/"
+  },
+  {
+    "name": "Flag of Thailand",
+    "page_link": "./art/ishan-gupt/index.html",
+    "art_icon": "./art/ishan-gupt/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
   },
   {
     "name": "Indian Flag",
