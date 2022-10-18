@@ -614,6 +614,13 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Pizza Queue Animation",
+    "page_link": "./art/jrarzadon/index.html",
+    "art_icon": "./art/jrarzadon/icon.png",
+    "author_name": "JR",
+    "author_github_url": "https://github.com/Jrarzadon/"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/karan919/index.html",
     "art_icon": "./art/karan919/icon.png",
