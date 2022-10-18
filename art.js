@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "HacktoberCanvas",
+    "page_link": "./art/9112Michael/index.html",
+    "art_icon": "./art/9112Michael/icon.png",
+    "author_name": "9112Michael",
+    "author_github_url": "https://github.com/9112Michael/"
+  },
+  {
     "name": "TargetPractice",
     "page_link": "./art/Aashi Goel/index.html",
     "art_icon": "./art/Aashi Goel/icon.png",
