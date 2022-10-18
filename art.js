@@ -133,6 +133,13 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Flag of Czechia ",
+    "page_link": "./art/IshanGupta1/index.html",
+    "art_icon": "./art/IshanGupta1/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
+  },
+  {
     "name": "Jack",
     "page_link": "./art/Jack/index.html",
     "art_icon": "./art/Jack/icon.png",
@@ -187,6 +194,13 @@
     "art_icon": "./art/Muneeb Illahi/icon.png",
     "author_name": "Muneeb Illahi",
     "author_github_url": "https://github.com/muneeb-i-khan"
+  },
+  {
+    "name": "Interconnectivity",
+    "page_link": "./art/Ndimofor Aretas/index.html",
+    "art_icon": "./art/Ndimofor Aretas/icon.png",
+    "author_name": "Ndimofor Aretas",
+    "author_github_url": "https://github.com/ndimoforaretas/"
   },
   {
     "name": "Image-Particle",
