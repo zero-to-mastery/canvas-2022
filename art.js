@@ -607,6 +607,13 @@
     "author_github_url": "https://github.com/incognion/"
   },
   {
+    "name": "Multi-color triangles",
+    "page_link": "./art/ingridclaire/index.html",
+    "art_icon": "./art/ingridclaire/icon.png",
+    "author_name": "Ingrid Kelsey",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
     "name": "Flag of Thailand",
     "page_link": "./art/ishan-gupt/index.html",
     "art_icon": "./art/ishan-gupt/icon.png",
