@@ -14,6 +14,15 @@
     "author_name": "Abhishek Mallick",
     "author_github_url": "https://github.com/Abhishek-Mallick"
   },
+  
+  
+   {
+    "name": "Sattyam Samania",
+    "page_link": "C:\Users\sunil\Documents\Canvas",
+    "art_icon": "C:\Users\sunil\Documents\Canvas",
+    "author_name": "Sattyam Samania",
+    "author_github_url": "https://github.com/SattyamSamania"
+  },
   {
     "name": "HackitOn2022",
     "page_link": "./art/Adwaith_Rajesh/index.html",
