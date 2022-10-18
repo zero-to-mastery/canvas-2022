@@ -420,6 +420,13 @@
     "author_github_url": "https://github.com/avatar-10000/"
   },
   {
+    "name": "Netflix",
+    "page_link": "./art/ayushi1/index.html",
+    "art_icon": "./art/ayushi1/icon.png",
+    "author_name": "Ayushi Jaiswal",
+    "author_github_url": "https://github.com/ayushi25jaiswal"
+  },
+  {
     "name": "HacktoberGreenShell",
     "page_link": "./art/betiniakarandut/index.html",
     "art_icon": "./art/betiniakarandut/icon.png",
