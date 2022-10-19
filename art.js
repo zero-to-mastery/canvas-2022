@@ -92,6 +92,13 @@
     "author_github_url": "https://github.com/aryansh-gupta"
   },
   {
+    "name": "Flag of Thiland",
+    "page_link": "./art/AryanshGupta2/index.html",
+    "art_icon": "./art/AryanshGupta2/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
+  },
+  {
     "name": "Astronaut",
     "page_link": "./art/AyanKhan0508/index.html",
     "art_icon": "./art/AyanKhan0508/icon.png",
@@ -271,6 +278,13 @@
     "art_icon": "./art/SamanthaCrespo/icon.png",
     "author_name": "Samantha Crespo",
     "author_github_url": "https://github.com/samkcrespo"
+  },
+  {
+    "name": "Html5 Canvas",
+    "page_link": "./art/Sattyam Samania/index.html",
+    "art_icon": "./art/Sattyam Samania/icon.png",
+    "author_name": "Sattyam Samania",
+    "author_github_url": "https://github.com/SattyamSamania"
   },
   {
     "name": "Game Character",
