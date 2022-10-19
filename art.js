@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/aryansh-gupta"
   },
   {
+    "name": "Flag of Gambia",
+    "page_link": "./art/AryanshGupta1/index.html",
+    "art_icon": "./art/AryanshGupta1/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
+  },
+  {
     "name": "Astronaut",
     "page_link": "./art/AyanKhan0508/index.html",
     "art_icon": "./art/AyanKhan0508/icon.png",
