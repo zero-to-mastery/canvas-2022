@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/arjunchoudhury07/"
   },
   {
+    "name": "Flag of Botswana",
+    "page_link": "./art/AryanshGupta/index.html",
+    "art_icon": "./art/AryanshGupta/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
+  },
+  {
     "name": "Astronaut",
     "page_link": "./art/AyanKhan0508/index.html",
     "art_icon": "./art/AyanKhan0508/icon.png",
