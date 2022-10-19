@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/9112Michael/"
   },
   {
+    "name": "Minimalist Wallpaper",
+    "page_link": "./art/Aashi/index.html",
+    "art_icon": "./art/Aashi/icon.png",
+    "author_name": "Aashi Goel",
+    "author_github_url": "https://github.com/AashiGoel/"
+  },
+  {
     "name": "TargetPractice",
     "page_link": "./art/Aashi Goel/index.html",
     "art_icon": "./art/Aashi Goel/icon.png",
@@ -76,6 +83,27 @@
     "art_icon": "./art/Arjun_Choudhury/icon.png",
     "author_name": "Arjun",
     "author_github_url": "https://github.com/arjunchoudhury07/"
+  },
+  {
+    "name": "Flag of Botswana",
+    "page_link": "./art/AryanshGupta/index.html",
+    "art_icon": "./art/AryanshGupta/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
+  },
+  {
+    "name": "Flag of Gambia",
+    "page_link": "./art/AryanshGupta1/index.html",
+    "art_icon": "./art/AryanshGupta1/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
+  },
+  {
+    "name": "Flag of Thiland",
+    "page_link": "./art/AryanshGupta2/index.html",
+    "art_icon": "./art/AryanshGupta2/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
   },
   {
     "name": "Astronaut",
@@ -257,6 +285,13 @@
     "art_icon": "./art/SamanthaCrespo/icon.png",
     "author_name": "Samantha Crespo",
     "author_github_url": "https://github.com/samkcrespo"
+  },
+  {
+    "name": "Html5 Canvas",
+    "page_link": "./art/Sattyam Samania/index.html",
+    "art_icon": "./art/Sattyam Samania/icon.png",
+    "author_name": "Sattyam Samania",
+    "author_github_url": "https://github.com/SattyamSamania"
   },
   {
     "name": "Game Character",
