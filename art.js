@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/9112Michael/"
   },
   {
+    "name": "Minimalist Wallpaper",
+    "page_link": "./art/Aashi/index.html",
+    "art_icon": "./art/Aashi/icon.png",
+    "author_name": "Aashi Goel",
+    "author_github_url": "https://github.com/AashiGoel/"
+  },
+  {
     "name": "TargetPractice",
     "page_link": "./art/Aashi Goel/index.html",
     "art_icon": "./art/Aashi Goel/icon.png",
