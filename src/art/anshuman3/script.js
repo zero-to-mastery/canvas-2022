@@ -9,12 +9,9 @@ const sprithit = 572 / 8;
 let spriteX = 0;
 let spriteY = 0;
 let speedvar = 0;
-// c=0;
 function move() {
     charcontainer.clearRect(0, 0, charwid, charhit)
     charcontainer.drawImage(charimg, spriteX * spritewid, spriteY * sprithit, spritewid, sprithit, 0, 0, charwid, charhit);
-    // charcontainer.fillRect(c,50,100,100)
-    // c++;
     if (speedvar % 20 == 0) {
         spriteX++;
     }
