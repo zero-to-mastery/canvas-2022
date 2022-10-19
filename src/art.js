@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/anayatkhan1"
   },
   {
+    "name": "Canvasart",
+    "page_link": "./art/Anurag/index.html",
+    "art_icon": "./art/Anurag/icon.png",
+    "author_name": "Anurag",
+    "author_github_url": "https://github.com/achak47/"
+  },
+  {
     "name": "Find the ball game",
     "page_link": "./art/Anushree/index.html",
     "art_icon": "./art/Anushree/icon.png",
