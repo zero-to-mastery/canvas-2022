@@ -203,6 +203,13 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Flag of Italy",
+    "page_link": "./art/Italy/index.html",
+    "art_icon": "./art/Italy/icon.png",
+    "author_name": "Sunaina",
+    "author_github_url": "https://github.com/sunainaagrwal"
+  },
+  {
     "name": "Jack",
     "page_link": "./art/Jack/index.html",
     "art_icon": "./art/Jack/icon.png",
