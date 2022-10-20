@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/aryansh-gupta"
   },
   {
+    "name": "Flag of Sierra Leone",
+    "page_link": "./art/AryanshGupta3/index.html",
+    "art_icon": "./art/AryanshGupta3/icon.png",
+    "author_name": "Aryansh Gupta",
+    "author_github_url": "https://github.com/aryansh-gupta"
+  },
+  {
     "name": "Astronaut",
     "page_link": "./art/AyanKhan0508/index.html",
     "art_icon": "./art/AyanKhan0508/icon.png",
