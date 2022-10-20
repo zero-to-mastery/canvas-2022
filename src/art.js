@@ -148,6 +148,13 @@
     "author_github_url": "https://github.com/PRABHAKAR9107"
   },
   {
+    "name": "Nigerian Flag",
+    "page_link": "./art/Esinnation/index.html",
+    "art_icon": "./art/Esinnation/icon.png",
+    "author_name": "Esinnation",
+    "author_github_url": "https://github.com/Esinnation/"
+  },
+  {
     "name": "Jack Skellington",
     "page_link": "./art/FabianCristancho/index.html",
     "art_icon": "./art/FabianCristancho/icon.png",
