@@ -754,6 +754,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Chess Board",
+    "page_link": "./art/mayank/index.html",
+    "art_icon": "./art/mayank/icon.png",
+    "author_name": "Mayank Prakash",
+    "author_github_url": "https://github.com/myankpraksh/"
+  },
+  {
     "name": "Hactoberworks",
     "page_link": "./art/meetkavathiya/index.html",
     "art_icon": "./art/meetkavathiya/icon.png",
