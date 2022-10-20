@@ -413,6 +413,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "ZTM-ParticleEffet",
+    "page_link": "./art/UtkarshSiddhpura/index.html",
+    "art_icon": "./art/UtkarshSiddhpura/icon.png",
+    "author_name": "Utkarsh-Siddhpura",
+    "author_github_url": "https://github.com/UtkarshSiddhpura"
+  },
+  {
     "name": "Interactive Bubbles",
     "page_link": "./art/aa-phyllis/index.html",
     "art_icon": "./art/aa-phyllis/icon.png",
