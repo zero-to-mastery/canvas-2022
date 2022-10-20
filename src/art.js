@@ -134,6 +134,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Fireworks",
+    "page_link": "./art/Diwali_pk/index.html",
+    "art_icon": "./art/Diwali_pk/icon.png",
+    "author_name": "Prabhakar Kumar",
+    "author_github_url": "https://github.com/PRABHAKAR9107"
+  },
+  {
     "name": "Jack Skellington",
     "page_link": "./art/FabianCristancho/index.html",
     "art_icon": "./art/FabianCristancho/icon.png",
