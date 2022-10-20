@@ -518,6 +518,13 @@
     "author_github_url": "https://github.com/BrianWhelanDublin"
   },
   {
+    "name": "Flag of Bulgaria ",
+    "page_link": "./art/bulgaria/index.html",
+    "art_icon": "./art/bulgaria/icon.png",
+    "author_name": "Sunaina",
+    "author_github_url": "https://github.com/sunainaagrwal"
+  },
+  {
     "name": "HacktoberFox",
     "page_link": "./art/canvactober/index.html",
     "art_icon": "./art/canvactober/icon.png",
@@ -591,6 +598,13 @@
     "art_icon": "./art/dsnoeijer/icon.png",
     "author_name": "W.D. Snoeijer",
     "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "Flag of Estonia ",
+    "page_link": "./art/estonia/index.html",
+    "art_icon": "./art/estonia/icon.png",
+    "author_name": "Sunaina",
+    "author_github_url": "https://github.com/sunainaagrwal"
   },
   {
     "name": "The smiley warning logo",
