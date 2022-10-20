@@ -29,6 +29,13 @@
     "author_github_url": "https://github.com/AashiGoel/"
   },
   {
+    "name": "Lock",
+    "page_link": "./art/Aashi_Goel/index.html",
+    "art_icon": "./art/Aashi_Goel/icon.png",
+    "author_name": "Aashi Goel",
+    "author_github_url": "https://github.com/AashiGoel/"
+  },
+  {
     "name": "Netflix Logo",
     "page_link": "./art/Abhishek Mallick/index.html",
     "art_icon": "./art/Abhishek Mallick/icon.png",
