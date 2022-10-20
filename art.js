@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/AashiGoel/"
   },
   {
+    "name": "Minimalist Scenery",
+    "page_link": "./art/AashiGoel/index.html",
+    "art_icon": "./art/AashiGoel/icon.png",
+    "author_name": "Aashi Goel",
+    "author_github_url": "https://github.com/AashiGoel/"
+  },
+  {
     "name": "Netflix Logo",
     "page_link": "./art/Abhishek Mallick/index.html",
     "art_icon": "./art/Abhishek Mallick/icon.png",
