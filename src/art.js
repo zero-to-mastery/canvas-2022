@@ -754,6 +754,13 @@
     "author_github_url": "https://github.com/KhudadadKhawari/"
   },
   {
+    "name": "Flag of Latvia ",
+    "page_link": "./art/latvia/index.html",
+    "art_icon": "./art/latvia/icon.png",
+    "author_name": "Sunaina",
+    "author_github_url": "https://github.com/sunainaagrwal"
+  },
+  {
     "name": "Flag of Brazil",
     "page_link": "./art/manuelachamoso/index.html",
     "art_icon": "./art/manuelachamoso/icon.png",
