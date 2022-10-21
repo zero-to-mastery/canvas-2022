@@ -245,6 +245,13 @@
     "author_github_url": "https://github.com/KushagraJain58-cmd"
   },
   {
+    "name": "Flag of Luxembourg ",
+    "page_link": "./art/Luxembourg/index.html",
+    "art_icon": "./art/Luxembourg/icon.png",
+    "author_name": "Sunaina",
+    "author_github_url": "https://github.com/sunainaagrwal"
+  },
+  {
     "name": "Egyptian Flag",
     "page_link": "./art/MohamadElhadidy/index.html",
     "art_icon": "./art/MohamadElhadidy/icon.png",
