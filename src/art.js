@@ -392,6 +392,13 @@
     "author_github_url": "https://github.com/Sumana1008"
   },
   {
+    "name": "Flag of Madagascar",
+    "page_link": "./art/Sumana3/index.html",
+    "art_icon": "./art/Sumana3/icon.png",
+    "author_name": "Sumana Mupparapu",
+    "author_github_url": "https://github.com/Sumana1008"
+  },
+  {
     "name": "YouTube",
     "page_link": "./art/Sunainacode/index.html",
     "art_icon": "./art/Sunainacode/icon.png",
