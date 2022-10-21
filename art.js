@@ -378,6 +378,13 @@
     "author_github_url": "https://github.com/Sumana1008"
   },
   {
+    "name": "Flag of Bulgaria",
+    "page_link": "./art/Sumana2/index.html",
+    "art_icon": "./art/Sumana2/icon.png",
+    "author_name": "Sumana Mupparapu",
+    "author_github_url": "https://github.com/Sumana1008"
+  },
+  {
     "name": "YouTube",
     "page_link": "./art/Sunainacode/index.html",
     "art_icon": "./art/Sunainacode/icon.png",
