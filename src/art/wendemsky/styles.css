@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+canvas {
+    background-color: bisque;
+  
+}
+
+
+.canvas-div {
+    background-color: teal;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

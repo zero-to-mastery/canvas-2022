@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Emojifield</title>
+    <style>
+        canvas {
+            background: black
+        }
+    </style>
+</head>
+
+<input type="text" value="🦊 🧑🏼‍💻" onchange="emojis = document.querySelector('input').value.split(' ')"></input><br>
+<body>
+    <script>
+        const WIDTH = 512;
+        const HEIGHT = 512;
+        const ORIGINX = WIDTH/2;
+        const ORIGINY = HEIGHT/2
+
+        var canvas = document.createElement('canvas')
+        canvas.width = WIDTH; canvas.height = HEIGHT;
+        document.body.appendChild(canvas)
+
+        var ctx = canvas.getContext('2d')
+
+
+        var emojis = ["🦊","🧑🏼‍💻"]
+
+
+        var stars = []
+
+        function render() {
+            ctx.clearRect(0,0,WIDTH,HEIGHT);
+
+            stars = stars.filter((star) =>  star.x > 0 && star.y > 0 && star.x < WIDTH && star.y < HEIGHT);
+            if (stars.length < 200) {
+                stars.push({
+                    x: ORIGINX, y: ORIGINY,
+                    vx: -5 + (Math.random() * 10),
+                    vy: -5 + (Math.random() * 10),
+                    text: emojis[Math.floor(Math.random() * emojis.length)]
+                })
+            }
+            ctx.fillStyle = "white"
+            var lastFontSize = 0
+            for (var star of stars) {
+                star.x += star.vx;
+                star.y += star.vy;
+                star.vx *= 1.01;
+                star.vy *= 1.01;
+                // pythag is the only thing i remember from gcse maths lol 
+                var a = Math.abs(star.x - ORIGINX)
+                var b = Math.abs(star.y - ORIGINY)
+                let distance = Math.sqrt((a*a) + (b*b))
+
+                if (distance < 200 ) {
+                    ctx.globalAlpha = distance / 200
+                } else if (distance < 400) {
+                    ctx.globalAlpha = distance / 100
+                } else if (distance < 600) {
+                    ctx.globalAlpha = distance / 70
+                } else {
+                    ctx.globalAlpha = distance / 50
+                }
+
+
+                var fontSize = Math.floor(distance/12);
+                if (fontSize !== lastFontSize) {
+                    ctx.font = fontSize + "px sans-serif"
+                }   
+                ctx.fillText(star.text,star.x,star.y)
+                ctx.globalAlpha = 1
+            }
+            
+
+            requestAnimationFrame(render)    
+        }
+
+        requestAnimationFrame(render)
+
+    </script>
+</body>
+<!--
+    \/
+    /\
+    \/
+    https://github.com/tayiorrobinson
+-->

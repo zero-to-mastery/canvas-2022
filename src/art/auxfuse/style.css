@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 58, 58);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body>*::selection {
+    color: teal;
+    background-color: black;
+}
+
+#canvas {
+    position: absolute;
+    object-fit: contain;
+    z-index: 9999;
+    opacity: 0.3;
+    pointer-events: none;
+    user-select: none;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-style: italic;
+    letter-spacing: 0.07ch;
+}
+
+@media only screen and (min-width: 576px) {
+    h1 {
+        font-size: 4rem;    
+    }
+}
