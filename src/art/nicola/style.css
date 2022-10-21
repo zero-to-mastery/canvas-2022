@@ -1,17 +1,9 @@
-*{
-    background-color:rgb(199, 132, 132);
-
-}
-
-body{
-    width: 100;
-    height: 100;
-}
-canvas {
+#canvas1 {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    background-color: #000;
 }   

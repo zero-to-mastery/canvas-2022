@@ -1,10 +1,13 @@
-function draw() {
-    const canvas = document.getElementById('canvas');
-    if (canvas.getContext) {
-      const ctx = canvas.getContext('2d');
-  
-      ctx.fillRect(25, 25, 100, 100);
-      ctx.clearRect(45, 45, 60, 60);
-      ctx.strokeRect(50, 50, 50, 50);
-    }
-  }
+const canvas = document.getElementById('canvas1');
+const ctx = canvas.getContext('2d');
+const centerX = canvas.width / 2;
+const centerY = canvas.height / 2;
+const radius = 70;
+
+ctx.beginPath();
+ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+ctx.fillStyle = 'green';
+ctx.fill();
+ctx.lineWidth = 5;
+ctx.strokeStyle = '#003300';
+ctx.stroke();

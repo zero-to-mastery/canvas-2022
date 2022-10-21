@@ -2,12 +2,24 @@
   "name": "canvas-2022",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:zero-to-mastery/canvas-2022.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zero-to-mastery/canvas-2022.git"
+  },
   "author": "Matt Smith",
   "license": "MIT",
   "scripts": {
     "start": "npm-run-all aggregate-json",
     "build": "node scripts/aggregate-json.mjs",
     "aggregate-json": "node scripts/aggregate-json.mjs"
-  }
+  },
+  "description": "<img src=\"https://media.discordapp.net/attachments/779713479976157214/891357800809250896/unknown.png?width=350&height=350\" align=\"right\" />",
+  "bugs": {
+    "url": "https://github.com/zero-to-mastery/canvas-2022/issues"
+  },
+  "homepage": "https://github.com/zero-to-mastery/canvas-2022#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
 }
