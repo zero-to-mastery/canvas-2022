@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/amelia2802/"
   },
   {
+    "name": "Flag of Gabon",
+    "page_link": "./art/Amit/index.html",
+    "art_icon": "./art/Amit/icon.png",
+    "author_name": "Amit Das",
+    "author_github_url": "https://github.com/das-amit"
+  },
+  {
     "name": "MousyBubble",
     "page_link": "./art/AnayatCanvas/index.html",
     "art_icon": "./art/AnayatCanvas/icon.png",
