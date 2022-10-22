@@ -642,6 +642,13 @@
     "author_github_url": "https://github.com/carmen170796"
   },
   {
+    "name": "Firework",
+    "page_link": "./art/chang-hs/index.html",
+    "art_icon": "./art/chang-hs/icon.png",
+    "author_name": "chang-hs",
+    "author_github_url": "https://github.com/chang-hs"
+  },
+  {
     "name": "HacktoberFox",
     "page_link": "./art/christinarepou/index.html",
     "art_icon": "./art/christinarepou/icon.png",
