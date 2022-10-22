@@ -71,6 +71,13 @@
     "author_github_url": "https://github.com/das-amit"
   },
   {
+    "name": "Flag of Estonia",
+    "page_link": "./art/Amit1/index.html",
+    "art_icon": "./art/Amit1/icon.png",
+    "author_name": "Amit Das",
+    "author_github_url": "https://github.com/das-amit"
+  },
+  {
     "name": "MousyBubble",
     "page_link": "./art/AnayatCanvas/index.html",
     "art_icon": "./art/AnayatCanvas/icon.png",
@@ -848,6 +855,13 @@
     "name": "Chess Board",
     "page_link": "./art/mayank/index.html",
     "art_icon": "./art/mayank/icon.png",
+    "author_name": "Mayank Prakash",
+    "author_github_url": "https://github.com/myankpraksh/"
+  },
+  {
+    "name": "Stars",
+    "page_link": "./art/mayank-2/index.html",
+    "art_icon": "./art/mayank-2/icon.png",
     "author_name": "Mayank Prakash",
     "author_github_url": "https://github.com/myankpraksh/"
   },
