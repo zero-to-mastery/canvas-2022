@@ -1062,6 +1062,13 @@
     "author_github_url": "https://github.com/Soumi150"
   },
   {
+    "name": "Art By Javascript",
+    "page_link": "./art/stryker/index.html",
+    "art_icon": "./art/stryker/icon.png",
+    "author_name": "Stryker",
+    "author_github_url": "https://github.com/StrykerKent/"
+  },
+  {
     "name": "Spread love",
     "page_link": "./art/t-moennich/index.html",
     "art_icon": "./art/t-moennich/icon.png",
