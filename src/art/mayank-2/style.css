@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+  text-shadow: silver 2px 0 20px;
+  text-align: center;
+}
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin: auto;
+  text-shadow: silver 2px 0 20px;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+@media (min-width: 750px) {
+  p {
+    width: 70%;
+    font-size: 1.3rem;
+  }
+}
