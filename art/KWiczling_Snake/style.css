@@ -1,0 +1,55 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin: 0px;
+
+}
+#body{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+    flex-direction: column;
+}
+#elon {
+    display: none; 
+    justify-content: center; 
+    align-items:center; 
+    background: rgba(0,0,0, 0.5); 
+    width: 600px; 
+    height: 300px; 
+    position: fixed; 
+    border: 1px solid black;
+}
+#score{
+    position: absolute;
+    width: 600px; 
+    height: 300px;
+}
+#lost{
+    font-size: 50px;
+}
+#restart{
+    font-size: 16px;
+    padding-top: 20px;
+}
+#musk{
+    display: relative;
+}
+#play{
+    border: 1px solid black;
+    
+}
+#dsc{
+    /* position: relative;
+    height: 10vh; */
+}
+.flex-center{
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+}
+.center-text{
+    text-align: center;
+    font-size: 20px;
+}
