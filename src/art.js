@@ -245,6 +245,13 @@
     "author_github_url": "https://github.com/K-Wiczling"
   },
   {
+    "name": "RainBow",
+    "page_link": "./art/Kajanan/index.html",
+    "art_icon": "./art/Kajanan/icon.png",
+    "author_name": "Kajanan",
+    "author_github_url": "https://github.com/Kajanan02"
+  },
+  {
     "name": "France Flag",
     "page_link": "./art/Kushagra/index.html",
     "art_icon": "./art/Kushagra/icon.png",
