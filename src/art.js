@@ -803,6 +803,13 @@
     "author_github_url": "https://github.com/Jrarzadon/"
   },
   {
+    "name": "randomCanva",
+    "page_link": "./art/kajanan02/index.html",
+    "art_icon": "./art/kajanan02/icon.png",
+    "author_name": "Kajanan",
+    "author_github_url": "https://github.com/Kajanan02"
+  },
+  {
     "name": "Indian Flag",
     "page_link": "./art/karan919/index.html",
     "art_icon": "./art/karan919/icon.png",
