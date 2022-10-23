@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/das-amit"
   },
   {
+    "name": "Flag of Yemen",
+    "page_link": "./art/Amit2/index.html",
+    "art_icon": "./art/Amit2/icon.png",
+    "author_name": "Amit Das",
+    "author_github_url": "https://github.com/das-amit"
+  },
+  {
     "name": "MousyBubble",
     "page_link": "./art/AnayatCanvas/index.html",
     "art_icon": "./art/AnayatCanvas/icon.png",
