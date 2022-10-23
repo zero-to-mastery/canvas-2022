@@ -385,6 +385,13 @@
     "author_github_url": "https://github.com/cosmicqbit/"
   },
   {
+    "name": "Smiley",
+    "page_link": "./art/Skipo/index.html",
+    "art_icon": "./art/Skipo/icon.png",
+    "author_name": "Skipo",
+    "author_github_url": "https://github.com/pavanskipo/"
+  },
+  {
     "name": "My House",
     "page_link": "./art/Sonny Burniston/index.html",
     "art_icon": "./art/Sonny Burniston/icon.png",
