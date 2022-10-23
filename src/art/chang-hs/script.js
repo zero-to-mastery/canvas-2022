@@ -1,3 +1,9 @@
+const colors = ["yellow", "red", "green"];
+let currentColor = "yellow";
+function getRandomInt(max){
+	return Math.floor(Math.random()*max);
+}
+
 function drawLine(ctx, start, end, color, width){
 	ctx.moveTo(start[0], start[1]);
 	ctx.lineTo(end[0], end[1]);
@@ -29,7 +35,7 @@ function drawFireWork(){
 	let endCartVects = endPolarVects.map(x => polarToCartesian(x[0], x[1]));
 	let startPoints = startCartVects.map(x => addVectors2D(startCoord, x));
 	let endPoints = endCartVects.map(x => addVectors2D(startCoord, x));
-	ctx.strokeStyle = "yellow"
+	ctx.strokeStyle = currentColor;
 	ctx.lineWidth = 3;
 	for (const [index, coord] of Object.entries(startPoints)){
 		ctx.moveTo(coord[0], coord[1]);
@@ -41,6 +47,8 @@ function drawFireWork(){
 	if (startPeri > 500){
 		startPeri = 0;
 		endPeri = rayLength;
+		currentColor = colors[getRandomInt(3)];
+		startCoord = [getRandomInt(500), getRandomInt(500)];
 	}
 	requestAnimationFrame(drawFireWork);
 }
@@ -63,6 +71,7 @@ function draw(){
 	}
 	requestAnimationFrame(draw);
 }
+
 let rayNum = 16;
 let startCoord = [250, 250];
 let startPeri = 0;
