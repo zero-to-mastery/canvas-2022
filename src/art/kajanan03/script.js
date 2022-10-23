@@ -1,8 +1,15 @@
-const canvas = document.getElementById('englandFlag');
+const canvas = document.getElementById('faceCanva');
 const ctx = canvas.getContext('2d');
 
-ctx.fillStyle = 'red';
-ctx.fillRect(0, 150, 1000, 50);
-ctx.rotate(90 * Math.PI / 180);
-ctx.fillStyle = 'red';
-ctx.fillRect(0, -280, 500, 50);
+ctx.beginPath();
+ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(400, 75, 50, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(370, 200);
+ctx.lineTo(150, 200);
+ctx.stroke();

@@ -775,6 +775,13 @@
     "author_github_url": "https://github.com/hinedy"
   },
   {
+    "name": "Emoji Face",
+    "page_link": "./art/humbl3man/index.html",
+    "art_icon": "./art/humbl3man/icon.png",
+    "author_name": "Konstantin",
+    "author_github_url": "https://github.com/humbl3man"
+  },
+  {
     "name": "Cool Shower",
     "page_link": "./art/incognion/index.html",
     "art_icon": "./art/incognion/icon.png",
@@ -801,6 +808,20 @@
     "art_icon": "./art/jrarzadon/icon.png",
     "author_name": "JR",
     "author_github_url": "https://github.com/Jrarzadon/"
+  },
+  {
+    "name": "randomCanva",
+    "page_link": "./art/kajanan02/index.html",
+    "art_icon": "./art/kajanan02/icon.png",
+    "author_name": "Kajanan",
+    "author_github_url": "https://github.com/Kajanan02"
+  },
+  {
+    "name": "Face Canva",
+    "page_link": "./art/kajanan03/index.html",
+    "art_icon": "./art/kajanan03/icon.png",
+    "author_name": "Kajanan",
+    "author_github_url": "https://github.com/Kajanan02"
   },
   {
     "name": "Indian Flag",

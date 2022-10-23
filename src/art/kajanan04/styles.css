@@ -11,7 +11,7 @@ html {
 }
 
 canvas {
-    box-shadow: 0 0 42px rgb(255, 1, 158);
+    box-shadow: 0 0 42px rgb(1 150 255);
     border-radius: 8px;
     margin-bottom: 12px;
     border: 0.2399999946px solid #ededed;
