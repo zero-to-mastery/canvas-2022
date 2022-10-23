@@ -775,6 +775,13 @@
     "author_github_url": "https://github.com/hinedy"
   },
   {
+    "name": "Emoji Face",
+    "page_link": "./art/humbl3man/index.html",
+    "art_icon": "./art/humbl3man/icon.png",
+    "author_name": "Konstantin",
+    "author_github_url": "https://github.com/humbl3man"
+  },
+  {
     "name": "Cool Shower",
     "page_link": "./art/incognion/index.html",
     "art_icon": "./art/incognion/icon.png",
