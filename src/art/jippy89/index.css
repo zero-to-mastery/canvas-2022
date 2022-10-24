@@ -19,13 +19,14 @@ body {
 
   padding: 1.25rem 2rem;
   background: rgba(255,255,255, 0.9);
-  border: .2rem solid rgba(97,41,19, 0.9);
+  border: .2rem solid rgba(0, 0, 255, 0.9);
   border-radius: .5rem;
 }
 
 h1 {
   margin-top: 0;
   margin-bottom: 3rem;
+  color: navy;
 }
 
 .creator {
@@ -63,6 +64,9 @@ p {
   margin-top: 0;
 }
 
+a {
+  color: navy;
+}
 a:hover {
-  color: brown;
+  color: blue;
 }

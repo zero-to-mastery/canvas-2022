@@ -44,7 +44,7 @@ function draw(canvas, {
     const bigLeaf = widthPerCol * 0.1
 
     ctx.beginPath();
-    ctx.fillStyle = 'brown';
+    ctx.fillStyle = 'navy';
 
     for (let y=0; y<rows; y++) {
       let texHeight = y * heightPerRow
