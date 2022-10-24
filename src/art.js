@@ -50,6 +50,14 @@
     "author_github_url": "https://github.com/Adwaith123/"
   },
   {
+    "art_name": "Mwheel",
+    "page_link": "./art/Mwheel/index.html",
+    "art_icon": "./art/Mwheel/Mwheel.png",
+    "author_name": "Ashar",
+    "author_github_url": "https://github.com/AsharAA/"
+  },
+
+  {
     "name": "Dancing Smoker",
     "page_link": "./art/Akhilesh1902/index.html",
     "art_icon": "./art/Akhilesh1902/icon.png",
