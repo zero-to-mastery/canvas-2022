@@ -9,8 +9,14 @@ function resizeCanvas (canvas) {
 
   // Drawing Configuration
   // For perfect roundness, so far I use rows * 2
-  const rows = 10
-  const columns = rows * 2
+  let rows = 15
+  let columns = rows * 2
+
+  // For mobile screen 
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    columns = 10 
+    rows = 20
+  }
 
   draw(canvas, {
     rows,
