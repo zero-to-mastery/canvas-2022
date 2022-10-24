@@ -483,6 +483,13 @@
     "author_github_url": "https://github.com/TalhaQuddoos"
   },
   {
+    "name": "Gmail Logo Using HTML Canvas",
+    "page_link": "./art/TalhaQuddoos5/index.html",
+    "art_icon": "./art/TalhaQuddoos5/icon.png",
+    "author_name": "Talha Quddoos",
+    "author_github_url": "https://github.com/TalhaQuddoos"
+  },
+  {
     "name": "Matrix",
     "page_link": "./art/Teona/index.html",
     "art_icon": "./art/Teona/icon.png",
