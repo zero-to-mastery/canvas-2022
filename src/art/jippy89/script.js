@@ -7,7 +7,17 @@ function resizeCanvas (canvas) {
   canvas.width = viewWidth;
   canvas.height = viewHeight;
 
-  draw(canvas)
+  // Drawing Configuration
+  // For perfect roundness, so far I use rows * 2
+  const rows = 10
+  const columns = rows * 2
+
+  draw(canvas, {
+    rows,
+    columns,
+    smallLeaf,
+    bigLeaf
+  })
 }
 
 function start () {
@@ -18,55 +28,109 @@ function start () {
   window.addEventListener('resize', resizeCanvas.bind(this, canvas), false)
 }
 
-function draw(canvas) {
+function draw(canvas, {
+  rows, columns,
+}) {
   if (canvas.getContext) {
     const ctx = canvas.getContext('2d');
 
-    // Batik Kawung 1 (x, y)
+    const widthPerCol = viewWidth / columns
+    const heightPerRow = viewHeight / rows
+    const smallLeaf = widthPerCol * 0.25
+    const bigLeaf = widthPerCol * 0.1
+
     ctx.beginPath();
-    ctx.moveTo(0, 0); // Small Leaf 1
-    ctx.quadraticCurveTo(40, 0, 40, 40);
-    ctx.quadraticCurveTo(0, 40, 0, 0);
-    ctx.moveTo(150, 150); // Small Leaf 2
-    ctx.quadraticCurveTo(150, 110, 110, 110);
-    ctx.quadraticCurveTo(110, 150, 150, 150);
-    ctx.moveTo(150, 0); // Big Leaf
-    ctx.quadraticCurveTo(135, 135, 0, 150);
-    ctx.quadraticCurveTo(15, 15, 150, 0);
 
-    // Batik Kawung 2 - Reversed Motive (x, y) => (x+300, y=0)
-    ctx.moveTo(0 + 300, 0);
-    ctx.quadraticCurveTo(300 - 30, 0, 300 - 30, 30);
-    ctx.quadraticCurveTo(0 + 300, 30, 0 + 300, 0);
-    ctx.moveTo(150, 150);
-    ctx.quadraticCurveTo(150, 120, 120 + 60, 120);
-    ctx.quadraticCurveTo(120 + 60, 150, 150, 150);
-    ctx.moveTo(150 + 0, 0);
-    ctx.quadraticCurveTo(135 + 150, 135 - 105, 0 + 300, 150 + 0);
-    ctx.quadraticCurveTo(15 + 150, 15 + 150, 150, 0);
+    for (let y=0; y<rows; y++) {
+      let texHeight = y * heightPerRow
+      let texHeight1 = (y+1) * heightPerRow
 
-    // Batik Kawung 3 - Reversed Motive (x, y) => (x+0, y=0+150)
-    ctx.moveTo(0 + 150, 0 + 150);
-    ctx.quadraticCurveTo(150 - 30, 150 + 0, 150 - 30, 150 + 30);
-    ctx.quadraticCurveTo(150 - 0, 150 + 30, 150 - 0, 150 + 0);
-    ctx.moveTo(0, 300);
-    ctx.quadraticCurveTo(0, 300 - 30, 0 + 30, 300 - 30);
-    ctx.quadraticCurveTo(30, 300, 0, 300);
-    ctx.moveTo(0, 0 + 150);
-    ctx.quadraticCurveTo(135 + 0, 150 + 30, 0 + 150, 150 + 150);
-    ctx.quadraticCurveTo(30, 300 - 30, 0, 0 + 150);
+      for (let x=0; x<columns; x++) {
+        let currentX = x * widthPerCol
+        let currentX1 = (x+1) * widthPerCol
+
+        if ((x+y)%2 === 0) {
+          ctx.fillStyle = 'brown';
+          // Small Leaf 1
+          ctx.moveTo(currentX, texHeight);
+          ctx.quadraticCurveTo(currentX + smallLeaf, texHeight, currentX + smallLeaf, texHeight + smallLeaf);
+          ctx.quadraticCurveTo(currentX, texHeight + smallLeaf, currentX, texHeight);
+  
+          // // Small Leaf 2
+          ctx.moveTo(currentX1, texHeight1);
+          ctx.quadraticCurveTo(currentX1, texHeight1 - smallLeaf, currentX1 - smallLeaf, texHeight1 - smallLeaf);
+          ctx.quadraticCurveTo(currentX1 - smallLeaf, texHeight1, currentX1, texHeight1);
+  
+          // Big Leaf
+          ctx.moveTo(currentX1, texHeight);
+          ctx.quadraticCurveTo(currentX1 - bigLeaf, texHeight1 - bigLeaf, currentX, texHeight1);
+          ctx.quadraticCurveTo(currentX + bigLeaf, texHeight + bigLeaf, currentX1, texHeight);
+
+          ctx.fill();
+
+        } else {
+          // ctx.fillStyle = 'black';
+          // Batik Kawung 2 - Reversed Motive (x, y) => (x+300, y=0)
+          ctx.moveTo(currentX1, texHeight);
+          ctx.quadraticCurveTo(currentX1 - smallLeaf, texHeight, currentX1 - smallLeaf, texHeight + smallLeaf);
+          ctx.quadraticCurveTo(currentX1, texHeight + smallLeaf, currentX1, texHeight);
+          ctx.moveTo(currentX, texHeight1);
+          ctx.quadraticCurveTo(currentX, texHeight1 - smallLeaf, currentX + smallLeaf, texHeight1 - smallLeaf);
+          ctx.quadraticCurveTo(currentX + smallLeaf, texHeight1, currentX, texHeight1);
+          ctx.moveTo(currentX, texHeight);
+          ctx.quadraticCurveTo(currentX1 - bigLeaf, texHeight + bigLeaf, currentX1, texHeight1);
+          ctx.quadraticCurveTo(currentX + bigLeaf, texHeight1 - bigLeaf, currentX, texHeight);
+          ctx.fill();
+        }
+
+        // ctx.fill();
+      }
+    }
+
+    // Batik Kawung 1 (x, y)
+    // ctx.moveTo(0, 0); // Small Leaf 1
+    // ctx.quadraticCurveTo(40, 0, 40, 40);
+    // ctx.quadraticCurveTo(0, 40, 0, 0);
+    // ctx.moveTo(150, 150); // Small Leaf 2
+    // ctx.quadraticCurveTo(150, 110, 110, 110);
+    // ctx.quadraticCurveTo(110, 150, 150, 150);
+    // ctx.moveTo(150, 0); // Big Leaf
+    // ctx.quadraticCurveTo(135, 135, 0, 150);
+    // ctx.quadraticCurveTo(15, 15, 150, 0);
+
+    // // Batik Kawung 2 - Reversed Motive (x, y) => (x+300, y=0)
+    // ctx.moveTo(0 + 300, 0);
+    // ctx.quadraticCurveTo(300 - 30, 0, 300 - 30, 30);
+    // ctx.quadraticCurveTo(0 + 300, 30, 0 + 300, 0);
+    // ctx.moveTo(150, 150);
+    // ctx.quadraticCurveTo(150, 120, 120 + 60, 120);
+    // ctx.quadraticCurveTo(120 + 60, 150, 150, 150);
+    // ctx.moveTo(150 + 0, 0);
+    // ctx.quadraticCurveTo(135 + 150, 135 - 105, 0 + 300, 150 + 0);
     // ctx.quadraticCurveTo(15 + 150, 15 + 150, 150, 0);
 
-    // Batik Kawung 4 (just add 150 from Batik Kawing 1)
-    ctx.moveTo(150, 150);
-    ctx.quadraticCurveTo(180, 150, 180, 180);
-    ctx.quadraticCurveTo(150, 180, 150, 150);
-    ctx.moveTo(150 + 150, 150 + 150);
-    ctx.quadraticCurveTo(150 + 150, 120 + 150, 120 + 150, 120 + 150);
-    ctx.quadraticCurveTo(120 + 150, 150 + 150, 150 + 150, 150 + 150);
-    ctx.moveTo(150+150, 0+150);
-    ctx.quadraticCurveTo(135 + 150, 135 + 150, 0 + 150, 150 + 150);
-    ctx.quadraticCurveTo(15 + 150, 15 + 150, 150 + 150, 0 + 150);
+    // // Batik Kawung 3 - Reversed Motive (x, y) => (x+0, y=0+150)
+    // ctx.moveTo(0 + 150, 0 + 150);
+    // ctx.quadraticCurveTo(150 - 30, 150 + 0, 150 - 30, 150 + 30);
+    // ctx.quadraticCurveTo(150 - 0, 150 + 30, 150 - 0, 150 + 0);
+    // ctx.moveTo(0, 300);
+    // ctx.quadraticCurveTo(0, 300 - 30, 0 + 30, 300 - 30);
+    // ctx.quadraticCurveTo(30, 300, 0, 300);
+    // ctx.moveTo(0, 0 + 150);
+    // ctx.quadraticCurveTo(135 + 0, 150 + 30, 0 + 150, 150 + 150);
+    // ctx.quadraticCurveTo(30, 300 - 30, 0, 0 + 150);
+    // // ctx.quadraticCurveTo(15 + 150, 15 + 150, 150, 0);
+
+    // // Batik Kawung 4 (just add 150 from Batik Kawing 1)
+    // ctx.moveTo(150, 150);
+    // ctx.quadraticCurveTo(180, 150, 180, 180);
+    // ctx.quadraticCurveTo(150, 180, 150, 150);
+    // ctx.moveTo(150 + 150, 150 + 150);
+    // ctx.quadraticCurveTo(150 + 150, 120 + 150, 120 + 150, 120 + 150);
+    // ctx.quadraticCurveTo(120 + 150, 150 + 150, 150 + 150, 150 + 150);
+    // ctx.moveTo(150+150, 0+150);
+    // ctx.quadraticCurveTo(135 + 150, 135 + 150, 0 + 150, 150 + 150);
+    // ctx.quadraticCurveTo(15 + 150, 15 + 150, 150 + 150, 0 + 150);
 
 
     // ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
@@ -75,7 +139,7 @@ function draw(canvas) {
     // ctx.bezierCurveTo(110, 102, 130, 80, 130, 62.5);
     // ctx.bezierCurveTo(130, 62.5, 130, 25, 100, 25);
     // ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
-    ctx.fill();
+    // ctx.fill();
 
     // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
     // Rectangle
