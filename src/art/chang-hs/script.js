@@ -1,7 +1,6 @@
-const colors = ["yellow", "red", "green"];
-let currentColor = "yellow";
-function getRandomInt(max){
-	return Math.floor(Math.random()*max);
+
+function getRandomInt(min, max){
+	return Math.floor(min + Math.random() * (max - min));
 }
 
 function drawLine(ctx, start, end, color, width){
@@ -47,8 +46,9 @@ function drawFireWork(){
 	if (startPeri > 500){
 		startPeri = 0;
 		endPeri = rayLength;
-		currentColor = colors[getRandomInt(3)];
-		startCoord = [getRandomInt(500), getRandomInt(500)];
+		currentColor = colors[getRandomInt(0, 4)];
+		startCoord = [getRandomInt(0, 500), getRandomInt(0, 500)];
+		rayNum = getRandomInt(3, 32);
 	}
 	requestAnimationFrame(drawFireWork);
 }
@@ -72,6 +72,8 @@ function draw(){
 	requestAnimationFrame(draw);
 }
 
+const colors = ["yellow", "red", "green", "white"];
+let currentColor = "yellow";
 let rayNum = 16;
 let startCoord = [250, 250];
 let startPeri = 0;
