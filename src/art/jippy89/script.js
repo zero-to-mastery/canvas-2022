@@ -1,7 +1,11 @@
+let viewWidth, viewHeight
+
 function resizeCanvas (canvas) {
   // console.log('resizeCanvas')
-  canvas.width = window.visualViewport.width;
-  canvas.height = window.visualViewport.height;
+  viewWidth = window.visualViewport.width
+  viewHeight = window.visualViewport.height
+  canvas.width = viewWidth;
+  canvas.height = viewHeight;
 
   draw()
 }
