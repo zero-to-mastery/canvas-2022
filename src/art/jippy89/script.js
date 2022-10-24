@@ -7,7 +7,7 @@ function resizeCanvas (canvas) {
   canvas.width = viewWidth;
   canvas.height = viewHeight;
 
-  draw()
+  draw(canvas)
 }
 
 function start () {
@@ -18,10 +18,7 @@ function start () {
   window.addEventListener('resize', resizeCanvas.bind(this, canvas), false)
 }
 
-function draw() {
-  const canvas = document.getElementById('canvas');
-
-  console.log(canvas)
+function draw(canvas) {
   if (canvas.getContext) {
     const ctx = canvas.getContext('2d');
 
