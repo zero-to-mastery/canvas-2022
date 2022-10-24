@@ -1,10 +1,6 @@
-let viewWidth, viewHeight
-
 function resizeCanvas (canvas) {
-  viewWidth = window.visualViewport.width
-  viewHeight = window.visualViewport.height
-  canvas.width = viewWidth;
-  canvas.height = viewHeight;
+  canvas.width = window.visualViewport.width;
+  canvas.height = window.visualViewport.height;
 
   // Drawing Configuration
   // For perfect roundness, so far I use rows * 2
@@ -37,8 +33,8 @@ function draw(canvas, {
   if (canvas.getContext) {
     const ctx = canvas.getContext('2d');
 
-    const widthPerCol = viewWidth / columns
-    const heightPerRow = viewHeight / rows
+    const widthPerCol = canvas.width / columns
+    const heightPerRow = canvas.height / rows
     const smallLeaf = widthPerCol * 0.25
     const bigLeaf = widthPerCol * 0.1
 
