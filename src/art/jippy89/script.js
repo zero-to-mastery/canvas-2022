@@ -1,17 +1,17 @@
 function resizeCanvas (canvas) {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  // console.log('resizeCanvas')
+  canvas.width = window.visualViewport.width;
+  canvas.height = window.visualViewport.height;
+
+  draw()
 }
 
 function start () {
   const canvas = document.getElementById('canvas');
 
   // Resize canvas to fullscreen
-  resizeCanvas(canvas)
+  setTimeout(resizeCanvas.bind(this, canvas), 0)
   window.addEventListener('resize', resizeCanvas.bind(this, canvas), false)
-
-  // Draw
-  // draw()
 }
 
 function draw() {
