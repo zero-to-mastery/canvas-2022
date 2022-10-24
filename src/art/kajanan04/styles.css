@@ -1,0 +1,18 @@
+
+html {
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12em;
+}
+
+canvas {
+    box-shadow: 0 0 42px rgb(1 150 255);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border: 0.2399999946px solid #ededed;
+}

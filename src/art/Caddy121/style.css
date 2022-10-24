@@ -1,0 +1,8 @@
+body {
+  background: #1b3045;
+  margin: 0%;
+}
+
+#canvas {
+  border: 2px solid orange;
+}
