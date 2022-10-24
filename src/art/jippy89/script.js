@@ -7,6 +7,7 @@ function start () {
   const canvas = document.getElementById('canvas');
 
   // Resize canvas to fullscreen
+  resizeCanvas(canvas)
   window.addEventListener('resize', resizeCanvas.bind(this, canvas), false)
 
   // Draw
