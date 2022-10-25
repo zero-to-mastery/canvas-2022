@@ -52,7 +52,7 @@
   {
     "art_name": "Mwheel",
     "page_link": "./art/Mwheel/index.html",
-    "art_icon": "./art/Mwheel/Mwheel.png",
+    "art_icon": "./art/Mwheel/icon.png",
     "author_name": "Ashar",
     "author_github_url": "https://github.com/AsharAA/"
   },
