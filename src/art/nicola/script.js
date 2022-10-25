@@ -1,7 +1,7 @@
 var centreX = 100;var centreY = 100;
 var radius = 75;
 var rotateAngle = 18 * Math.PI/360;
-var startAngle = 0 * Math.PI/360;
+var startAngle = 18 * Math.PI/360;
 var endAngle = 18 * Math.PI/360;
 var counter = 0;
 var animFlag;
@@ -69,6 +69,6 @@ var x = event.clientX;
 var y = event.clientY;
 var rnd = Math.ceil(Math.random() * 100);
 if((x > 200) &&(x < 275) && (y>100) && (y<120))
-animFlag = setInterval(function() {rotateWheel(rnd)},25);
+animFlag = setInterval(function() {rotateWheel(rnd)},125);
 }
 window.addEventListener("click",mouseClick,false);
