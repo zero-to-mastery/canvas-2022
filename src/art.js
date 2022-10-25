@@ -329,6 +329,13 @@
     "author_github_url": "https://github.com/ndimoforaretas/"
   },
   {
+    "name": "Simple Drawing App",
+    "page_link": "./art/Ndimofor Aretas2/index.html",
+    "art_icon": "./art/Ndimofor Aretas2/icon.png",
+    "author_name": "Ndimofor Aretas",
+    "author_github_url": "https://github.com/ndimoforaretas/"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/Neha/index.html",
     "art_icon": "./art/Neha/icon.png",
