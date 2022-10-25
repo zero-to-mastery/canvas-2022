@@ -67,9 +67,9 @@ For more information about Canvas, you can read its [documentation](https://deve
 
 ```json
 {
-  "art_name": "HacktoberFox",
-  "author_name": "Matt",
-  "author_github_url": "https://github.com/MattCSmith/"
+  "art_name": "Mwheel",
+  "author_name": "Ashar",
+  "author_github_url": "https://github.com/AsharAA/"
 }
 ```
 
