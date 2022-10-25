@@ -169,6 +169,13 @@
     "author_github_url": "https://github.com/BGS89"
   },
   {
+    "name": "Canvas Hack 2022",
+    "page_link": "./art/Caddy121/index.html",
+    "art_icon": "./art/Caddy121/icon.png",
+    "author_name": "Caddy121",
+    "author_github_url": "https://github.com/caddy121/"
+  },
+  {
     "name": "ChessBoard",
     "page_link": "./art/DhanushNehru/index.html",
     "art_icon": "./art/DhanushNehru/icon.png",
