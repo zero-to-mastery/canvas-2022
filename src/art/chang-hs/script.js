@@ -27,7 +27,7 @@ function drawFireWork(){
 	ctx.fillStyle = "#000000";
 	ctx.beginPath();
 	ctx.fillRect(0,0,500,500);
-	const thetas = range(rayNum).map(x => x * 2*Math.PI/rayNum);
+	const thetas = range(rayNum).map(x => x * 2*Math.PI/rayNum + thetaDiff);
 	let startPolarVects = thetas.map(x => [startPeri, x]);
 	let endPolarVects = thetas.map(x => [endPeri, x]);
 	let startCartVects = startPolarVects.map(x => polarToCartesian(x[0], x[1]));
@@ -45,11 +45,14 @@ function drawFireWork(){
 	endPeri = endPeri + moveStep;
 	if (startPeri > 500){
 		startPeri = 0;
+		rayLength = getRandomInt(20, 100)
 		endPeri = rayLength;
 		currentColor = colors[getRandomInt(0, 4)];
 		startCoord = [getRandomInt(0, 500), getRandomInt(0, 500)];
 		rayNum = getRandomInt(3, 32);
+		thetaStep = getRandomInt(-2, 2)
 	}
+	thetaDiff = thetaDiff + thetaStep;
 	requestAnimationFrame(drawFireWork);
 }
 
@@ -57,20 +60,20 @@ const r = 100;
 let x = -r;
 const ctx = document.getElementById("firework").getContext('2d');
 
-function draw(){
-	ctx.clearRect(0,0,500,500);
-	ctx.beginPath();
-	ctx.lineWidth = 1;
-	ctx.fillStyle = "green";
-	ctx.strokeStyle = "green";
-	ctx.arc(x, 250, r, 0, 2*Math.PI, false);
-	ctx.fill();
-	x = x + 5;
-	if (x >= 500 + 100){
-		x = -r;
-	}
-	requestAnimationFrame(draw);
-}
+// function draw(){
+// 	ctx.clearRect(0,0,500,500);
+// 	ctx.beginPath();
+// 	ctx.lineWidth = 1;
+// 	ctx.fillStyle = "green";
+// 	ctx.strokeStyle = "green";
+// 	ctx.arc(x, 250, r, 0, 2*Math.PI, false);
+// 	ctx.fill();
+// 	x = x + 5;
+// 	if (x >= 500 + 100){
+// 		x = -r;
+// 	}
+// 	requestAnimationFrame(draw);
+// }
 
 const colors = ["yellow", "red", "green", "white"];
 let currentColor = "yellow";
@@ -79,5 +82,7 @@ let startCoord = [250, 250];
 let startPeri = 0;
 let endPeri = 30;
 let moveStep = 5;
+let thetaDiff = 0;
+let thetaStep = 2;
 let rayLength = 20;
 drawFireWork();
