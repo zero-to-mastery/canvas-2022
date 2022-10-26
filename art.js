@@ -190,6 +190,13 @@
     "author_github_url": "https://github.com/PRABHAKAR9107"
   },
   {
+    "name": "Camera",
+    "page_link": "./art/EmanuelGustafzon/index.html",
+    "art_icon": "./art/EmanuelGustafzon/icon.png",
+    "author_name": "Emanuel Gustafzon",
+    "author_github_url": "https://github.com/EmanuelGustafzon/"
+  },
+  {
     "name": "Nigerian Flag",
     "page_link": "./art/Esinnation/index.html",
     "art_icon": "./art/Esinnation/icon.png",
