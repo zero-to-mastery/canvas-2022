@@ -49,13 +49,7 @@
     "author_name": "coder@hacktoberfest",
     "author_github_url": "https://github.com/Adwaith123/"
   },
-  {
-    "art_name": "Mwheel",
-    "page_link": "./art/Mwheel/index.html",
-    "art_icon": "./art/Mwheel/icon.png",
-    "author_name": "Ashar",
-    "author_github_url": "https://github.com/AsharAA/"
-  },
+  
 
   {
     "name": "Dancing Smoker",
