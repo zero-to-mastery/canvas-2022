@@ -546,6 +546,13 @@
     "author_github_url": "https://github.com/Addyk16/"
   },
   {
+    "name": "German Flag",
+    "page_link": "./art/ade/index.html",
+    "art_icon": "./art/ade/icon.png",
+    "author_name": "Ahmad Adejumo",
+    "author_github_url": "https://github.com/ahmadadejumo"
+  },
+  {
     "name": "HacktoberRotation!",
     "page_link": "./art/ani-art/index.html",
     "art_icon": "./art/ani-art/icon.png",
