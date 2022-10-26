@@ -838,6 +838,13 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Batik Kawung",
+    "page_link": "./art/jippy89/index.html",
+    "art_icon": "./art/jippy89/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://bit.ly/3TMxuBi"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",
