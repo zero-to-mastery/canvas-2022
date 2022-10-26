@@ -859,6 +859,27 @@
     "author_github_url": "https://bit.ly/3TMxuBi"
   },
   {
+    "name": "Google's Logo",
+    "page_link": "./art/jippy89_2/index.html",
+    "art_icon": "./art/jippy89_2/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
+    "name": "React-Logo",
+    "page_link": "./art/jot_singh/index.html",
+    "art_icon": "./art/jot_singh/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
+    "name": "Indian-Flag",
+    "page_link": "./art/jot_singh_3/index.html",
+    "art_icon": "./art/jot_singh_3/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",

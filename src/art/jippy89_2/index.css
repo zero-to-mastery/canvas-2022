@@ -1,0 +1,11 @@
+body {
+  background: beige;
+  display: flex;
+  height: 100vh;
+}
+
+#canvas {
+  background: rgb(255, 255, 255);
+  /* background: rgb(191, 61, 0); */
+  margin: auto;
+}
