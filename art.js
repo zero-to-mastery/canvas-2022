@@ -999,6 +999,13 @@
     "author_github_url": "https://github.com/Mysta3"
   },
   {
+    "name": "Naitik god",
+    "page_link": "./art/naitik/index.html",
+    "art_icon": "./art/naitik/icon.png",
+    "author_name": "Naitik",
+    "author_github_url": "https://github.com/codeNaitik"
+  },
+  {
     "name": "Heart",
     "page_link": "./art/nancykwantify/index.html",
     "art_icon": "./art/nancykwantify/icon.png",
