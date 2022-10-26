@@ -873,6 +873,13 @@
     "author_github_url": "https://github.com/JotSinghChawla"
   },
   {
+    "name": "Indian-Flag",
+    "page_link": "./art/jot_singh_3/index.html",
+    "art_icon": "./art/jot_singh_3/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",
