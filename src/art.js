@@ -859,6 +859,13 @@
     "author_github_url": "https://bit.ly/3TMxuBi"
   },
   {
+    "name": "Google's Logo",
+    "page_link": "./art/jippy89_2/index.html",
+    "art_icon": "./art/jippy89_2/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",
