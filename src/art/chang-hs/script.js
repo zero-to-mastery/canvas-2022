@@ -59,22 +59,6 @@ function drawFireWork(){
 const r = 100;
 let x = -r;
 const ctx = document.getElementById("firework").getContext('2d');
-
-// function draw(){
-// 	ctx.clearRect(0,0,500,500);
-// 	ctx.beginPath();
-// 	ctx.lineWidth = 1;
-// 	ctx.fillStyle = "green";
-// 	ctx.strokeStyle = "green";
-// 	ctx.arc(x, 250, r, 0, 2*Math.PI, false);
-// 	ctx.fill();
-// 	x = x + 5;
-// 	if (x >= 500 + 100){
-// 		x = -r;
-// 	}
-// 	requestAnimationFrame(draw);
-// }
-
 const colors = ["yellow", "red", "green", "white"];
 let currentColor = "yellow";
 let rayNum = 16;
