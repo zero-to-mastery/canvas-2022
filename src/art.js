@@ -1083,6 +1083,13 @@
     "author_github_url": "https://github.com/nancykwantify/"
   },
   {
+    "name": "Pedal Animation",
+    "page_link": "./art/nicola/index.html",
+    "art_icon": "./art/nicola/icon.png",
+    "author_name": "nicola",
+    "author_github_url": "https://github.com/nikimacm"
+  },
+  {
     "name": "Image-Particle",
     "page_link": "./art/nikhil_mishra/index.html",
     "art_icon": "./art/nikhil_mishra/icon.png",
