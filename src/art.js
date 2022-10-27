@@ -873,6 +873,13 @@
     "author_github_url": "https://github.com/jippy89"
   },
   {
+    "name": "Gridlines Starter Template",
+    "page_link": "./art/jippy89_4/index.html",
+    "art_icon": "./art/jippy89_4/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
     "name": "React-Logo",
     "page_link": "./art/jot_singh/index.html",
     "art_icon": "./art/jot_singh/icon.png",
