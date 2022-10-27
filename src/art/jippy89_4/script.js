@@ -51,6 +51,10 @@ function start () {
 function draw(canvas) {
   const ctx = canvas.getContext('2d');
 
+  // Done only to keep "Save As" white background.
+  ctx.fillStyle = 'white'
+  ctx.fillRect(0,0,600,600)
+
   const radius = 90
 
   // Keep your canvas awesome.
@@ -82,7 +86,15 @@ function draw(canvas) {
   ctx.fill()
 
   ctx.beginPath()
-  ctx.clearRect(150, 130, 150, 12)
+  ctx.fillRect(150, 130, 130, 12)
+
+  ctx.font = "40px serif"
+  ctx.fillStyle = "black"
+  ctx.fillText("Keep your art", 340, 410)
+  
+  ctx.font = "64px serif"
+  ctx.fillText("Pixel", 340, 470)
+  ctx.fillText("Perfect", 340, 530)
 }
 
 
