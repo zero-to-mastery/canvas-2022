@@ -34,12 +34,11 @@ function start () {
         lineWidth: .25,
         strokeStyle: 'rgba(0,0,0,1)',
         axis: {
+          font: "10px serif",
           x: {
-            font: "10px serif",
             every: 30 // Every 30px
           },
           y: {
-            font: "10px serif",
             every: 30 // Every 30px
           }
         }
@@ -121,8 +120,8 @@ function drawGridlines (canvas, options) {
   ctx.strokeStyle = grid.lineWidth
   ctx.lineWidth = grid.lineWidth
 
-  if ('x' in axis) {
-    ctx.font = axis.x.font ? axis.x.font : "8px serif"  
+  if ('x' in axis || 'y' in axis) {
+    ctx.font = axis.font ? axis.font : "8px serif"  
   }
 
   // Draw vertical line & Y axis if true
