@@ -329,6 +329,20 @@
     "author_github_url": "https://github.com/muneeb-i-khan"
   },
   {
+    "name": "Microsoft Logo",
+    "page_link": "./art/Navdeepsingh4298-Microsoft-Logo/index.html",
+    "art_icon": "./art/Navdeepsingh4298-Microsoft-Logo/icon.png",
+    "author_name": "Navdeep Singh",
+    "author_github_url": "https://github.com/navdeepsingh4298/"
+  },
+  {
+    "name": "HP Logo",
+    "page_link": "./art/Navdeepsingh4298-hp-logo/index.html",
+    "art_icon": "./art/Navdeepsingh4298-hp-logo/icon.png",
+    "author_name": "Navdeep Singh",
+    "author_github_url": "https://github.com/navdeepsingh4298/"
+  },
+  {
     "name": "Interconnectivity",
     "page_link": "./art/Ndimofor Aretas/index.html",
     "art_icon": "./art/Ndimofor Aretas/icon.png",
