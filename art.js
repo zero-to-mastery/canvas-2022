@@ -378,6 +378,13 @@
     "author_github_url": "https://github.com/Forchapeatl/"
   },
   {
+    "name": "Super PacMan",
+    "page_link": "./art/Prince Nwaonicha/index.html",
+    "art_icon": "./art/Prince Nwaonicha/icon.png",
+    "author_name": "Prince Nwaonicha",
+    "author_github_url": "https://github.com/thefirstcodebender/"
+  },
+  {
     "name": "Castle",
     "page_link": "./art/Ritika-Agrawal811/index.html",
     "art_icon": "./art/Ritika-Agrawal811/icon.png",
