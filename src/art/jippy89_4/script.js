@@ -94,6 +94,12 @@ function draw(canvas) {
  */
 function drawGridlines (canvas, options) {
   const {
+    guides = {
+      lineWidth: 1,
+      vertical: [30, 270],
+      horizontal: [30, 270],
+      strokeStyle: 'navy'
+    },
     grid
   } = options
 
@@ -116,6 +122,21 @@ function drawGridlines (canvas, options) {
     ctx.lineTo(canvas.width, y)
   }
   ctx.stroke()
+
+  // Draw guides
+  ctx.beginPath()
+  ctx.strokeStyle = guides.strokeStyle
+  ctx.lineWidth = guides.lineWidth
+  for(let i=0; i < guides.vertical.length; i++) {
+    ctx.moveTo(guides.vertical[i], 0)
+    ctx.lineTo(guides.vertical[i], canvas.height)
+  }
+  for(let i=0; i < guides.horizontal.length; i++) {
+    ctx.moveTo(0, guides.horizontal[i])
+    ctx.lineTo(canvas.width, guides.horizontal[i])
+  }
+  ctx.stroke()
+
   // Get canvas `width` and `height`
   // Draw padding lines with a line that is thicker.
   // Draw the gridline
