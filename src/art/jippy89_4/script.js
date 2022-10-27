@@ -102,6 +102,9 @@ function draw(canvas) {
  * @param {string=} [options.grid.strokeStyle=black] For colors like hex, rgb, rgba
  * @param {*} options.grid.axis object 
  * @param {*} options.grid.axis.x object 
+ * @param {number} options.grid.axis.x.every Shows X axis every {number}px 
+ * @param {*} options.grid.axis.y object 
+ * @param {number} options.grid.axis.y.every Shows Y axis every {number}px 
  */
 function drawGridlines (canvas, options) {
   const {
