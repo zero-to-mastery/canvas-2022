@@ -93,6 +93,29 @@ function draw(canvas) {
  * @param {string=} [options.grid.strokeStyle=black] For colors like hex, rgb, rgba
  */
 function drawGridlines (canvas, options) {
+  const {
+    grid
+  } = options
+
+  const ctx = canvas.getContext('2d');
+
+  ctx.beginPath()
+  ctx.strokeStyle = grid.lineWidth
+  ctx.lineWidth = grid.lineWidth
+
+  // Draw vertical line
+  for(let x=grid.size; x < canvas.width; x+=grid.size) {
+    console.log('x', x)
+    ctx.moveTo(x, 0)
+    ctx.lineTo(x, canvas.height)
+  }
+  // Draw horizontal line
+  for(let y=grid.size; y < canvas.width; y+=grid.size) {
+    console.log('y', y)
+    ctx.moveTo(0, y)
+    ctx.lineTo(canvas.width, y)
+  }
+  ctx.stroke()
   // Get canvas `width` and `height`
   // Draw padding lines with a line that is thicker.
   // Draw the gridline
