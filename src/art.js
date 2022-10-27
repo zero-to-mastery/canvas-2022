@@ -880,6 +880,13 @@
     "author_github_url": "https://github.com/JotSinghChawla"
   },
   {
+    "name": "Instagram-Logo",
+    "page_link": "./art/jot_singh_4/index.html",
+    "art_icon": "./art/jot_singh_4/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",
