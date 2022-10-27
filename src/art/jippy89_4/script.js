@@ -32,7 +32,17 @@ function start () {
       grid: {
         size: 10,
         lineWidth: .25,
-        strokeStyle: 'rgba(0,0,0,1)'
+        strokeStyle: 'rgba(0,0,0,1)',
+        axis: {
+          x: {
+            font: "10px serif",
+            every: 30 // Every 30px
+          },
+          y: {
+            font: "10px serif",
+            every: 30 // Every 30px
+          }
+        }
       }
     })
   }
@@ -91,6 +101,8 @@ function draw(canvas) {
  * @param {*} options.grid.size number 
  * @param {*} options.grid.lineWidth number
  * @param {string=} [options.grid.strokeStyle=black] For colors like hex, rgb, rgba
+ * @param {*} options.grid.axis object 
+ * @param {*} options.grid.axis.x object 
  */
 function drawGridlines (canvas, options) {
   const {
@@ -102,24 +114,52 @@ function drawGridlines (canvas, options) {
     },
     grid
   } = options
+  const { axis } = grid
 
   const ctx = canvas.getContext('2d');
 
-  ctx.beginPath()
   ctx.strokeStyle = grid.lineWidth
   ctx.lineWidth = grid.lineWidth
 
-  // Draw vertical line
+  if ('x' in axis) {
+    ctx.font = axis.x.font ? axis.x.font : "8px serif"  
+  }
+
+  // Draw vertical line & Y axis if true
   for(let x=grid.size; x < canvas.width; x+=grid.size) {
-    console.log('x', x)
+    ctx.beginPath()
     ctx.moveTo(x, 0)
     ctx.lineTo(x, canvas.height)
+    ctx.stroke()
+
+    // Draw the Y axis
+    if ('x' in axis
+      && 'every' in axis.x
+      && x%axis.x.every === 0
+    ) {
+      ctx.beginPath()
+      ctx.arc(x, grid.size, 1.5, 0, Math.PI * 2)
+      ctx.fill()
+      ctx.fillText(x, x, grid.size)
+    } 
   }
   // Draw horizontal line
   for(let y=grid.size; y < canvas.width; y+=grid.size) {
-    console.log('y', y)
+    ctx.beginPath()
     ctx.moveTo(0, y)
     ctx.lineTo(canvas.width, y)
+    ctx.stroke()
+
+    // Draw the Y axis
+    if ('y' in axis
+      && 'every' in axis.y
+      && y%axis.y.every === 0
+    ) {
+      ctx.beginPath()
+      ctx.arc(grid.size, y, 1.5, 0, Math.PI * 2)
+      ctx.fill()
+      ctx.fillText(y, grid.size, y)
+    } 
   }
   ctx.stroke()
 
@@ -136,9 +176,4 @@ function drawGridlines (canvas, options) {
     ctx.lineTo(canvas.width, guides.horizontal[i])
   }
   ctx.stroke()
-
-  // Get canvas `width` and `height`
-  // Draw padding lines with a line that is thicker.
-  // Draw the gridline
-  // Optional: Allow bool value to show coordinates (x, y) and a dot(?)
 }
