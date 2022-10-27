@@ -6,9 +6,7 @@ canvas.height = window.innerHeight / 1.5
 let lowerMouth = 0.3 // 0 limit lower 0.3 limit upper
 let upperMouth = 1.7 // 2 limit upper 1.7 limit lower
 
-function init() {
-    window.requestAnimationFrame(draw);
-}
+
 const colors = ['red', 'orange', 'yellow', 'green', 'blue','indigo','violet']
 let closeMouth = true
 let moveSquare = window.innerWidth / 2
