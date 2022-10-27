@@ -190,6 +190,13 @@
     "author_github_url": "https://github.com/PRABHAKAR9107"
   },
   {
+    "name": "Camera",
+    "page_link": "./art/EmanuelGustafzon/index.html",
+    "art_icon": "./art/EmanuelGustafzon/icon.png",
+    "author_name": "Emanuel Gustafzon",
+    "author_github_url": "https://github.com/EmanuelGustafzon/"
+  },
+  {
     "name": "Nigerian Flag",
     "page_link": "./art/Esinnation/index.html",
     "art_icon": "./art/Esinnation/icon.png",
@@ -546,6 +553,13 @@
     "author_github_url": "https://github.com/Addyk16/"
   },
   {
+    "name": "German Flag",
+    "page_link": "./art/ade/index.html",
+    "art_icon": "./art/ade/icon.png",
+    "author_name": "Ahmad Adejumo",
+    "author_github_url": "https://github.com/ahmadadejumo"
+  },
+  {
     "name": "HacktoberRotation!",
     "page_link": "./art/ani-art/index.html",
     "art_icon": "./art/ani-art/icon.png",
@@ -845,6 +859,27 @@
     "author_github_url": "https://bit.ly/3TMxuBi"
   },
   {
+    "name": "Google's Logo",
+    "page_link": "./art/jippy89_2/index.html",
+    "art_icon": "./art/jippy89_2/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
+    "name": "React-Logo",
+    "page_link": "./art/jot_singh/index.html",
+    "art_icon": "./art/jot_singh/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
+    "name": "Indian-Flag",
+    "page_link": "./art/jot_singh_3/index.html",
+    "art_icon": "./art/jot_singh_3/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",
@@ -992,6 +1027,13 @@
     "author_github_url": "https://github.com/Mysta3"
   },
   {
+    "name": "Naitik god",
+    "page_link": "./art/naitik/index.html",
+    "art_icon": "./art/naitik/icon.png",
+    "author_name": "Naitik",
+    "author_github_url": "https://github.com/codeNaitik"
+  },
+  {
     "name": "Heart",
     "page_link": "./art/nancykwantify/index.html",
     "art_icon": "./art/nancykwantify/icon.png",
@@ -1018,6 +1060,13 @@
     "art_icon": "./art/nikkikal2/icon.png",
     "author_name": "NikkiKal",
     "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
+    "name": "Kind of blue Matrix",
+    "page_link": "./art/or-yam/index.html",
+    "art_icon": "./art/or-yam/icon.png",
+    "author_name": "or-yam",
+    "author_github_url": "https://github.com/or-yam/"
   },
   {
     "name": "I Love Nepal",
