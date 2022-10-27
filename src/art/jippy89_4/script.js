@@ -25,8 +25,8 @@ function start () {
     drawGridlines(canvas, {
       guides: {
         lineWidth: 1,
-        vertical: [30, 270],
-        horizontal: [30, 270],
+        vertical: [30, 270, 330, 570],
+        horizontal: [30, 270, 330, 570],
         strokeStyle: 'blue'
       },
       grid: {
