@@ -1,0 +1,29 @@
+/* body */
+
+body{
+    text-align: center;
+}
+/* heading */
+h1{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+/* Wheel image */
+img{
+    width: 30rem;
+    transition: transform .7s ease-in;
+}
+
+img:hover {
+    transform: rotate(360deg);
+  }
+
+  /* footer */
+
+  footer{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-family: 'Special Elite', cursive;
+
+  }
