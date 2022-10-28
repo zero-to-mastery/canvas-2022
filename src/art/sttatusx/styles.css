@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scene {
+  width: 20vw;
+  height: 20vh;
+}
