@@ -1,0 +1,12 @@
+html {
+    background-color: #FFFFFF;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12em;
+}
+canvas {
+    border: 3px solid #000;
+}
