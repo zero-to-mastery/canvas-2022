@@ -427,6 +427,13 @@
     "author_github_url": "https://github.com/rubi-gupt"
   },
   {
+    "name": "Flag of Benin",
+    "page_link": "./art/RubiGupta3/index.html",
+    "art_icon": "./art/RubiGupta3/icon.png",
+    "author_name": "Rubi Gupta",
+    "author_github_url": "https://github.com/rubi-gupt"
+  },
+  {
     "name": "Simlish",
     "page_link": "./art/SamanthaCrespo/index.html",
     "art_icon": "./art/SamanthaCrespo/icon.png",
