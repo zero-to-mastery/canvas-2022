@@ -329,6 +329,13 @@
     "author_github_url": "https://github.com/muneeb-i-khan"
   },
   {
+    "name": "The Wheel",
+    "page_link": "./art/Mwheel/index.html",
+    "art_icon": "./art/Mwheel/icon.png",
+    "author_name": "Ashar",
+    "author_github_url": "https://github.com/AsharAA"
+  },
+  {
     "name": "Microsoft Logo",
     "page_link": "./art/Navdeepsingh4298-Microsoft-Logo/index.html",
     "art_icon": "./art/Navdeepsingh4298-Microsoft-Logo/icon.png",
@@ -529,6 +536,13 @@
     "page_link": "./art/TalhaQuddoos5/index.html",
     "art_icon": "./art/TalhaQuddoos5/icon.png",
     "author_name": "Talha Quddoos",
+    "author_github_url": "https://github.com/TalhaQuddoos"
+  },
+  {
+    "name": "Isometric Circle Art Using HTML Canvas",
+    "page_link": "./art/TalhaQuddoos6/index.html",
+    "art_icon": "./art/TalhaQuddoos6/icon.png",
+    "author_name": "Laughing Emoji with HTML Canvas",
     "author_github_url": "https://github.com/TalhaQuddoos"
   },
   {
