@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+	display: grid;
+	place-items: center;}
+
+#canvas {
+  background: #fff;
+}
