@@ -329,6 +329,20 @@
     "author_github_url": "https://github.com/muneeb-i-khan"
   },
   {
+    "name": "Microsoft Logo",
+    "page_link": "./art/Navdeepsingh4298-Microsoft-Logo/index.html",
+    "art_icon": "./art/Navdeepsingh4298-Microsoft-Logo/icon.png",
+    "author_name": "Navdeep Singh",
+    "author_github_url": "https://github.com/navdeepsingh4298/"
+  },
+  {
+    "name": "HP Logo",
+    "page_link": "./art/Navdeepsingh4298-hp-logo/index.html",
+    "art_icon": "./art/Navdeepsingh4298-hp-logo/icon.png",
+    "author_name": "Navdeep Singh",
+    "author_github_url": "https://github.com/navdeepsingh4298/"
+  },
+  {
     "name": "Interconnectivity",
     "page_link": "./art/Ndimofor Aretas/index.html",
     "art_icon": "./art/Ndimofor Aretas/icon.png",
@@ -376,6 +390,13 @@
     "art_icon": "./art/Pearl/icon.png",
     "author_name": "Forcha Pearl",
     "author_github_url": "https://github.com/Forchapeatl/"
+  },
+  {
+    "name": "Super PacMan",
+    "page_link": "./art/Prince Nwaonicha/index.html",
+    "art_icon": "./art/Prince Nwaonicha/icon.png",
+    "author_name": "Prince Nwaonicha",
+    "author_github_url": "https://github.com/thefirstcodebender/"
   },
   {
     "name": "Castle",
@@ -859,6 +880,48 @@
     "author_github_url": "https://bit.ly/3TMxuBi"
   },
   {
+    "name": "Google's Logo",
+    "page_link": "./art/jippy89_2/index.html",
+    "art_icon": "./art/jippy89_2/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
+    "name": "Gridlines Starter Template",
+    "page_link": "./art/jippy89_4/index.html",
+    "art_icon": "./art/jippy89_4/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
+    "name": "React-Logo",
+    "page_link": "./art/jot_singh/index.html",
+    "art_icon": "./art/jot_singh/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
+    "name": "Netflix-Logo",
+    "page_link": "./art/jot_singh_2/index.html",
+    "art_icon": "./art/jot_singh_2/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
+    "name": "Indian-Flag",
+    "page_link": "./art/jot_singh_3/index.html",
+    "art_icon": "./art/jot_singh_3/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
+    "name": "Instagram-Logo",
+    "page_link": "./art/jot_singh_4/index.html",
+    "art_icon": "./art/jot_singh_4/icon.png",
+    "author_name": "Jot Singh",
+    "author_github_url": "https://github.com/JotSinghChawla"
+  },
+  {
     "name": "Pizza Queue Animation",
     "page_link": "./art/jrarzadon/index.html",
     "art_icon": "./art/jrarzadon/icon.png",
@@ -1018,6 +1081,13 @@
     "art_icon": "./art/nancykwantify/icon.png",
     "author_name": "Nancy",
     "author_github_url": "https://github.com/nancykwantify/"
+  },
+  {
+    "name": "Pedal Animation",
+    "page_link": "./art/nicola/index.html",
+    "art_icon": "./art/nicola/icon.png",
+    "author_name": "nicola",
+    "author_github_url": "https://github.com/nikimacm"
   },
   {
     "name": "Image-Particle",
