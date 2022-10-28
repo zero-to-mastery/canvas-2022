@@ -7,5 +7,3 @@ ctx.fillStyle = '#FFF';
 ctx.fillRect(0, 103, 1000, 104);
 ctx.fillStyle = '#7bafde';
 ctx.fillRect(0, 207, 1000, 103);
-
-
