@@ -49,8 +49,6 @@
     "author_name": "coder@hacktoberfest",
     "author_github_url": "https://github.com/Adwaith123/"
   },
-  
-
   {
     "name": "Dancing Smoker",
     "page_link": "./art/Akhilesh1902/index.html",
