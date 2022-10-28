@@ -413,6 +413,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "Flag of Sierra Leone",
+    "page_link": "./art/RubiGupta/index.html",
+    "art_icon": "./art/RubiGupta/icon.png",
+    "author_name": "Rubi Gupta",
+    "author_github_url": "https://github.com/rubi-gupt"
+  },
+  {
     "name": "Simlish",
     "page_link": "./art/SamanthaCrespo/index.html",
     "art_icon": "./art/SamanthaCrespo/icon.png",
