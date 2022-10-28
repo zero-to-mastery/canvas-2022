@@ -420,6 +420,13 @@
     "author_github_url": "https://github.com/rubi-gupt"
   },
   {
+    "name": "Youtube Logo",
+    "page_link": "./art/RubiGupta1/index.html",
+    "art_icon": "./art/RubiGupta1/icon.png",
+    "author_name": "Rubi Gupta",
+    "author_github_url": "https://github.com/rubi-gupt"
+  },
+  {
     "name": "Simlish",
     "page_link": "./art/SamanthaCrespo/index.html",
     "art_icon": "./art/SamanthaCrespo/icon.png",
