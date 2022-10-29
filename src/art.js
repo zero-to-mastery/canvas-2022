@@ -217,6 +217,13 @@
     "author_name": "Felix"
   },
   {
+    "name": "Swedish flag",
+    "page_link": "./art/GustafzonEmanuel/index.html",
+    "art_icon": "./art/GustafzonEmanuel/icon.png",
+    "author_name": "Emanuel Gustafzon",
+    "author_github_url": "https://github.com/EmanuelGustafzon/"
+  },
+  {
     "name": "Atom Visualization",
     "page_link": "./art/HarshChauhan/index.html",
     "art_icon": "./art/HarshChauhan/icon.png",
