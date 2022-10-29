@@ -413,6 +413,13 @@
     "author_github_url": "https://github.com/thefirstcodebender/"
   },
   {
+    "name": "icon1",
+    "page_link": "./art/Priya/index.html",
+    "art_icon": "./art/Priya/icon.png",
+    "author_name": "Priya Malik",
+    "author_github_url": "https://github.com/PriyaDeveloper630/"
+  },
+  {
     "name": "Castle",
     "page_link": "./art/Ritika-Agrawal811/index.html",
     "art_icon": "./art/Ritika-Agrawal811/icon.png",
