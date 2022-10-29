@@ -1328,6 +1328,13 @@
     "author_github_url": "https://github.com/t-moennich"
   },
   {
+    "name": "Scope of Sniper",
+    "page_link": "./art/tanishqsindhu/index.html",
+    "art_icon": "./art/tanishqsindhu/icon.png",
+    "author_name": "Tanishq Sindhu",
+    "author_github_url": "https://github.com/tanishqsindhu/"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
