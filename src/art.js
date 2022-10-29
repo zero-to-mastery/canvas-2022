@@ -1314,6 +1314,13 @@
     "author_github_url": "https://github.com/StrykerKent/"
   },
   {
+    "name": "Circles",
+    "page_link": "./art/sttatusx/index.html",
+    "art_icon": "./art/sttatusx/icon.png",
+    "author_name": "SttatusX",
+    "author_github_url": "https://github.com/sttatusx/"
+  },
+  {
     "name": "Spread love",
     "page_link": "./art/t-moennich/index.html",
     "art_icon": "./art/t-moennich/icon.png",
