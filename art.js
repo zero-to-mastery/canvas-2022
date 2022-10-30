@@ -672,6 +672,13 @@
     "author_github_url": "https://github.com/ankeshp03/"
   },
   {
+    "name": "My Name",
+    "page_link": "./art/anshuman_one/index.html",
+    "art_icon": "./art/anshuman_one/icon.png",
+    "author_name": "Anshuman Nandan",
+    "author_github_url": "https://github.com/anshuman-nandan/"
+  },
+  {
     "name": "crazy-colours",
     "page_link": "./art/anudeep/index.html",
     "art_icon": "./art/anudeep/icon.png",
