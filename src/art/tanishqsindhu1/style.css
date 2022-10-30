@@ -1,0 +1,21 @@
+
+body{
+    background: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnv{
+    background: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img {
+    height: 100px;
+    position: absolute;
+    top: 34.5%;
+    left: 50%;
+    transform: translate(-50%);
+}
