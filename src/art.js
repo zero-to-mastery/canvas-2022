@@ -1440,6 +1440,13 @@
     "author_github_url": "https://github.com/tanishqsindhu/"
   },
   {
+    "name": "Microsoft Logo",
+    "page_link": "./art/tanishqsindhu3/index.html",
+    "art_icon": "./art/tanishqsindhu3/icon.png",
+    "author_name": "Tanishq Sindhu",
+    "author_github_url": "https://github.com/tanishqsindhu/"
+  },
+  {
     "name": "Bubble Particles Animation",
     "page_link": "./art/tarunmankar/index.html",
     "art_icon": "./art/tarunmankar/icon.png",
