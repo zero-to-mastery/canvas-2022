@@ -169,6 +169,13 @@
     "author_github_url": "https://github.com/BGS89"
   },
   {
+    "name": "Flag of Pinas",
+    "page_link": "./art/Brienyll/index.html",
+    "art_icon": "./art/Brienyll/icon.png",
+    "author_name": "Brieny",
+    "author_github_url": "https://github.com/Brienyll/"
+  },
+  {
     "name": "Canvas Hack 2022",
     "page_link": "./art/Caddy121/index.html",
     "art_icon": "./art/Caddy121/icon.png",
