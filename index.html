@@ -30,6 +30,35 @@
     <div>© 2021 Zero To Mastery Inc.</div>
   </footer>
 
+<!--   scroll to top code starts -->
+  <a href="#">
+      <div class="back_to_top"><i class="fa fa-arrow-up"></i></div>
+    </a>
+    <script>
+      let mybutton = document.getElementsByClassName("back_to_top");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 0 ||
+          document.documentElement.scrollTop > 0
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      mybutton.addEventListener("click", backToTop);
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!-- scroll to top code ends  -->
+
+  
   <script src="art.js"></script>
 </body>
 
