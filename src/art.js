@@ -420,6 +420,27 @@
     "author_github_url": "https://github.com/PriyaDeveloper630/"
   },
   {
+    "name": "icon2",
+    "page_link": "./art/Priya2/index.html",
+    "art_icon": "./art/Priya2/icon.png",
+    "author_name": "Priya Malik",
+    "author_github_url": "https://github.com/PriyaDeveloper630/"
+  },
+  {
+    "name": "icon3",
+    "page_link": "./art/Priya3/index.html",
+    "art_icon": "./art/Priya3/icon.png",
+    "author_name": "Priya Malik",
+    "author_github_url": "https://github.com/PriyaDeveloper630/"
+  },
+  {
+    "name": "icon4",
+    "page_link": "./art/Priya4/index.html",
+    "art_icon": "./art/Priya4/icon.png",
+    "author_name": "Priya Malik",
+    "author_github_url": "https://github.com/PriyaDeveloper630/"
+  },
+  {
     "name": "Castle",
     "page_link": "./art/Ritika-Agrawal811/index.html",
     "art_icon": "./art/Ritika-Agrawal811/icon.png",
