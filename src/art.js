@@ -672,6 +672,13 @@
     "author_github_url": "https://github.com/ankeshp03/"
   },
   {
+    "name": "Flag of Austria",
+    "page_link": "./art/anshuman_four/index.html",
+    "art_icon": "./art/anshuman_four/icon.png",
+    "author_name": "Anshuman Nandan",
+    "author_github_url": "https://github.com/anshuman-nandan/"
+  },
+  {
     "name": "My Name",
     "page_link": "./art/anshuman_one/index.html",
     "art_icon": "./art/anshuman_one/icon.png",
@@ -1298,6 +1305,13 @@
     "art_icon": "./art/sanjithpk/icon.png",
     "author_name": "Sanjith PK",
     "author_github_url": "https://github.com/sanjithpk"
+  },
+  {
+    "name": "Single Trangle",
+    "page_link": "./art/single-trangle/index.html",
+    "art_icon": "./art/single-trangle/icon.png",
+    "author_name": "SttatusX",
+    "author_github_url": "https://github.com/sttatusx/"
   },
   {
     "name": "Shapes Art",
