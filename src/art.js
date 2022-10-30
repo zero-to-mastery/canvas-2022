@@ -1321,6 +1321,13 @@
     "author_github_url": "https://github.com/small-ac"
   },
   {
+    "name": "Smile",
+    "page_link": "./art/smile/index.html",
+    "art_icon": "./art/smile/icon.png",
+    "author_name": "SttatusX",
+    "author_github_url": "https://github.com/sttatusx/"
+  },
+  {
     "name": "Ireland Flag",
     "page_link": "./art/sophiabrandt/index.html",
     "art_icon": "./art/sophiabrandt/icon.png",
