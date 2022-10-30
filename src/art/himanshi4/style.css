@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+canvas {
+    margin:0;
+    display: block;
+    background-color:blue;
+    width: 50%;
+    height: 30%;
+  }
