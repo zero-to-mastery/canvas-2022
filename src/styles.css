@@ -201,3 +201,31 @@ section {
     font-size: 1.2vw;
   }
 }
+
+/* back to button css  */
+.back_to_top {
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 85%;
+  right: 2%;
+  z-index: 90;
+  transition: all 0.3s ease;
+  background: rgb(219, 211, 211);
+  border: 2px solid blanchedalmond;
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back_to_top:hover {
+  background: rgb(208, 197, 197);
+  bottom: 6%;
+  width: 55px;
+  height: 55px;
+}
+
+/* scroll to top css ends */
