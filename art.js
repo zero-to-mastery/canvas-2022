@@ -679,6 +679,13 @@
     "author_github_url": "https://github.com/anshuman-nandan/"
   },
   {
+    "name": "Flag of Japan",
+    "page_link": "./art/anshuman_three/index.html",
+    "art_icon": "./art/anshuman_three/icon.png",
+    "author_name": "Anshuman Nandan",
+    "author_github_url": "https://github.com/anshuman-nandan/"
+  },
+  {
     "name": "Flag of Switzerland",
     "page_link": "./art/anshuman_two/index.html",
     "art_icon": "./art/anshuman_two/icon.png",
