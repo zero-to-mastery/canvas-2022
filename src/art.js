@@ -455,6 +455,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "SpinningHex",
+    "page_link": "./art/Roxana-Turc/index.html",
+    "art_icon": "./art/Roxana-Turc/icon.png",
+    "author_name": "Roxana",
+    "author_github_url": "https://github.com/RoxanaAnamariaTurc"
+  },
+  {
     "name": "Flag of Sierra Leone",
     "page_link": "./art/RubiGupta/index.html",
     "art_icon": "./art/RubiGupta/icon.png",
