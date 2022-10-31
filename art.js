@@ -162,6 +162,13 @@
     "author_github_url": "https://github.com/AyanDgr8/"
   },
   {
+    "name": "Solar System",
+    "page_link": "./art/Ayush Vijayant/index.html",
+    "art_icon": "./art/Ayush Vijayant/icon.png",
+    "author_name": "Ayush Vijayant",
+    "author_github_url": "https://github.com/ayushvj08/"
+  },
+  {
     "name": "EverythingWillBeOk",
     "page_link": "./art/BGS89/index.html",
     "art_icon": "./art/BGS89/icon.png",
