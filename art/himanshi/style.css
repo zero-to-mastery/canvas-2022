@@ -1,0 +1,20 @@
+body{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+h1{
+    color: #fe5603;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+canvas {
+    display: block;
+    background-color: #000000;
+    width: 30%;
+    height: 30%;
+    border:2px solid blue;
+  }

@@ -1594,6 +1594,13 @@
     "author_github_url": "https://github.com/yashraj2003e/"
   },
   {
+    "name": "Lights of Water | Scroll to Play",
+    "page_link": "./art/yejinc/index.html",
+    "art_icon": "./art/yejinc/icon.png",
+    "author_name": "yejinc",
+    "author_github_url": "https://github.com/yejinc"
+  },
+  {
     "name": "Russian Flag",
     "page_link": "./art/yellowbeard/index.html",
     "art_icon": "./art/yellowbeard/icon.png",
