@@ -1377,6 +1377,34 @@
     "author_github_url": "https://github.com/sanjithpk"
   },
   {
+    "name": "Flag of Czechia ",
+    "page_link": "./art/sarthak_gupta_four/index.html",
+    "art_icon": "./art/sarthak_gupta_four/icon.png",
+    "author_name": "Sarthak Gupta",
+    "author_github_url": "https://github.com/SarthakGupta145"
+  },
+  {
+    "name": "My name",
+    "page_link": "./art/sarthak_gupta_one/index.html",
+    "art_icon": "./art/sarthak_gupta_one/icon.png",
+    "author_name": "Sarthak Gupta",
+    "author_github_url": "https://github.com/SarthakGupta145"
+  },
+  {
+    "name": "Youtube Logo",
+    "page_link": "./art/sarthak_gupta_three/index.html",
+    "art_icon": "./art/sarthak_gupta_three/icon.png",
+    "author_name": "Sarthak Gupta",
+    "author_github_url": "https://github.com/SarthakGupta145"
+  },
+  {
+    "name": "Flag of Thailand",
+    "page_link": "./art/sarthak_gupta_two/index.html",
+    "art_icon": "./art/sarthak_gupta_two/icon.png",
+    "author_name": "Sarthak Gupta",
+    "author_github_url": "https://github.com/SarthakGupta145"
+  },
+  {
     "name": "Single Trangle",
     "page_link": "./art/single-trangle/index.html",
     "art_icon": "./art/single-trangle/icon.png",
