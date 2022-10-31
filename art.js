@@ -1496,6 +1496,13 @@
     "author_github_url": "https://github.com/techtuner/"
   },
   {
+    "name": "Snake Game",
+    "page_link": "./art/thomashockaday/index.html",
+    "art_icon": "./art/thomashockaday/icon.png",
+    "author_name": "Thomas Hockaday",
+    "author_github_url": "https://github.com/thomashockaday/"
+  },
+  {
     "name": "HacktoberClocks",
     "page_link": "./art/ttumyr_clocks/index.html",
     "art_icon": "./art/ttumyr_clocks/icon.png",
