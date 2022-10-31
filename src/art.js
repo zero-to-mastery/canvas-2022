@@ -1013,6 +1013,13 @@
     "author_github_url": "https://github.com/jippy89"
   },
   {
+    "name": "Digital Ocean Logo",
+    "page_link": "./art/jippy89_3/index.html",
+    "art_icon": "./art/jippy89_3/icon.png",
+    "author_name": "Jip Irfandy",
+    "author_github_url": "https://github.com/jippy89"
+  },
+  {
     "name": "Gridlines Starter Template",
     "page_link": "./art/jippy89_4/index.html",
     "art_icon": "./art/jippy89_4/icon.png",
