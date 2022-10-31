@@ -1020,6 +1020,13 @@
     "author_github_url": "https://github.com/humbl3man"
   },
   {
+    "name": "Click Firework Canvas",
+    "page_link": "./art/iadarshmishra/index.html",
+    "art_icon": "./art/iadarshmishra/icon.png",
+    "author_name": "Adarsh Mishra",
+    "author_github_url": "https://github.com/iadarshmishra"
+  },
+  {
     "name": "Cool Shower",
     "page_link": "./art/incognion/index.html",
     "art_icon": "./art/incognion/icon.png",
@@ -1340,6 +1347,13 @@
     "art_icon": "./art/rachelktyjohnson/icon.png",
     "author_name": "Rachel",
     "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
+    "name": "YB Circle",
+    "page_link": "./art/rawatdev/index.html",
+    "art_icon": "./art/rawatdev/icon.png",
+    "author_name": "rawatdev",
+    "author_github_url": "https://github.com/rawatdev/"
   },
   {
     "name": "Hacktober Art",
