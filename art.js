@@ -1433,6 +1433,13 @@
     "author_github_url": "https://github.com/tanishqsindhu/"
   },
   {
+    "name": "Indian Flag",
+    "page_link": "./art/tanishqsindhu1/index.html",
+    "art_icon": "./art/tanishqsindhu1/icon.png",
+    "author_name": "Tanishq Sindhu",
+    "author_github_url": "https://github.com/tanishqsindhu"
+  },
+  {
     "name": "Chessboard Design",
     "page_link": "./art/tanishqsindhu2/index.html",
     "art_icon": "./art/tanishqsindhu2/icon.png",
