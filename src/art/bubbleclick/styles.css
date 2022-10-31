@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+  
+  @keyframes wait {
+      from {opacity: 1;}
+      to {opacity: 1;}
+  }
+  
+  @keyframes fadeOut {
+      from {opacity: 1;}
+      to {opacity: 0;}
+  }
+  p {
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    left: 12px;
+    color: #212121;
+    opacity: 0;
+    font-family: 'Open Sans', sans-serif;
+    animation: fadeIn 2s, wait 2s 2s, fadeOut 2s 4s;
+    pointer-events: none;
+  }
+  
