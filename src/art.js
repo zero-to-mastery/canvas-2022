@@ -895,6 +895,13 @@
   },
   {
     "name": "Mondriaan in Canvas",
+    "page_link": "./art/double-trangle/index.html",
+    "art_icon": "./art/double-trangle/icon.png",
+    "author_name": "W.D. Snoeijer",
+    "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "Mondriaan in Canvas",
     "page_link": "./art/dsnoeijer/index.html",
     "art_icon": "./art/dsnoeijer/icon.png",
     "author_name": "W.D. Snoeijer",
