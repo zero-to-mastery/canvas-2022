@@ -936,6 +936,13 @@
     "author_github_url": "https://github.com/galsreshef/"
   },
   {
+    "name": "Continuous Glowing Intertwined",
+    "page_link": "./art/glowingintertwined/index.html",
+    "art_icon": "./art/glowingintertwined/icon.png",
+    "author_name": "Adarsh Mishra",
+    "author_github_url": "https://github.com/iadarshmishra"
+  },
+  {
     "name": "Warning Sign",
     "page_link": "./art/godnondsilva/index.html",
     "art_icon": "./art/godnondsilva/icon.png",
@@ -1352,6 +1359,20 @@
     "name": "YB Circle",
     "page_link": "./art/rawatdev/index.html",
     "art_icon": "./art/rawatdev/icon.png",
+    "author_name": "rawatdev",
+    "author_github_url": "https://github.com/rawatdev/"
+  },
+  {
+    "name": "Multiball",
+    "page_link": "./art/rawatdev3/index.html",
+    "art_icon": "./art/rawatdev3/icon.png",
+    "author_name": "rawatdev",
+    "author_github_url": "https://github.com/rawatdev/"
+  },
+  {
+    "name": "Dark Smiley",
+    "page_link": "./art/rawatdev4/index.html",
+    "art_icon": "./art/rawatdev4/icon.png",
     "author_name": "rawatdev",
     "author_github_url": "https://github.com/rawatdev/"
   },
