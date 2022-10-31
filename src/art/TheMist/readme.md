@@ -1,1 +1,0 @@
-- This is a animated text with overlaped fog.
