@@ -978,6 +978,34 @@
     "author_github_url": "https://github.com/HenryKhosasih"
   },
   {
+    "name": "clock",
+    "page_link": "./art/himanshi/index.html",
+    "art_icon": "./art/himanshi/icon.png",
+    "author_name": "Himanshi Sharma",
+    "author_github_url": "https://github.com/himanshi4902"
+  },
+  {
+    "name": "star",
+    "page_link": "./art/himanshi2/index.html",
+    "art_icon": "./art/himanshi2/icon.png",
+    "author_name": "Himanshi Sharma",
+    "author_github_url": "https://github.com/himanshi4902"
+  },
+  {
+    "name": "square rangoli",
+    "page_link": "./art/himanshi3/index.html",
+    "art_icon": "./art/himanshi3/icon.png",
+    "author_name": "Himanshi Sharma",
+    "author_github_url": "https://github.com/himanshi4902"
+  },
+  {
+    "name": "uwu",
+    "page_link": "./art/himanshi4/index.html",
+    "art_icon": "./art/himanshi4/icon.png",
+    "author_name": "Himanshi Sharma",
+    "author_github_url": "https://github.com/himanshi4902"
+  },
+  {
     "name": "Sunrise on Pyramids",
     "page_link": "./art/hinedy/index.html",
     "art_icon": "./art/hinedy/icon.png",
