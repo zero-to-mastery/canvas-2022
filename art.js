@@ -819,6 +819,13 @@
     "author_github_url": "https://github.com/BrianWhelanDublin"
   },
   {
+    "name": "BubbleClick",
+    "page_link": "./art/bubbleclick/index.html",
+    "art_icon": "./art/bubbleclick/icon.png",
+    "author_name": "Adarsh Mishra",
+    "author_github_url": "https://github.com/iadarshmishra"
+  },
+  {
     "name": "Flag of Bulgaria ",
     "page_link": "./art/bulgaria/index.html",
     "art_icon": "./art/bulgaria/icon.png",
@@ -1648,6 +1655,13 @@
     "art_icon": "./art/wired/icon.png",
     "author_name": "Shariq",
     "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
+    "name": "Wobbly Galaxy",
+    "page_link": "./art/wobblygalaxy/index.html",
+    "art_icon": "./art/wobblygalaxy/icon.png",
+    "author_name": "Adarsh Mishra",
+    "author_github_url": "https://github.com/iadarshmishra"
   },
   {
     "name": "Generative Art",
