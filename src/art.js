@@ -1712,15 +1712,25 @@
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
   }
+
+  {
+    "name": "Tindog",
+    "page_link": "./art/huseyinoztas-tindog/index.html",
+    "art_icon": "./art/huseyinoztas-tindog/icon.png",
+    "author_name": "Huseyin Oztas",
+    "author_github_url": "https://github.com/huseyinoztas"
+  }
+
+  }
 ]
 
-    
+
   // +--------------------------------------------------------------------------------+
   // +                                                                                +
   // +                 YOU DO NOT NEED TO CHANGE ANYTHING IN THIS FILE!               +
   // +                                                                                +
   // +--------------------------------------------------------------------------------+
-  
+
   // Creates cards from the array above
   // You don't need to modify this
   let contents = [];
@@ -1737,9 +1747,9 @@
         `</li>`
     ]);
   });
-  
+
   document.getElementById('cards').innerHTML = contents.join('');
-  
+
   function Shuffle(o) {
     for (
       var j, x, i = o.length;
@@ -1747,5 +1757,4 @@
       j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
     );
     return o;
-  }  
-  
+  }
