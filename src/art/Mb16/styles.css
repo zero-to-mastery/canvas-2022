@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+body{
+  margin:0;
+  overflow:hidden;
+  width:100%;
+  background:hsla(38, 25%, 90%, 1);
+}
+canvas{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
