@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pendule Forme</title>
+        <link rel="stylesheet" href="Pendule_Forme.CSS">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div class="tete">
+            <div class="bg"><img class ="portrait" src="photo.png"><img class="portrait top" src="Camille.png"></div> 
+            <h1>Pendulum of Life</h1>
+            <div>
+                <i class="icon fab fa-linkedin text-darkblue"></i>
+            <a href="https://www.linkedin.com/in/karim-daouas/">linkedin.com/in/karim-daouas</a>
+            </div> 
+        </div>
+
+        <div class="pendule">
+    
+            <div class="toit pattern10"></div>
+           <div class="bar pattern10"></div>
+           <div class="socle pattern10"></div>
+           <div class="mouv">
+            <div class="tige pattern10"></div>
+            <div class="boul"></div>
+           </div>
+           
+        </div>
+        <div class="terre pattern5">
+            <label for="deg">Degré du pendul :</label>
+
+            <input type="number" id="deg" name="deg" min="0" max="90" placeholder="Choisie un degré">
+            <button type="button" class="recup" onclick="getValue();">Actualiser</button>
+        </div>
+      <script>
+            const jstoggle = document.getElementsByClassName('boul')[0];
+            const animations = document.querySelector('.mouv');
+            const animations1 = document.querySelector('.top');
+            
+            
+            jstoggle.addEventListener('mouseover', () => {
+                
+                jstoggle.style.background = 'radial-gradient(circle, rgba(9,100,1,1) 0%, rgba(19,210,3,1) 14%, rgba(0,0,0,1) 29%)';
+                const running = animations.style.animationPlayState = 'paused';
+                const running1 = animations1.style.animationPlayState = 'paused';
+                
+                
+
+                
+    
+  });
+            jstoggle.addEventListener('mouseout', () => {
+                
+                jstoggle.style.background = 'radial-gradient(circle, rgba(250,119,0,1) 17%, rgba(0,0,0,1) 53%)';
+                const running = animations.style.animationPlayState = 'running';
+                const running1 = animations1.style.animationPlayState = 'running';
+            
+                
+
+                
+    
+  });
+
+        /*let para = document.querySelector('p');
+
+        para.addEventListener('click', updateName);
+
+        function updateName() {
+            let name = prompt('Enter a new name');
+            para.textContent = 'Player 1: ' + name;
+        }*/
+
+                
+                
+
+                
+    
+  
+  
+
+        </script>
+
+    </body>
+</html>

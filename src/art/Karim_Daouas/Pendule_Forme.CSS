@@ -1,0 +1,181 @@
+@import url('https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book');
+
+
+
+body {
+    background: #EFE1CE;
+    
+    background-image: url(bright-squares.png);
+    
+    --deg-ini: 155deg;
+    --deg-fini: 25deg;
+
+}
+
+
+.pendule {
+    margin-bottom: -10px;
+}
+
+.socle{
+    width: 300px;
+    margin: 425px auto auto auto;
+    border: solid 15px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 15px 9px 15px 6px #5A3E36;
+    
+}
+
+.toit{
+    width: 250px;
+    margin: 50px auto auto auto;
+    border: solid 12px;
+    border-radius: 15px 15px;
+    box-shadow: 15px 9px 15px 6px #5A3E36
+}
+
+.bar{
+    margin: -20px 50%;
+    width: 400px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    border: solid 8px;
+    box-shadow: 12px -10px 10px 1px #5A3E36;
+    
+}
+
+.tige {
+    border: dashed 2px;
+    width: 320px;
+    box-shadow: 12px -10px 10px 1px #5A3E36;
+    
+}
+.boul{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(250,119,0);
+    background: radial-gradient(circle, rgba(250,119,0,1) 17%, rgba(0,0,0,1) 53%);
+    margin-left: 315px;
+    margin-top: -21px;
+    box-shadow: 12px -10px 10px 1px #5A3E36;
+    
+}
+.mouv {
+   
+    position: absolute;
+    left: 50%;
+    top: 138px;
+    height: 0px;;
+    transform-origin: left;
+    transform: rotate(180deg - var(--deg-ini));
+    animation: rotation 4s ease-in-out infinite alternate;
+    width: 320px;
+}
+
+.pendule > * {
+    border-color: #5A3E36;
+    height: 5px;
+    background: black;
+    
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(var(--deg-ini));
+    }
+    to {
+        transform: rotate(var(--deg-fini));
+    }
+  }
+
+  @keyframes soleil {
+    from {
+        background: linear-gradient(0deg, rgba(250,171,0,1) 0%, rgba(0,0,0,1) 100%);
+    }
+    to {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(250,171,0,1) 100%);
+    }
+  }
+
+  .terre {
+    width: 100%;
+    background-color: black;
+    border: solid black;
+    height: 80px;
+    margin: auto;
+    padding-top: 5px;
+  }
+
+  .tete {
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  .portrait {
+    max-width: 60px;
+    
+    border-radius: 50%;
+    
+  }
+
+  
+
+.pattern10 {
+    background-image: repeating-linear-gradient(233deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent -19px, transparent 2px);
+    background-size: 10px;
+}
+
+i {
+    color: beige;
+    margin-right: 5px;
+    
+}
+
+a {
+    color: beige;
+    margin-right: 20px;
+}
+
+h1 {
+    color:beige;
+    font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+}
+
+.bg {
+    width:285px;
+    display:flex;
+    justify-content: center;
+}
+
+.top {
+    z-index: 1;
+    position: relative;
+    right: 60px;
+    background-color: black;
+    opacity: 1;
+    animation: opacity 4s linear infinite alternate;
+}
+
+
+@keyframes opacity {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+  }
+
+  label {
+    color:beige;
+    font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+    
+    margin-left: 10px;
+  }
