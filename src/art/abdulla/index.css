@@ -1,0 +1,10 @@
+body { 
+	background: black;
+}
+h1{
+	text-align: center;
+	padding-top: 210px;
+}
+#flag {
+	position:absolute; top:20%; left:50% 
+}
