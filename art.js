@@ -833,6 +833,13 @@
     "author_github_url": "https://github.com/BrianWhelanDublin"
   },
   {
+    "name": "Nigeria flag",
+    "page_link": "./art/brie3/index.html",
+    "art_icon": "./art/brie3/icon.png",
+    "author_name": "Brien",
+    "author_github_url": "https://github.com/Brienyll"
+  },
+  {
     "name": "BubbleClick",
     "page_link": "./art/bubbleclick/index.html",
     "art_icon": "./art/bubbleclick/icon.png",
