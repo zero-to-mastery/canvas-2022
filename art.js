@@ -176,6 +176,13 @@
     "author_github_url": "https://github.com/BGS89"
   },
   {
+    "name": "Romania flag",
+    "page_link": "./art/Bri2/index.html",
+    "art_icon": "./art/Bri2/icon.png",
+    "author_name": "Brien",
+    "author_github_url": "https://github.com/Brienyll"
+  },
+  {
     "name": "Flag of Pinas",
     "page_link": "./art/Brienyll/index.html",
     "art_icon": "./art/Brienyll/icon.png",
