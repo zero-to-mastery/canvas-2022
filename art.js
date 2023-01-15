@@ -1370,6 +1370,13 @@
     "author_github_url": "https://github.com/rawatdev/"
   },
   {
+    "name": "Purple Nest",
+    "page_link": "./art/rawatdev2/index.html",
+    "art_icon": "./art/rawatdev2/icon.png",
+    "author_name": "rawatdev",
+    "author_github_url": "https://github.com/rawatdev/"
+  },
+  {
     "name": "Multiball",
     "page_link": "./art/rawatdev3/index.html",
     "art_icon": "./art/rawatdev3/icon.png",
