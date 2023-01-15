@@ -315,6 +315,13 @@
     "author_github_url": "https://github.com/sunainaagrwal"
   },
   {
+    "name": "My name",
+    "page_link": "./art/Mb16/index.html",
+    "art_icon": "./art/Mb16/icon.png",
+    "author_name": "Momojit Biswas",
+    "author_github_url": "https://github.com/mb16biswas"
+  },
+  {
     "name": "Egyptian Flag",
     "page_link": "./art/MohamadElhadidy/index.html",
     "art_icon": "./art/MohamadElhadidy/icon.png",
