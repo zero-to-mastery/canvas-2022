@@ -308,6 +308,13 @@
     "author_github_url": "https://github.com/Kajanan02"
   },
   {
+    "name": "HacktoberFox",
+    "page_link": "./art/Karim-Daouas/index.html",
+    "art_icon": "./art/Karim-Daouas/icon.png",
+    "author_name": "Karim",
+    "author_github_url": "https://github.com/Karim-Daouas/"
+  },
+  {
     "name": "France Flag",
     "page_link": "./art/Kushagra/index.html",
     "art_icon": "./art/Kushagra/icon.png",
