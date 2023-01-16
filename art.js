@@ -971,6 +971,13 @@
     "author_github_url": "https://github.com/galsreshef/"
   },
   {
+    "name": "World Cup Expression",
+    "page_link": "./art/geronimoCostaPeuser/index.html",
+    "art_icon": "./art/geronimoCostaPeuser/icon.png",
+    "author_name": "Geronimo Costa Peuser",
+    "author_github_url": "https://github.com/GeronimoCostaPeuser"
+  },
+  {
     "name": "Continuous Glowing Intertwined",
     "page_link": "./art/glowingintertwined/index.html",
     "art_icon": "./art/glowingintertwined/icon.png",
