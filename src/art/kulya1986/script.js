@@ -1,145 +1,48 @@
 const canvasElement = document.getElementById("artObject");
-// console.log(canvasElement);
 const contx = canvasElement.getContext("2d");
-// console.log(contx);
 
 function drawCanvas(){
     let n = 30, i = 26, sides = 6 ; 
+    let xInit = 300, yInit = 300; //center of canvas
+    let xCenter = [], yCenter = [];//arrays storing center coordinates of each hexagon
     
-    let xInit = 300;
-    let yInit = 300;
-
-    let yCenter = xInit;
-    let xCenter = yInit;
-    
+    //Drawing central hexagon(RED)
     contx.fillStyle = "rgb(255,0,0)";
-    drawHexagon(xCenter, yCenter, n , i);
+    drawHexagon(xInit, yInit, n , i);
     contx.fill();
 
-    // for (let k = 1; k < 5; k++){
-    //     for (let l = 1; l < k*sides + 1; l++){
-
-    //     }
-
-    // }
-
-
-   
-
-    //First circle k = 1, l=6
-    yCenter=yInit - 2*i;
-    contx.fillStyle = "rgb(255,156,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit - i;
-    xCenter = xInit + 1.73*i;
-    contx.fillStyle = "rgb(255,255,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-    
-    yCenter = yInit + i;
-    contx.fillStyle = "rgb(255,0,156)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter=yInit + 2*i;
-    xCenter = xInit;
-    contx.fillStyle = "rgb(255,0,255)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit + i;
-    xCenter = xInit - 1.73*i;
-    contx.fillStyle = "rgb(0,156,255)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit - i;
-    xCenter = xInit - 1.73*i;
-    contx.fillStyle = "rgb(0,255,255)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    //Second circle k=2, l=12
-    yCenter=yInit - 2 * 2 * i;
-    xCenter = xInit;
-    contx.fillStyle = "rgb(255,0,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit - 2 * i - i;
-    xCenter = xInit + 1.73*i;
-    contx.fillStyle = "rgb(130,150,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit - 2 * i;
-    xCenter = xInit + 3*n;
-    contx.fillStyle = "rgb(21,130,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit;
-    contx.fillStyle = "rgb(200,130,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit + 2 * i;
-    xCenter = xInit + 3*n;
-    contx.fillStyle = "rgb(21,44,100)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit + 2 * i + i;
-    xCenter = xInit + 1.73*i;
-    contx.fillStyle = "rgb(13,150,99)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter=yInit + 4 * i;
-    xCenter = xInit;
-    contx.fillStyle = "rgb(150,0,100)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit + 2 * i + i;
-    xCenter = xInit - 1.73*i;
-    contx.fillStyle = "rgb(130,0,100)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit + 2 * i;
-    xCenter = xInit - 3*n;
-    contx.fillStyle = "rgb(55,130,100)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit;
-    contx.fillStyle = "rgb(200,0,90)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit - 2 * i;
-    xCenter = xInit - 3*n;
-    contx.fillStyle = "rgb(21,200,21)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    yCenter = yInit - 2 * i - i;
-    xCenter = xInit - 1.73*i;
-    contx.fillStyle = "rgb(255,15,99)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-    //Third circle
-    xCenter = xInit + 3*1.73*i;
-    yCenter = yInit - i;
-    contx.fillStyle = "rgb(255,0,0)";
-    drawHexagon(xCenter, yCenter, n , i);
-    contx.fill();
-
-
+    for (let k = 1; k < 6; k++){
+        let steps1 = k*sides/2;
+        for (let l = 0; l < steps1; l++){
+            xCenter[l] = xCenter[steps1 - l] = xInit + l*1.73*i;
+            xCenter[l+steps1] = xCenter[2*steps1-l]= xInit - l*1.73*i;
+            yCenter[l] =yCenter[2*steps1-l] = yInit - (steps1-k-l)*i;
+            yCenter[l+steps1] = yCenter[steps1 - l] = yInit + (steps1-k-l)*i;
+            if (l===k)
+            {
+                let a=0, b=0;
+                for(a=0; a<=k;a++)
+                {
+                    xCenter[l+a]=xInit + l*1.73*i;
+                    xCenter[l+steps1+a] = xInit - l*1.73*i;
+                }
+                let steps2 = ((a%2)=== 0) ? a/2 : Math.floor(a/2) + 1;
+                for(b=0,koef = k; b<steps2, koef>=0;b++, koef-=2)
+                {
+                    yCenter[l+b] = yCenter[l+steps1+a-1-b] = yInit - koef*i;
+                    yCenter[l+a-1-b] = yCenter[l+steps1+b] = yInit + koef*i;
+                }
+                l+=a;
+                break;
+            }   
+        }
+        for (let m=0; m<k*sides; m++)
+        {
+            contx.strokeStyle = "rgb(255,0,0)";
+            drawHexagon(xCenter[m], yCenter[m], n , i);
+            contx.stroke();
+        }
+    }    
 }
 
 function drawHexagon (x, y, n, i){
