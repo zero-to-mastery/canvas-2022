@@ -1,0 +1,13 @@
+html,
+body {
+	width: 100%;
+	height: auto;
+	margin-top: 4rem;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	background-color: white;
+}
