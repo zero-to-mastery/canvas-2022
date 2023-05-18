@@ -1,0 +1,35 @@
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+
+#img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+}
+
+/* Make the image size smaller on screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  #img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Make the image size smaller on screens smaller than 480px */
+@media screen and (max-width: 480px) {
+  #img {
+    width: 100px;
+    height: 100px;
+  }
+}
