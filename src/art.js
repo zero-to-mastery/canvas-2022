@@ -1753,6 +1753,13 @@
     "art_icon": "./art/yellowbeard_3/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "ELECTRIC",
+    "page_link": "./art/first-animation/index.html",
+    "art_icon": "./art/first-animation/icon.png",
+    "author_name": "JUANCA99COL",
+    "author_github_url": "https://github.com/JUANCA99COL/"
   }
 ]
 
