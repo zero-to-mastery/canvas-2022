@@ -1753,6 +1753,13 @@
     "art_icon": "./art/yellowbeard_3/icon.png",
     "author_name": "Mayank Goel",
     "author_github_url": "https://github.com/yellowberard/"
+  },
+  {
+    "name": "Shrinking Bars",
+    "page_link": "./art/shrinking bars/index.html",
+    "art_icon": "./art/shrinking bars/shrinking bars.gif",
+    "author_name": "Madhesh",
+    "author_github_url": "https://github.com/madhesh19/"
   }
 ]
 
