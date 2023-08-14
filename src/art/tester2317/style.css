@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+canvas {
+  border: 0px;
+  background-color: rgba(223, 230, 233, 0.3);
+  padding: 15px;
+}
